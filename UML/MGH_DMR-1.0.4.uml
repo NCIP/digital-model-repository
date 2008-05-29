@@ -85,10 +85,10 @@
                           <UML:TagDefinition xmi.idref="32A6926F_8E28_4F30_9DEE_ABEBC2E04DD0" />
                         </UML:TaggedValue.type>
                       </UML:TaggedValue>
-                      <UML:TaggedValue xmi.id="8CA7BE42_A170_449A_BAA9_B74601CE213B">
+                      <UML:TaggedValue xmi.id="D1C7DA97_355C_4AC7_895A_981B626C042B">
                         <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                         <UML:TaggedValue.type>
-                          <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                          <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                         </UML:TaggedValue.type>
                       </UML:TaggedValue>
                     </UML:ModelElement.taggedValue>
@@ -123,10 +123,10 @@
                           <UML:TagDefinition xmi.idref="32A6926F_8E28_4F30_9DEE_ABEBC2E04DD0" />
                         </UML:TaggedValue.type>
                       </UML:TaggedValue>
-                      <UML:TaggedValue xmi.id="DF1AFC68_4F61_45AA_975D_46303DAEFBBC">
+                      <UML:TaggedValue xmi.id="BB5327FB_F81B_4DCF_B4D9_A2179985DA29">
                         <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                         <UML:TaggedValue.type>
-                          <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                          <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                         </UML:TaggedValue.type>
                       </UML:TaggedValue>
                     </UML:ModelElement.taggedValue>
@@ -161,10 +161,10 @@
                           <UML:TagDefinition xmi.idref="32A6926F_8E28_4F30_9DEE_ABEBC2E04DD0" />
                         </UML:TaggedValue.type>
                       </UML:TaggedValue>
-                      <UML:TaggedValue xmi.id="22C4F90F_6CA4_49ED_BC63_CD3DD30104C1">
+                      <UML:TaggedValue xmi.id="A5CC1BA3_65FA_4533_8D6E_79CB187791D5">
                         <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                         <UML:TaggedValue.type>
-                          <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                          <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                         </UML:TaggedValue.type>
                       </UML:TaggedValue>
                     </UML:ModelElement.taggedValue>
@@ -247,10 +247,10 @@
                                       <UML:TagDefinition xmi.idref="32A6926F_8E28_4F30_9DEE_ABEBC2E04DD0" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="D583EC25_CA78_492A_803A_2A7C5922C76E">
+                                  <UML:TaggedValue xmi.id="D9BDC23A_53A8_41CA_9D6E_69CB8E4E0FE8">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -318,10 +318,10 @@
                                           <UML:TagDefinition xmi.idref="15D43E77_2848_429B_9A63_59ED02589A2C" />
                                         </UML:TaggedValue.type>
                                       </UML:TaggedValue>
-                                      <UML:TaggedValue xmi.id="1B58EFDB_1446_4441_A43A_AA6DA4C73DD5">
+                                      <UML:TaggedValue xmi.id="53925FF8_2CF0_494B_944A_F745FFF670FD">
                                         <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                         <UML:TaggedValue.type>
-                                          <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                          <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                         </UML:TaggedValue.type>
                                       </UML:TaggedValue>
                                     </UML:ModelElement.taggedValue>
@@ -368,10 +368,10 @@
                                           <UML:TagDefinition xmi.idref="907F00F4_2C47_4B2A_AB63_92E9C9C3CF9B" />
                                         </UML:TaggedValue.type>
                                       </UML:TaggedValue>
-                                      <UML:TaggedValue xmi.id="7040A322_9D08_45C3_A159_235B55E8B458">
+                                      <UML:TaggedValue xmi.id="1537BEB2_EC52_40CA_B9D3_6D53FBB176EB">
                                         <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                         <UML:TaggedValue.type>
-                                          <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                          <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                         </UML:TaggedValue.type>
                                       </UML:TaggedValue>
                                     </UML:ModelElement.taggedValue>
@@ -410,10 +410,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="780EEF31_538A_49DE_B1F2_D98586C02151">
+                                  <UML:TaggedValue xmi.id="A06CD513_E942_4539_828A_8714D51EB620">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -459,10 +459,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="68DF8118_498C_4D4B_A0BC_47E084DBF679">
+                                  <UML:TaggedValue xmi.id="82D35DCC_983A_4864_8C72_A5A424FE2D48">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -496,10 +496,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="D3915F68_4D00_4488_AD55_80F15D88996A">
+                                  <UML:TaggedValue xmi.id="D5411AFE_4F77_45C7_923C_0E54827D61E2">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -533,10 +533,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="3467E440_9A93_4415_9535_9EAB1BF99FE9">
+                                  <UML:TaggedValue xmi.id="C58479BF_1696_4C4D_B97E_5CF5137D7778">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -570,10 +570,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="B2330169_F39B_40D1_A528_1B9EDDA30767">
+                                  <UML:TaggedValue xmi.id="6D13D637_D64F_43CD_A3FD_4AB0EE63D9BE">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -613,10 +613,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="320CD284_57DF_45AC_8975_3B7100ECC45A">
+                                  <UML:TaggedValue xmi.id="F2AAFE2A_F9C2_4D05_AF8A_470C6904D90A">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -650,10 +650,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="E612E013_32AB_4AD4_97BC_DBEC0DA88E0C">
+                                  <UML:TaggedValue xmi.id="9FE3CFB0_455F_4751_BC7C_B85D3BB3D44C">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -687,10 +687,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="D656258B_BA5F_4583_BF83_70032F7C6DAB">
+                                  <UML:TaggedValue xmi.id="3DEBD73A_8265_47EF_880C_946CB87FC1D2">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -724,10 +724,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="37A9EF7B_AEA0_44F9_890C_5E196F7BF089">
+                                  <UML:TaggedValue xmi.id="36E05608_E0E9_466E_A249_9163C772C1B0">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -767,10 +767,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="29F79D8E_E18C_4E00_84AA_4454C3234EFB">
+                                  <UML:TaggedValue xmi.id="CFC6BD2C_43AA_479F_80E0_784A91B232EC">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -780,10 +780,10 @@
                                   <UML:Generalization xmi.idref="10-0-0-119--27dc2729:1199aafaa61:-8000:000000000000096A" />
                                 </UML:GeneralizableElement.generalization>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="AB64F0B5_F6A0_4D8B_9E35_B7852D3995FA">
+                                  <UML:TaggedValue xmi.id="AB4D1059_B9B8_4FFA_B975_2E6FBA7691E8">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -793,10 +793,10 @@
                                   <UML:Generalization xmi.idref="10-0-0-119--27dc2729:1199aafaa61:-8000:000000000000096D" />
                                 </UML:GeneralizableElement.generalization>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="ED40E88F_2FCA_4235_A7D1_344718FE3F49">
+                                  <UML:TaggedValue xmi.id="734CF62C_6A00_423A_A581_1A2C2C7102AE">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -806,10 +806,10 @@
                                   <UML:Generalization xmi.idref="10-0-0-119--27dc2729:1199aafaa61:-8000:000000000000096B" />
                                 </UML:GeneralizableElement.generalization>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="C8827355_E9D3_40EE_B4DB_FE2663E9B164">
+                                  <UML:TaggedValue xmi.id="FC962A34_C61C_41BC_B883_CE5F0B705060">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -819,10 +819,10 @@
                                   <UML:Generalization xmi.idref="10-0-0-119--27dc2729:1199aafaa61:-8000:0000000000000974" />
                                 </UML:GeneralizableElement.generalization>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="1D761E8C_CC2E_4EB8_A6A2_D57C8CB63A7E">
+                                  <UML:TaggedValue xmi.id="FC9D3F4B_C9D2_4A38_9E93_5FAA04B93060">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -832,10 +832,10 @@
                                   <UML:Generalization xmi.idref="10-0-0-119--27dc2729:1199aafaa61:-8000:000000000000096C" />
                                 </UML:GeneralizableElement.generalization>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="0AB13652_B96C_4EAD_B7BD_CEACB64294E3">
+                                  <UML:TaggedValue xmi.id="F0F34011_B80D_467A_B7FC_EF1CE1D755BF">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -869,10 +869,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="67E582A5_F027_4A54_AA5F_F14468617B9C">
+                                  <UML:TaggedValue xmi.id="D04A2308_AE7F_47AE_A832_742EAC6B99AB">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -912,10 +912,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="656E69D2_BED6_49CE_BE9A_2AECC6C7AD2E">
+                                  <UML:TaggedValue xmi.id="10AFC973_B674_4700_B1E9_EA6FB3DF0532">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -955,10 +955,10 @@
                                       <UML:TagDefinition xmi.idref="5A911898_710A_4801_AD5D_919EAB68C0AA" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="0438A38D_A41D_424C_984E_D707E9C4A98A">
+                                  <UML:TaggedValue xmi.id="0AB97A8C_B198_4975_981C_8696DA71DF76">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1141,10 +1141,10 @@
                                   <UML:TagDefinition xmi.idref="32A6926F_8E28_4F30_9DEE_ABEBC2E04DD0" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="BB87078B_CAA3_4E34_9ADA_208F6857E268">
+                              <UML:TaggedValue xmi.id="99F5FA07_3504_497B_B4CB_467FF4F4B430">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -1185,10 +1185,10 @@
                                       <UML:TagDefinition xmi.idref="907F00F4_2C47_4B2A_AB63_92E9C9C3CF9B" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="76AFE994_6166_46AE_A064_8D23D3596EB4">
+                                  <UML:TaggedValue xmi.id="24E64446_8633_45B0_983F_8D3DEE01F800">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1256,10 +1256,10 @@
                                       <UML:TagDefinition xmi.idref="15D43E77_2848_429B_9A63_59ED02589A2C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="5FA933FD_10E8_4786_8DD5_1C261F74BE0C">
+                                  <UML:TaggedValue xmi.id="FE96C9FA_70AA_475E_896B_C69B63A31CE3">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1330,10 +1330,10 @@
                                       <UML:TagDefinition xmi.idref="15D43E77_2848_429B_9A63_59ED02589A2C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="A439CB04_3DC4_404F_99F4_F2CD8A29417F">
+                                  <UML:TaggedValue xmi.id="FEA63703_E374_4D59_837B_C859C812B4D0">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1380,10 +1380,10 @@
                                       <UML:TagDefinition xmi.idref="907F00F4_2C47_4B2A_AB63_92E9C9C3CF9B" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="02CC41ED_C03D_4170_8314_8FEE4BA85B4F">
+                                  <UML:TaggedValue xmi.id="AA54AD95_CB80_4470_A0F1_8589C82FC906">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1430,10 +1430,10 @@
                                       <UML:TagDefinition xmi.idref="907F00F4_2C47_4B2A_AB63_92E9C9C3CF9B" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="692A4921_0F2D_44A8_89A5_8F9CDDB839F9">
+                                  <UML:TaggedValue xmi.id="860E6CC4_81D7_4E8B_84CC_A342152F1A59">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1451,34 +1451,58 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="1F5E290E_BAF8_463B_B8AB_3C5248392B8D">
+                              <UML:TaggedValue xmi.id="96D5E14E_17DD_419C_9445_4DFCFD1155D2">
                                 <UML:TaggedValue.dataValue>C42729</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="FF0870DE_F988_488D_BF16_E17C2BD60DE6" />
+                                  <UML:TagDefinition xmi.idref="1F4DDEE9_737A_4497_9E77_03732C1967A2" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="33A3A0A4_BECC_47F6_B388_E85A81AFE34D">
+                              <UML:TaggedValue xmi.id="EE5A0FE7_94D3_421E_A491_BC4620F53DA1">
                                 <UML:TaggedValue.dataValue>The act of appraisal, evaluation, or analysis.</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="4E4281D1_192F_4DF2_8DDD_177B92E9E2B3" />
+                                  <UML:TagDefinition xmi.idref="8137B63E_DC25_4F61_96F6_6DBD07D04673" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="9A48A735_7079_4853_AE92_4DD9C9F2826A">
+                              <UML:TaggedValue xmi.id="57BDD600_98EE_48A1_BCE7_543AF799AB8C">
                                 <UML:TaggedValue.dataValue>NCI</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="34B8A28F_E901_4357_86AE_43075BE7331D" />
+                                  <UML:TagDefinition xmi.idref="A9C911C5_AFBA_47C5_BFAF_01EE27A19375" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="99C2DF12_2D21_403D_B98B_3F7CD9AC0A0F">
+                              <UML:TaggedValue xmi.id="B1077CF3_15BC_44E7_BC39_026F5FA6BDAF">
                                 <UML:TaggedValue.dataValue>Review</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="E814BEA4_CF8B_447B_8787_4662C87382EA" />
+                                  <UML:TagDefinition xmi.idref="205344A3_FD71_4198_9447_D0BC0BE9A83D" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="05AD706F_DE05_4A76_98E0_01EBAD19FE70">
+                              <UML:TaggedValue xmi.id="D5CAEB41_D68F_4FBD_9950_62CF2238B7C6">
+                                <UML:TaggedValue.dataValue>C47902</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="59D951A3_29DF_4B96_8A3D_E7700F742842" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="5D0B2711_0FB2_42A9_A7D7_109B81094AF7">
+                                <UML:TaggedValue.dataValue>Nonfictional prose forming an independent part of a publication.</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="93139774_619B_4AA5_88E2_B55C74653003" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="4EC088B6_1168_4DB2_8B57_52E533B01E83">
+                                <UML:TaggedValue.dataValue>NCI</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="18D6AC83_0855_4096_BFE3_02DCC8B5E015" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="71EA7104_2082_48D1_B121_D6C0AD4B1F37">
+                                <UML:TaggedValue.dataValue>Article</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="C03E1137_900E_4C79_936C_E5085BED00FB" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="F13463AA_9021_4072_93AB_A674FCDADD63">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -1518,10 +1542,10 @@
                                   <UML:TagDefinition xmi.idref="E814BEA4_CF8B_447B_8787_4662C87382EA" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="E7B3A163_CE71_4FD1_9B18_B24583CB50A3">
+                              <UML:TaggedValue xmi.id="E0240D1D_7A30_4DD5_BEEC_C2B0B912ED70">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -1561,10 +1585,10 @@
                                   <UML:TagDefinition xmi.idref="32A6926F_8E28_4F30_9DEE_ABEBC2E04DD0" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="CD56957A_4177_46B2_8650_97A7C0CD14EC">
+                              <UML:TaggedValue xmi.id="F5F74412_D3E9_4A6C_971B_11B3614BA888">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -1608,10 +1632,10 @@
                                       <UML:TagDefinition xmi.idref="907F00F4_2C47_4B2A_AB63_92E9C9C3CF9B" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="4D6CDAF2_3B2F_4D24_A9FB_ADAF7F7D2A67">
+                                  <UML:TaggedValue xmi.id="8D062EA1_271C_48A6_A051_CED6D8FC969B">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1682,10 +1706,10 @@
                                       <UML:TagDefinition xmi.idref="15D43E77_2848_429B_9A63_59ED02589A2C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="735FE1A6_01B9_480A_AE72_8F7047BC61F8">
+                                  <UML:TaggedValue xmi.id="1F2255A0_ED55_4500_AC42_372FBF527A58">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1756,10 +1780,10 @@
                                       <UML:TagDefinition xmi.idref="15D43E77_2848_429B_9A63_59ED02589A2C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="CD4F5EC5_DC12_403F_B082_D3B0B157EA46">
+                                  <UML:TaggedValue xmi.id="A3C1BCCB_14F3_4E8B_A024_A8A7C72CE9E8">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1830,10 +1854,10 @@
                                       <UML:TagDefinition xmi.idref="15D43E77_2848_429B_9A63_59ED02589A2C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="CDCFE9FE_93C7_46C4_9A69_CC98736D1BE6">
+                                  <UML:TaggedValue xmi.id="1468994D_AC8B_433D_8B09_F01D81DAB11D">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1880,10 +1904,10 @@
                                       <UML:TagDefinition xmi.idref="907F00F4_2C47_4B2A_AB63_92E9C9C3CF9B" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="605856A6_32F5_40EA_910D_EDC3FDEA6317">
+                                  <UML:TaggedValue xmi.id="09C5758F_5AA2_46B9_B8DC_658725D44518">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -1925,10 +1949,10 @@
                                   <UML:TagDefinition xmi.idref="B0F45862_1CD7_4CF4_9E63_F2A1B2D611E7" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="C00DE76D_60FA_4640_8799_63DE08C054BA">
+                              <UML:TaggedValue xmi.id="83EC51A6_6FC8_4E87_9103_26D77E3CD5B3">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -1969,10 +1993,10 @@
                                       <UML:TagDefinition xmi.idref="ECC17345_A84F_47FC_8002_4FD1DC15C79C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="8D60FF20_DBFA_4C5F_916B_DC1E4A4D4780">
+                                  <UML:TaggedValue xmi.id="875DA389_6420_4B92_9E65_AD00CDA22A7E">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2040,10 +2064,10 @@
                                       <UML:TagDefinition xmi.idref="4900C040_A24E_4F9C_BE96_2F1E6C9665D0" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="EE30C984_7E90_45A9_B99A_AF3C25686EBF">
+                                  <UML:TaggedValue xmi.id="5DB7A783_ABB9_4E0F_ADDD_57C4134E283D">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2114,10 +2138,10 @@
                                       <UML:TagDefinition xmi.idref="4900C040_A24E_4F9C_BE96_2F1E6C9665D0" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="732DA6D2_2474_41CF_98BE_14B57458AA11">
+                                  <UML:TaggedValue xmi.id="B365CAF9_CA2B_40FF_B799_230FBECEE5FE">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2164,10 +2188,10 @@
                                       <UML:TagDefinition xmi.idref="1B46C7FB_8DCF_4BA7_A2C2_0B209E175A08" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="59276FFD_6124_4F82_85F7_3F127E3A8D48">
+                                  <UML:TaggedValue xmi.id="BFE7C16C_0750_4F92_BD14_2E0DC43A5D85">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2214,10 +2238,10 @@
                                       <UML:TagDefinition xmi.idref="1B46C7FB_8DCF_4BA7_A2C2_0B209E175A08" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="EC4C6ECF_4B7C_4D10_A64E_2906D078DAB1">
+                                  <UML:TaggedValue xmi.id="F80D7562_5ACF_4A9D_8912_6970F4952F2C">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2259,10 +2283,10 @@
                                   <UML:TagDefinition xmi.idref="E814BEA4_CF8B_447B_8787_4662C87382EA" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="9D913F5E_3F69_4AEC_B667_41F06F4904C0">
+                              <UML:TaggedValue xmi.id="E302BA46_17E6_43A5_BC59_EFC242F02BE0">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2278,10 +2302,34 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="2FC5EFC6_DBD9_4992_9985_462075C035B9">
+                              <UML:TaggedValue xmi.id="D0176FF6_CA60_407E_81E0_C96D100E1855">
+                                <UML:TaggedValue.dataValue>C47901</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="1F4DDEE9_737A_4497_9E77_03732C1967A2" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="E1963347_FB64_4F2E_B57F_4F42F482DA9A">
+                                <UML:TaggedValue.dataValue>Program instructions written as an ASCII text file; must be translated by a compiler or interpreter or assembler into the object code for a particular computer before execution.</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="8137B63E_DC25_4F61_96F6_6DBD07D04673" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="81CD9C80_EF07_479A_BBAB_CC524CDA91F9">
+                                <UML:TaggedValue.dataValue>NCI</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="A9C911C5_AFBA_47C5_BFAF_01EE27A19375" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="7F140933_933A_4868_80A7_47345106FCFA">
+                                <UML:TaggedValue.dataValue>Source Code</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="205344A3_FD71_4198_9447_D0BC0BE9A83D" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="DB273256_1236_4063_885E_EA6DED741942">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2321,10 +2369,10 @@
                                   <UML:TagDefinition xmi.idref="E814BEA4_CF8B_447B_8787_4662C87382EA" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="02D74AFA_039C_491D_8B17_5FC1B6DDA7DF">
+                              <UML:TaggedValue xmi.id="83F63E2A_602F_4685_BB04_4A8C1823215F">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2364,10 +2412,10 @@
                                   <UML:TagDefinition xmi.idref="E814BEA4_CF8B_447B_8787_4662C87382EA" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="1D4C6A36_ABAC_4F53_8C51_11E5432931A5">
+                              <UML:TaggedValue xmi.id="5EB9D6EA_C96B_4468_A7BD_DDC39F4E714D">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2407,10 +2455,10 @@
                                   <UML:TagDefinition xmi.idref="E814BEA4_CF8B_447B_8787_4662C87382EA" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="C8069D8E_6634_443A_9919_CC7C94597F89">
+                              <UML:TaggedValue xmi.id="38C672C6_B638_4E4E_9678_1166385BE001">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2426,10 +2474,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="CD4717EA_EA38_4E84_879C_F769451A5758">
+                              <UML:TaggedValue xmi.id="D7757C04_12FE_4950_BF60_4D2D9812FD89">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2469,10 +2517,10 @@
                                   <UML:TagDefinition xmi.idref="E814BEA4_CF8B_447B_8787_4662C87382EA" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="26CD8374_C512_4BE9_A8E7_70A682A2841E">
+                              <UML:TaggedValue xmi.id="26F40019_5F4F_4A19_92DD_71A97056AD9A">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2513,10 +2561,10 @@
                                       <UML:TagDefinition xmi.idref="1B46C7FB_8DCF_4BA7_A2C2_0B209E175A08" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="8A93ADD6_3B56_46DD_9D9C_01D22E5E64FE">
+                                  <UML:TaggedValue xmi.id="AD9CF1F9_6B45_4A55_843D_93514BB2A6A8">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2584,10 +2632,10 @@
                                       <UML:TagDefinition xmi.idref="A5A64A08_0E03_4FB4_BA75_D09EDE3F190A" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="66523C18_F2F1_4E65_A4BF_810312799735">
+                                  <UML:TaggedValue xmi.id="03818930_2197_4D4F_85B1_BDFD6B4437B2">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2634,10 +2682,10 @@
                                       <UML:TagDefinition xmi.idref="1B46C7FB_8DCF_4BA7_A2C2_0B209E175A08" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="24CD907A_C7FF_410C_BA54_8ED4E0137C22">
+                                  <UML:TaggedValue xmi.id="CD3520EF_88FE_494F_AC62_68C4834569BF">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2684,10 +2732,10 @@
                                       <UML:TagDefinition xmi.idref="1B46C7FB_8DCF_4BA7_A2C2_0B209E175A08" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="29FDC390_3A9E_4D23_9FE0_33581EE528CA">
+                                  <UML:TaggedValue xmi.id="5157E374_17C6_4A9B_85A2_62F4C3CCD925">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2758,10 +2806,10 @@
                                       <UML:TagDefinition xmi.idref="A5A64A08_0E03_4FB4_BA75_D09EDE3F190A" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="0E3D47B2_66E9_4F49_91EB_6B2499800F17">
+                                  <UML:TaggedValue xmi.id="4310DA32_C4E1_4EE6_9041_51AF4C296DF1">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2806,10 +2854,10 @@
                                   <UML:TagDefinition xmi.idref="B0F45862_1CD7_4CF4_9E63_F2A1B2D611E7" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="8867CE1D_E7FD_4BE3_8B52_121870E3CC11">
+                              <UML:TaggedValue xmi.id="2E023BF1_BDEE_4B25_9590_3662E150EF70">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -2850,10 +2898,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="B323BD85_F6EC_487E_BE16_886787E8B4FD">
+                                  <UML:TaggedValue xmi.id="1E54CC18_B50F_459B_BBA7_B7582E41C581">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2921,10 +2969,10 @@
                                       <UML:TagDefinition xmi.idref="8D4FFDDB_316C_491D_9F17_D91B9F1C641A" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="7112803D_9B56_4300_A327_15E5375EAFEF">
+                                  <UML:TaggedValue xmi.id="2762C4B1_97B1_4CDA_9EBD_38AF59539D22">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -2995,10 +3043,10 @@
                                       <UML:TagDefinition xmi.idref="8D4FFDDB_316C_491D_9F17_D91B9F1C641A" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="71590113_57C3_4449_976B_A223C53A9A47">
+                                  <UML:TaggedValue xmi.id="DE574149_E378_454D_9895_3D6C2CAF6E12">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3045,10 +3093,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="EB19A8D0_F183_4902_B191_9F985EA86439">
+                                  <UML:TaggedValue xmi.id="34E6E201_378B_4D6D_950C_478656A27E39">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3095,10 +3143,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="12C257F1_B15C_4A6B_AA64_98296C565F29">
+                                  <UML:TaggedValue xmi.id="C2555097_A906_4137_9A4E_20C5C2A2A1FE">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3145,10 +3193,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="E6E7D832_9998_47D9_8682_7C8CFC2A8DD1">
+                                  <UML:TaggedValue xmi.id="9B4614C4_599F_4B76_B3D5_1B7DB1C06742">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3195,10 +3243,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="131BC6BE_1A1B_475A_BB24_3E1FD390E9B8">
+                                  <UML:TaggedValue xmi.id="B57C09DB_D082_4348_9208_33004CD274BC">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3245,10 +3293,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="35954452_31CB_45CE_91DB_5EA058FB91C8">
+                                  <UML:TaggedValue xmi.id="70874FA0_1C45_49D7_A65E_12066E5A7490">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3295,10 +3343,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="36CDA5FC_4A63_4AD3_A073_C9FD04C68378">
+                                  <UML:TaggedValue xmi.id="E01405B1_FDEF_4619_9815_4AEC7354390A">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3345,10 +3393,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="3560A6F4_0393_4448_BD9A_16253D66F73C">
+                                  <UML:TaggedValue xmi.id="2F600770_63CE_462D_8929_9F5847763F24">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3395,10 +3443,10 @@
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="1B4A9309_5229_4C0B_934F_7B57BC9E3F03">
+                                  <UML:TaggedValue xmi.id="82C6425E_B1AA_433F_91EF_28EF767CA259">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3416,10 +3464,34 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="2A6D0FEE_809F_476F_BE45_35378A9F7B78">
+                              <UML:TaggedValue xmi.id="C06F1C66_BB54_45DA_BA62_0909ECEB869F">
+                                <UML:TaggedValue.dataValue>C47902</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="1F4DDEE9_737A_4497_9E77_03732C1967A2" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="CBC1D3E9_F3E8_47CB_BE0F_F4467587E953">
+                                <UML:TaggedValue.dataValue>Nonfictional prose forming an independent part of a publication.</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="8137B63E_DC25_4F61_96F6_6DBD07D04673" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="C5473B2C_0208_4D3B_B67C_D02B536D4196">
+                                <UML:TaggedValue.dataValue>NCI</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="A9C911C5_AFBA_47C5_BFAF_01EE27A19375" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="540A9B8E_D389_4910_BF32_3B6A7E2068DE">
+                                <UML:TaggedValue.dataValue>Article</UML:TaggedValue.dataValue>
+                                <UML:TaggedValue.type>
+                                  <UML:TagDefinition xmi.idref="205344A3_FD71_4198_9447_D0BC0BE9A83D" />
+                                </UML:TaggedValue.type>
+                              </UML:TaggedValue>
+                              <UML:TaggedValue xmi.id="4097F726_0DA4_4712_B00B_8EDCD8E807A6">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -3435,10 +3507,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="05CE70FB_7226_4691_A0E7_8CF07840B111">
+                              <UML:TaggedValue xmi.id="CF234F28_82D4_4046_B71B_0A1C2DFFA3ED">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -3455,10 +3527,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000780" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="6E7471F2_DDAD_43B0_919B_2C361D5396C7">
+                                  <UML:TaggedValue xmi.id="0EBD0D1A_EB2B_4FFA_B8E7_F7EDE5615FCD">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3475,10 +3547,10 @@
                                   <UML:Class xmi.idref="10-0-0-119--2dae32f3:119a0f3a423:-8000:0000000000000975" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="5044A3EB_6C02_4B00_9605_74078C6085FC">
+                                  <UML:TaggedValue xmi.id="2465E1F7_42D0_4A59_8160_E0FE396382E8">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3565,10 +3637,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="F3D02CA7_7092_4DA5_89E7_FB9FCCF1CEC5">
+                              <UML:TaggedValue xmi.id="AF99E336_8842_4C59_90BB_B092B80B53AB">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -3588,10 +3660,10 @@
                                       <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="620D3E78_DC62_4698_8E24_1EBF03127225">
+                                  <UML:TaggedValue xmi.id="7F97DEB3_D91C_4C20_BCC8_E8F93123DD5F">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3614,10 +3686,10 @@
                                       <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="F2AFF858_8C28_478D_A548_68FC95938A11">
+                                  <UML:TaggedValue xmi.id="5FE3CDB9_09E1_47D2_8590_88FFFD02DB64">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3635,10 +3707,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="B83BC07C_BE3F_4AE1_8E63_412D72268435">
+                              <UML:TaggedValue xmi.id="AB9B421A_1BE6_469B_8EFA_BFD06CB51D87">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -3655,10 +3727,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000780" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="7843E9F7_7842_4F6A_A7B5_E9FDC6F065E1">
+                                  <UML:TaggedValue xmi.id="302B9C89_6939_4AEA_B7CA_C6D9C72CDDCF">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3675,10 +3747,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000082E" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="B614C6AA_AB7A_4E04_B5CB_D88024A6F669">
+                                  <UML:TaggedValue xmi.id="9D3E8127_8373_4813_9E8A_A90163AC9992">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3693,10 +3765,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="CD4FD1F1_15C2_4D95_AC37_ABAE49EC85A6">
+                              <UML:TaggedValue xmi.id="51CD7FD2_233F_4ED7_899D_37E7D48478F0">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -3716,10 +3788,10 @@
                                       <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="FA5108E9_091D_4BFD_8200_F1F7BA51AF54">
+                                  <UML:TaggedValue xmi.id="3F9AFE1C_B576_4D7A_B1BF_0205D5F0DDB7">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3742,10 +3814,10 @@
                                       <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="24EB9F26_A44F_41BC_A90D_BFC678A30046">
+                                  <UML:TaggedValue xmi.id="A0F9DFE5_09A7_44C0_ACFB_60483E1C01E4">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3787,10 +3859,10 @@
                                   <UML:TagDefinition xmi.idref="B6BF10BF_16C6_4129_ADEF_E182D38BD6D2" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="AE256090_7939_458D_868F_FBB24959D667">
+                              <UML:TaggedValue xmi.id="C7C626A5_6905_4FF8_BC70_1388A1E2A6CC">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -3837,10 +3909,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="74A1478F_6D8F_4A51_917E_A7E6D859868E">
+                                  <UML:TaggedValue xmi.id="A436E7F7_A50E_45F8_BCFC_53CDB32EABC5">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3887,10 +3959,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="DC4C3CC3_62F1_4E1F_AC9E_6A62BD95B0A0">
+                                  <UML:TaggedValue xmi.id="4D9584BB_3198_4407_AD60_29B7C3A41E08">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3937,10 +4009,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="96B99F82_BB05_42EC_B531_869DD92FEC0D">
+                                  <UML:TaggedValue xmi.id="DC936CC6_F44C_41D5_BC3C_6A6973E0C739">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -3987,10 +4059,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="E6F9F4BC_8D90_4C58_B1FA_5D5F4D657B89">
+                                  <UML:TaggedValue xmi.id="08E09F03_613D_47ED_86F4_9172D400C746">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4037,10 +4109,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="AF1BBC96_EE35_4859_991D_4D0A152C3B54">
+                                  <UML:TaggedValue xmi.id="8867FF5D_68ED_4051_BCC1_26DFF7F6D678">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4087,10 +4159,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="3A725B2A_7934_4B36_8DE6_B816356D4136">
+                                  <UML:TaggedValue xmi.id="768025F8_AD59_451D_9054_079EAC797029">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4137,10 +4209,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="A0C93BA3_8EE1_4DD2_A7B0_53B4A7DB43E8">
+                                  <UML:TaggedValue xmi.id="FA683EF1_77A9_404D_B161_A953F3844E03">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4161,12 +4233,6 @@
                                     <UML:TaggedValue.dataValue>Type of research being done by user. (used in cvit.org/mashup)</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
                                       <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
-                                    </UML:TaggedValue.type>
-                                  </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="5FC303B3_03A4_432C_94FE_436FF9EF1183">
-                                    <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
-                                    <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                   <UML:TaggedValue xmi.id="2FD3379A_C8B0_4676_9574_0F7F5A50E880">
@@ -4191,6 +4257,12 @@
                                     <UML:TaggedValue.dataValue>Type</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
+                                    </UML:TaggedValue.type>
+                                  </UML:TaggedValue>
+                                  <UML:TaggedValue xmi.id="9167B24C_E8F6_4FA4_845C_FB17722ECAEE">
+                                    <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
+                                    <UML:TaggedValue.type>
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4261,10 +4333,10 @@
                                       <UML:TagDefinition xmi.idref="D6F5D232_C927_4147_AADF_BCCF0510873E" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="71652382_2D22_45CC_A21F_7B57EA97FA52">
+                                  <UML:TaggedValue xmi.id="96493CE7_39FD_4649_8C28_3835ABD40409">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4311,10 +4383,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="99082EAE_138D_4729_A139_F7B264CD663C">
+                                  <UML:TaggedValue xmi.id="1343C347_01A1_4C9D_8A96_241C9C0550C1">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4361,10 +4433,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="79676828_9A84_4C02_9B37_C0BE47FAD7DB">
+                                  <UML:TaggedValue xmi.id="0DEACB28_D414_4FD6_A774_CEAF21B2B6A0">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4411,10 +4483,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="C0524DB5_495B_4C09_9139_06785A8B4F90">
+                                  <UML:TaggedValue xmi.id="D0741188_748E_4FF9_960C_F747BD6761A0">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4440,12 +4512,6 @@
                                       <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="C75055E4_8881_4BFB_BE91_ACE41EE50668">
-                                    <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
-                                    <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
-                                    </UML:TaggedValue.type>
-                                  </UML:TaggedValue>
                                   <UML:TaggedValue xmi.id="5B19E3D6_F150_46F6_A0C3_67E050A1589B">
                                     <UML:TaggedValue.dataValue>C48910</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
@@ -4468,6 +4534,12 @@
                                     <UML:TaggedValue.dataValue>Subject</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
+                                    </UML:TaggedValue.type>
+                                  </UML:TaggedValue>
+                                  <UML:TaggedValue xmi.id="5E61E7BD_933C_4AD4_8D8C_63EDBAA23818">
+                                    <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
+                                    <UML:TaggedValue.type>
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4514,10 +4586,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="7D1E9E49_B554_4FE6_9C69_EE9A151483F2">
+                                  <UML:TaggedValue xmi.id="321E9C6F_4CC6_4A70_AA57_77008596CA23">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4538,12 +4610,6 @@
                                     <UML:TaggedValue.dataValue>Tracks a user's expertise level. One of Faculty | Postdoc | GradStudent | Other</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
                                       <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
-                                    </UML:TaggedValue.type>
-                                  </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="6AB6CFB1_4DD7_4CA4_99EA_42DA0949B419">
-                                    <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
-                                    <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                   <UML:TaggedValue xmi.id="52FBA1B6_0CA6_46EF_B208_833C0EFDCCA2">
@@ -4568,6 +4634,12 @@
                                     <UML:TaggedValue.dataValue>Academic Degree</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
                                       <UML:TagDefinition xmi.idref="9D3BFCC6_BA51_4FE2_BEAE_31504766E61C" />
+                                    </UML:TaggedValue.type>
+                                  </UML:TaggedValue>
+                                  <UML:TaggedValue xmi.id="D7C125DB_C01C_4679_8BA6_848B51F55E35">
+                                    <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
+                                    <UML:TaggedValue.type>
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4614,10 +4686,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="5A0FCE89_ABE1_4364_8403_CB564B151EF9">
+                                  <UML:TaggedValue xmi.id="3A23F7B4_9E02_4E2C_8A3C_70E1419143A0">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4635,10 +4707,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="AABA35E7_8016_46DC_9AAA_824359438821">
+                              <UML:TaggedValue xmi.id="36B120D3_30F1_4A6C_B4FB_7DC043AA8AB1">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -4655,10 +4727,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000780" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="D75F46D5_4A0B_423E_8EE9_D0DCCEC2A526">
+                                  <UML:TaggedValue xmi.id="81102E0E_2D5A_41BD_B2A1_45D0138A953B">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4675,10 +4747,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000796" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="79BF8FC9_0C4E_4EBF_9BF0_55120B0C4DF4">
+                                  <UML:TaggedValue xmi.id="258E87CB_4825_424F_8E9B_C29CB9D316E9">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4699,10 +4771,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:00000000000007B6" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="8061FD91_AE0E_47A8_9B74_1E22363989B5">
+                                  <UML:TaggedValue xmi.id="13DBA9FE_CC6A_4FD1_AB34_E0E314CC82D3">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4719,20 +4791,20 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000796" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="9DB68147_8ACA_4827_A4CB_C1744EF002A3">
+                                  <UML:TaggedValue xmi.id="B232BDED_C2A3_4661_982E_93889431A902">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
                               </UML:AssociationEnd>
                             </UML:Association.connection>
                             <UML:ModelElement.taggedValue>
-                              <UML:TaggedValue xmi.id="DE30739D_2C90_4030_A94D_72F52BFAEE2F">
+                              <UML:TaggedValue xmi.id="A950E45C_3985_41DD_A072_B47FDE282B61">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -4745,10 +4817,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="8EBADEC7_730C_4093_BA35_9D783A508FF4">
+                              <UML:TaggedValue xmi.id="F0C593DE_2C14_46A5_85A9_84EFC7B868B9">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -4765,10 +4837,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000780" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="9F2C4DF5_BFAF_4924_BFCF_172E8C3EFFB0">
+                                  <UML:TaggedValue xmi.id="3DEAD425_62B5_45CE_B669_76003FBB7215">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4785,10 +4857,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000796" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="AC4677C8_6540_46A2_B929_EA6DE5E64522">
+                                  <UML:TaggedValue xmi.id="015A8E5E_4E79_4379_B1E2_E036D00050EF">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4803,10 +4875,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="D3BBDC10_3D6C_4696_8EA8_A7BC8C491FFA">
+                              <UML:TaggedValue xmi.id="07602339_3E09_45E5_85F6_D4C57CE1404D">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -4823,10 +4895,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000796" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="7EEA89FC_EEE6_4A7E_A04E_B443102F50E6">
+                                  <UML:TaggedValue xmi.id="92E4C9D9_F9EC_4780_AD56_415163B88CD9">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4843,10 +4915,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:00000000000007B6" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="F75E1598_DFC2_4BDE_B105_DA255F3D29B9">
+                                  <UML:TaggedValue xmi.id="0DA09D8C_2F34_4C33_A300_2BE3446C6484">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4861,10 +4933,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="1CF0A71E_F6CF_4664_8ED9_C951FE474CD2">
+                              <UML:TaggedValue xmi.id="998669B7_11ED_4204_9A43_FB39498F1FF7">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -4881,10 +4953,10 @@
                                   <UML:Class xmi.idref="10-0-0-119-259bbcc5:1199a76d513:-8000:0000000000000796" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="6EBB6DD1_EFF0_4EB9_921C_0F088818AFEC">
+                                  <UML:TaggedValue xmi.id="31BFBEC6_B970_47BB_BD8E_FE79A359C5B6">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4901,10 +4973,10 @@
                                   <UML:Class xmi.idref="10-0-0-119--27dc2729:1199aafaa61:-8000:000000000000093F" />
                                 </UML:AssociationEnd.participant>
                                 <UML:ModelElement.taggedValue>
-                                  <UML:TaggedValue xmi.id="3C501FE4_EB32_4D51_A8EB_208D36E7BB10">
+                                  <UML:TaggedValue xmi.id="BA8E5EC9_DE42_4F8B_9346_25EF487D3740">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -4935,10 +5007,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="4DA847FD_4E02_4BF0_A243_99EACDE28C1B">
+                              <UML:TaggedValue xmi.id="B650168A_8A80_44BB_9B4E_ED62F996508A">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -4954,10 +5026,10 @@
                                   <UML:TagDefinition xmi.idref="10-0-0-119-4ff1186:119e81b57c9:-8000:0000000000000C35" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="891696D9_7129_40DC_B481_2FE8C8B01231">
+                              <UML:TaggedValue xmi.id="30153614_070E_4285_B59B_A1C120545460">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -4997,10 +5069,10 @@
                                   <UML:TagDefinition xmi.idref="B6BF10BF_16C6_4129_ADEF_E182D38BD6D2" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
-                              <UML:TaggedValue xmi.id="E96580F1_F1AA_412E_8F26_8A7189AA4436">
+                              <UML:TaggedValue xmi.id="284FD2AF_6483_4B90_AEF6_077D1F99484F">
                                 <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                 <UML:TaggedValue.type>
-                                  <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                  <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                 </UML:TaggedValue.type>
                               </UML:TaggedValue>
                             </UML:ModelElement.taggedValue>
@@ -5041,10 +5113,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="25A68274_A8C0_4A36_A0D0_6DE28DB252B4">
+                                  <UML:TaggedValue xmi.id="8753087B_D846_4B1C_B6CB_F6678C2CB2BC">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -5088,10 +5160,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="DFDF1583_F2A9_4D7E_88C1_F3B73C672205">
+                                  <UML:TaggedValue xmi.id="E58A6C30_429F_415B_8436_1705BA82C2D4">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -5138,10 +5210,10 @@
                                       <UML:TagDefinition xmi.idref="76344A2E_E14C_47CF_B0B1_319F7ED37906" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
-                                  <UML:TaggedValue xmi.id="F580A062_CE65_4698_B478_FCEFEF492B58">
+                                  <UML:TaggedValue xmi.id="3F0541EC_0A98_42A3_AB2B_4D91DE55949D">
                                     <UML:TaggedValue.dataValue>0</UML:TaggedValue.dataValue>
                                     <UML:TaggedValue.type>
-                                      <UML:TagDefinition xmi.idref="5965B82A_26FF_4BB5_BA9C_8C1C67805FD6" />
+                                      <UML:TagDefinition xmi.idref="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" />
                                     </UML:TaggedValue.type>
                                   </UML:TaggedValue>
                                 </UML:ModelElement.taggedValue>
@@ -5250,6 +5322,15 @@
           <UML:TagDefinition xmi.id="E05300AC_6640_49E5_B4A0_93F5D4CBADA1" name="PropertyQualifierConceptDefinition1" />
           <UML:TagDefinition xmi.id="CCF587F1_CAEE_42F9_AD59_41ED550CF7BE" name="PropertyQualifierConceptDefinitionSource1" />
           <UML:TagDefinition xmi.id="8D4FFDDB_316C_491D_9F17_D91B9F1C641A" name="PropertyQualifierConceptPreferredName1" />
+          <UML:TagDefinition xmi.id="9D79AD92_87B6_4038_8C1A_FE0E04FE99C8" name="OWNER_REVIEWED" />
+          <UML:TagDefinition xmi.id="1F4DDEE9_737A_4497_9E77_03732C1967A2" name="ObjectClassConceptCode" />
+          <UML:TagDefinition xmi.id="8137B63E_DC25_4F61_96F6_6DBD07D04673" name="ObjectClassConceptDefinition" />
+          <UML:TagDefinition xmi.id="A9C911C5_AFBA_47C5_BFAF_01EE27A19375" name="ObjectClassConceptDefinitionSource" />
+          <UML:TagDefinition xmi.id="205344A3_FD71_4198_9447_D0BC0BE9A83D" name="ObjectClassConceptPreferredName" />
+          <UML:TagDefinition xmi.id="59D951A3_29DF_4B96_8A3D_E7700F742842" name="ObjectClassQualifierConceptCode1" />
+          <UML:TagDefinition xmi.id="93139774_619B_4AA5_88E2_B55C74653003" name="ObjectClassQualifierConceptDefinition1" />
+          <UML:TagDefinition xmi.id="18D6AC83_0855_4096_BFE3_02DCC8B5E015" name="ObjectClassQualifierConceptDefinitionSource1" />
+          <UML:TagDefinition xmi.id="C03E1137_900E_4C79_936C_E5085BED00FB" name="ObjectClassQualifierConceptPreferredName1" />
         </UML:Namespace.ownedElement>
       </UML:Model>
     </XMI.content>
