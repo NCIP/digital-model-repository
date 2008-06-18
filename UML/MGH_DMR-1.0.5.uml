@@ -33,7 +33,7 @@
             name="MGH_DMR-1.0.5.todo" />
     <historyfile name="" />
   </argo>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Tue Jun 17 16:35:15 EDT 2008'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Jun 18 12:57:27 EDT 2008'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.24(5) revised on $Date: 2006-11-06 19:55:22 +0100 (Mon, 06 Nov 2006) $ </XMI.exporterVersion>
@@ -712,9 +712,9 @@
                                           name = 'title' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                                           changeability = 'changeable' targetScope = 'instance'>
                                           <UML:StructuralFeature.multiplicity>
-                                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C6D'>
+                                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B89'>
                                               <UML:Multiplicity.range>
-                                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C6C'
+                                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B88'
                                                   lower = '1' upper = '1'/>
                                               </UML:Multiplicity.range>
                                             </UML:Multiplicity>
@@ -4488,9 +4488,9 @@
                           name = 'Genetics' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C1F'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B8B'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C1E'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B8A'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4528,16 +4528,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001236'
                           name = 'CellCycle' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C29'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B8D'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C28'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B8C'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4587,16 +4587,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000123B'
                           name = 'SignalingPathways' visibility = 'public' isSpecification = 'false'
                           ownerScope = 'instance' changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C27'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B8F'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C26'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B8E'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4634,16 +4634,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001240'
                           name = 'Motility' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C2B'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B91'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C2A'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B90'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4681,16 +4681,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001245'
                           name = 'Proliferation' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C2D'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B93'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C2C'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B92'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4728,16 +4728,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000124A'
                           name = 'Metastasis' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C2F'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B95'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C2E'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B94'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4781,16 +4781,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001251'
                           name = 'Immunology' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C31'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B97'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C30'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B96'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4828,16 +4828,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001256'
                           name = 'Angiogenesis' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C33'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B99'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C32'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B98'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4875,16 +4875,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000125B'
                           name = 'Statistics' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C35'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B9B'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C34'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B9A'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4922,16 +4922,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001260'
                           name = 'Control' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C37'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B9D'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C36'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B9C'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4975,16 +4975,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001267'
                           name = 'Discreet' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C39'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B9F'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C38'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000B9E'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -4998,16 +4998,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000126C'
                           name = 'Microenvironment' visibility = 'public' isSpecification = 'false'
                           ownerScope = 'instance' changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000BB7'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA1'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000BB6'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA0'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -5021,16 +5021,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001271'
                           name = 'Continuum' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000BB9'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA3'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000BB8'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA2'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -5044,16 +5044,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001276'
                           name = 'Hybrid' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C3B'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA5'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C3A'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA4'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -5067,16 +5067,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000127B'
                           name = 'Other' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C3D'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA7'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C3C'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA6'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -5090,16 +5090,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001280'
                           name = 'Treatment' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C3F'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA9'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C3E'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BA8'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -5137,16 +5137,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001285'
                           name = 'Chemotherapy' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C41'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BAB'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C40'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BAA'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -5190,16 +5190,16 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                         <UML:Attribute xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000128A'
                           name = 'Radiotherapy' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
                           changeability = 'changeable' targetScope = 'instance'>
                           <UML:StructuralFeature.multiplicity>
-                            <UML:Multiplicity xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C43'>
+                            <UML:Multiplicity xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BAD'>
                               <UML:Multiplicity.range>
-                                <UML:MultiplicityRange xmi.id = '10-0-0-119-514f5ff3:11a97ec5702:-8000:0000000000000C42'
+                                <UML:MultiplicityRange xmi.id = '10-0-0-119--7595e2fb:11a9c97d6cf:-8000:0000000000000BAC'
                                   lower = '1' upper = '1'/>
                               </UML:Multiplicity.range>
                             </UML:Multiplicity>
@@ -5243,7 +5243,7 @@
                             </UML:TaggedValue>
                           </UML:ModelElement.taggedValue>
                           <UML:StructuralFeature.type>
-                            <UML:DataType xmi.idref = '10-0-0-119--3ddcc113:119a4b66346:-8000:00000000000009BD'/>
+                            <UML:Class xmi.idref = '10-0-0-119-259bbcc5:1199a76d513:-8000:000000000000078C'/>
                           </UML:StructuralFeature.type>
                         </UML:Attribute>
                       </UML:Classifier.feature>
@@ -5257,8 +5257,8 @@
         <UML:Stereotype xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:0000000000001229'
           name = 'enumeration' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
           isAbstract = 'false'>
-          <UML:Stereotype.baseClass>Model</UML:Stereotype.baseClass>
           <UML:Stereotype.baseClass>Class</UML:Stereotype.baseClass>
+          <UML:Stereotype.baseClass>Model</UML:Stereotype.baseClass>
         </UML:Stereotype>
         <UML:DataType xmi.id = '10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000122A'
           name = 'Collection&lt;String&gt;' isSpecification = 'false' isRoot = 'false'
@@ -8569,7 +8569,7 @@
     </path>
   </group>
   <group name="Fig33"
-       description="org.argouml.uml.diagram.static_structure.ui.FigClass[856, 8, 120, 319]pathVisible=false;operationsVisible=true;attributesVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[856, 8, 126, 319]pathVisible=false;operationsVisible=true;attributesVisible=true"
        href="10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000122F"
        fill="1"
        fillcolor="white"
@@ -8582,7 +8582,7 @@
     <rectangle name="Fig33.0"
       x="856"
       y="8"
-      width="120"
+      width="126"
       height="319"
       fill="1"
       fillcolor="white"
@@ -8590,7 +8590,7 @@
       strokecolor="black"
     />
     <group name="Fig33.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[856, 8, 120, 16]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[856, 8, 126, 16]"
          href="10-0-0-114--3e510d57:11a5f79829d:-8000:000000000000122F"
          fill="1"
          fillcolor="white"
@@ -8603,7 +8603,7 @@
       <rectangle name="Fig33.1.0"
         x="856"
         y="8"
-        width="120"
+        width="126"
         height="16"
         fill="1"
         fillcolor="white"
@@ -8632,7 +8632,7 @@
       textsize="10"
     >Entry Category</text>
     <group name="Fig33.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[857, 307, 119, 20]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[857, 307, 125, 20]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -8644,7 +8644,7 @@
       <rectangle name="Fig33.3.0"
         x="857"
         y="307"
-        width="119"
+        width="125"
         height="20"
         fill="1"
         fillcolor="white"
@@ -8660,12 +8660,12 @@
       >
         <moveto x="857"
                 y="307" />
-        <lineto x="976"
+        <lineto x="982"
                 y="307" />
       </path>
     </group>
     <group name="Fig33.4"
-         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[857, 46, 119, 260]"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[857, 46, 125, 260]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -8677,7 +8677,7 @@
       <rectangle name="Fig33.4.0"
         x="857"
         y="46"
-        width="119"
+        width="125"
         height="260"
         fill="1"
         fillcolor="white"
@@ -8693,7 +8693,7 @@
       >
         <moveto x="857"
                 y="46" />
-        <lineto x="976"
+        <lineto x="982"
                 y="46" />
       </path>
       <text name="Fig33.4.2"
@@ -8705,7 +8705,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Genetics : int</text>
+      >Genetics : String</text>
       <text name="Fig33.4.3"
         x="857"
         y="61"
@@ -8715,7 +8715,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >CellCycle : int</text>
+      >CellCycle : String</text>
       <text name="Fig33.4.4"
         x="857"
         y="75"
@@ -8725,7 +8725,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >SignalingPathways : int</text>
+      >SignalingPathways : String</text>
       <text name="Fig33.4.5"
         x="857"
         y="89"
@@ -8735,7 +8735,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Motility : int</text>
+      >Motility : String</text>
       <text name="Fig33.4.6"
         x="857"
         y="103"
@@ -8745,7 +8745,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Proliferation : int</text>
+      >Proliferation : String</text>
       <text name="Fig33.4.7"
         x="857"
         y="117"
@@ -8755,7 +8755,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Metastasis : int</text>
+      >Metastasis : String</text>
       <text name="Fig33.4.8"
         x="857"
         y="131"
@@ -8765,7 +8765,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Immunology : int</text>
+      >Immunology : String</text>
       <text name="Fig33.4.9"
         x="857"
         y="145"
@@ -8775,7 +8775,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Angiogenesis : int</text>
+      >Angiogenesis : String</text>
       <text name="Fig33.4.10"
         x="857"
         y="159"
@@ -8785,7 +8785,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Statistics : int</text>
+      >Statistics : String</text>
       <text name="Fig33.4.11"
         x="857"
         y="173"
@@ -8795,7 +8795,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Control : int</text>
+      >Control : String</text>
       <text name="Fig33.4.12"
         x="857"
         y="187"
@@ -8805,7 +8805,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Discreet : int</text>
+      >Discreet : String</text>
       <text name="Fig33.4.13"
         x="857"
         y="201"
@@ -8815,7 +8815,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Microenvironment : int</text>
+      >Microenvironment : String</text>
       <text name="Fig33.4.14"
         x="857"
         y="215"
@@ -8825,7 +8825,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Continuum : int</text>
+      >Continuum : String</text>
       <text name="Fig33.4.15"
         x="857"
         y="229"
@@ -8835,7 +8835,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Hybrid : int</text>
+      >Hybrid : String</text>
       <text name="Fig33.4.16"
         x="857"
         y="243"
@@ -8845,7 +8845,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Other : int</text>
+      >Other : String</text>
       <text name="Fig33.4.17"
         x="857"
         y="257"
@@ -8855,7 +8855,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Treatment : int</text>
+      >Treatment : String</text>
       <text name="Fig33.4.18"
         x="857"
         y="271"
@@ -8865,7 +8865,7 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Chemotherapy : int</text>
+      >Chemotherapy : String</text>
       <text name="Fig33.4.19"
         x="857"
         y="285"
@@ -8875,12 +8875,12 @@
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >Radiotherapy : int</text>
+      >Radiotherapy : String</text>
     </group>
     <rectangle name="Fig33.5"
       x="856"
       y="8"
-      width="120"
+      width="126"
       height="319"
       fill="0"
       fillcolor="white"
@@ -8902,7 +8902,7 @@
     <rectangle name="Fig34.0"
       x="0"
       y="592"
-      width="299"
+      width="316"
       height="179"
       fill="1"
       fillcolor="white"
@@ -8910,7 +8910,7 @@
       strokecolor="black"
     />
     <group name="Fig34.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[0, 592, 299, 2]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[0, 592, 316, 2]"
          href="10-0-0-114--5e9293fc:11a749a1b12:-8000:0000000000000AA5"
          fill="1"
          fillcolor="white"
@@ -8923,7 +8923,7 @@
       <rectangle name="Fig34.1.0"
         x="0"
         y="592"
-        width="299"
+        width="316"
         height="2"
         fill="1"
         fillcolor="white"
@@ -8954,7 +8954,7 @@
       <rectangle name="Fig34.3.0"
         x="1"
         y="637"
-        width="314"
+        width="315"
         height="134"
         fill="1"
         fillcolor="white"
@@ -8970,7 +8970,7 @@
       >
         <moveto x="1"
                 y="637" />
-        <lineto x="299"
+        <lineto x="316"
                 y="637" />
       </path>
       <text name="Fig34.3.2"
@@ -9065,7 +9065,7 @@
       >getEntryReference(id : String) : Reference</text>
     </group>
     <group name="Fig34.4"
-         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[1, 616, 298, 20]"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[1, 616, 315, 20]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -9077,7 +9077,7 @@
       <rectangle name="Fig34.4.0"
         x="1"
         y="616"
-        width="298"
+        width="315"
         height="20"
         fill="1"
         fillcolor="white"
@@ -9093,14 +9093,14 @@
       >
         <moveto x="1"
                 y="616" />
-        <lineto x="299"
+        <lineto x="316"
                 y="616" />
       </path>
     </group>
     <rectangle name="Fig34.5"
       x="0"
       y="592"
-      width="299"
+      width="316"
       height="179"
       fill="0"
       fillcolor="white"
