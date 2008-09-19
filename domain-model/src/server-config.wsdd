@@ -1,0 +1,54 @@
+<deployment xmlns="http://xml.apache.org/axis/wsdd/"
+	xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+<handler name="LocalResponder" type="java:org.apache.axis.transport.local.LocalResponder"/>
+<handler name="URLMapper" type="java:org.apache.axis.handlers.http.URLMapper"/>
+<handler name="Authenticate" type="java:org.apache.axis.handlers.SimpleAuthenticationHandler"/>
+<handler name="SecuritySOAPHandler" type="java:gov.nih.nci.system.webservice.interceptor.ACEGISOAPHandler"/>
+<service name="AdminService" provider="java:MSG">
+  <parameter name="allowedMethods" value="AdminService"/>
+  <parameter name="enableRemoteAdmin" value="false"/>
+  <parameter name="className" value="org.apache.axis.utils.Admin"/>
+  <namespace>http://xml.apache.org/axis/wsdd/</namespace>
+</service>
+<service name="Version" provider="java:RPC">
+  <parameter name="allowedMethods" value="getVersion"/>
+  <parameter name="className" value="org.apache.axis.Version"/>
+</service>
+<service name="DmrService" style="java:RPC" use="literal">
+	<requestFlow>
+		<handler type="SecuritySOAPHandler" />
+	</requestFlow>
+	<parameter name="className" value="gov.nih.nci.system.webservice.WSQueryImpl"/>
+	<parameter name="allowedMethods" value="*"/>
+	<parameter name="extraClasses"
+	value="org.cvit.cabig.dmr.domain.Reference,org.cvit.cabig.dmr.domain.Image,org.cvit.cabig.dmr.domain.DataClassification,org.cvit.cabig.dmr.domain.Organization,org.cvit.cabig.dmr.domain.Book,org.cvit.cabig.dmr.domain.EntryCategory,org.cvit.cabig.dmr.domain.Review,org.cvit.cabig.dmr.domain.ExperimentalData,org.cvit.cabig.dmr.domain.Paper,org.cvit.cabig.dmr.domain.EntryType,org.cvit.cabig.dmr.domain.Entry,org.cvit.cabig.dmr.domain.Movie,org.cvit.cabig.dmr.domain.Person,org.cvit.cabig.dmr.domain.Parameters,org.cvit.cabig.dmr.domain.Algorithm,org.cvit.cabig.dmr.domain.SourceCode"/>	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Reference" languageSpecificType="java:org.cvit.cabig.dmr.domain.Reference" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Image" languageSpecificType="java:org.cvit.cabig.dmr.domain.Image" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:DataClassification" languageSpecificType="java:org.cvit.cabig.dmr.domain.DataClassification" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Organization" languageSpecificType="java:org.cvit.cabig.dmr.domain.Organization" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Book" languageSpecificType="java:org.cvit.cabig.dmr.domain.Book" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:EntryCategory" languageSpecificType="java:org.cvit.cabig.dmr.domain.EntryCategory" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Review" languageSpecificType="java:org.cvit.cabig.dmr.domain.Review" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:ExperimentalData" languageSpecificType="java:org.cvit.cabig.dmr.domain.ExperimentalData" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Paper" languageSpecificType="java:org.cvit.cabig.dmr.domain.Paper" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:EntryType" languageSpecificType="java:org.cvit.cabig.dmr.domain.EntryType" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Entry" languageSpecificType="java:org.cvit.cabig.dmr.domain.Entry" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Movie" languageSpecificType="java:org.cvit.cabig.dmr.domain.Movie" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Person" languageSpecificType="java:org.cvit.cabig.dmr.domain.Person" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Parameters" languageSpecificType="java:org.cvit.cabig.dmr.domain.Parameters" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:Algorithm" languageSpecificType="java:org.cvit.cabig.dmr.domain.Algorithm" />	
+	<beanMapping xmlns:myNS="urn:domain.dmr.cabig.cvit.org"  qname="myNS:SourceCode" languageSpecificType="java:org.cvit.cabig.dmr.domain.SourceCode" />		
+	<beanMapping xmlns:myNS="urn:Character.lang.java"  qname="myNS:Character" languageSpecificType="java:java.lang.Character" />		
+</service>
+<transport name="http">
+  <requestFlow>
+   <handler type="URLMapper"/>
+   <handler type="java:org.apache.axis.handlers.http.HTTPAuthHandler"/>
+  </requestFlow>
+</transport>
+<transport name="local">
+  <responseFlow>
+   <handler type="LocalResponder"/>
+  </responseFlow>
+</transport>
+</deployment>
