@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://dmr.cabig.cvit.org/Dmr" xmlns:wsrp="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.xsd" xmlns:wsrlw="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceLifetime-1.2-draft-01.wsdl" xmlns:wsdlpp="http://www.globus.org/namespaces/2004/10/WSDLPreprocessor" xmlns:gtwsdl1="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ServiceGroup-1.2-draft-01.wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsntw="http://docs.oasis-open.org/wsn/2004/06/wsn-WS-BaseNotification-1.2-draft-01.wsdl" xmlns:wsrbfw="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-BaseFaults-1.2-draft-01.wsdl" xmlns:wsrpw="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" xmlns:wns2="http://gov.nih.nci.cagrid.data/DataService" xmlns:wns0="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" xmlns:wns1="http://security.introduce.cagrid.nci.nih.gov/ServiceSecurity" xmlns:ns0="http://dmr.cabig.cvit.org/Dmr/types" xmlns:ns4="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLQuery" xmlns:ns3="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata" xmlns:ns2="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" xmlns:ns8="http://gov.nih.nci.cagrid.data/DataServiceExceptions" xmlns:ns5="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet" xmlns:ns7="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.dataservice" xmlns:ns1="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.security" xmlns:ns6="http://dmr.cabig.cvit.org/Dmr/CQLResultTypes" name="Dmr" targetNamespace="http://dmr.cabig.cvit.org/Dmr">
+  <import namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" location="../wsrf/properties/WS-ResourceProperties.wsdl" />
+  <import namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-BaseFaults-1.2-draft-01.wsdl" location="../wsrf/faults/WS-BaseFaults.wsdl" />
+  <import namespace="http://docs.oasis-open.org/wsn/2004/06/wsn-WS-BaseNotification-1.2-draft-01.wsdl" location="../wsrf/notification/WS-BaseN.wsdl" />
+  <import namespace="http://gov.nih.nci.cagrid.data/DataService" location="./DataService.wsdl" />
+  <import namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" location="./../wsrf/properties/WS-ResourceProperties.wsdl" />
+  <import namespace="http://security.introduce.cagrid.nci.nih.gov/ServiceSecurity" location="./ServiceSecurity.wsdl" />
+  <!--============================================================
+
+                      T Y P E S
+                      
+  ============================================================-->
+  <types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsrbf="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-BaseFaults-1.2-draft-01.xsd" targetNamespace="http://dmr.cabig.cvit.org/Dmr" elementFormDefault="qualified" attributeFormDefault="unqualified">
+      <import namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-BaseFaults-1.2-draft-01.xsd" schemaLocation="../wsrf/faults/WS-BaseFaults.xsd" />
+      <import namespace="http://dmr.cabig.cvit.org/Dmr/types" schemaLocation="./DmrTypes.xsd" />
+      <import namespace="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLQuery" schemaLocation="./1_gov.nih.nci.cagrid.CQLQuery.xsd" />
+      <import namespace="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata" schemaLocation="./xsd/cagrid/types/caGridMetadata.xsd" />
+      <import namespace="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" schemaLocation="org.cvit.cabig.dmr.domain.xsd" />
+      <import namespace="http://gov.nih.nci.cagrid.data/DataServiceExceptions" schemaLocation="./DataServiceExceptions.xsd" />
+      <import namespace="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet" schemaLocation="./1_gov.nih.nci.cagrid.CQLResultSet.xsd" />
+      <import namespace="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.dataservice" schemaLocation="./xsd/cagrid/types/data/data.xsd" />
+      <import namespace="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.security" schemaLocation="./xsd/cagrid/types/security/security.xsd" />
+      <import namespace="http://dmr.cabig.cvit.org/Dmr/CQLResultTypes" schemaLocation="./Dmr_CQLResultTypes.xsd" />
+      <element name="AddEntryRequest">
+        <complexType>
+          <sequence>
+            <element name="newEntry">
+              <complexType>
+                <sequence>
+                  <element ref="ns2:Entry" minOccurs="1" maxOccurs="1" />
+                </sequence>
+              </complexType>
+            </element>
+            <element name="fundingOrganization">
+              <complexType>
+                <sequence>
+                  <element ref="ns2:Organization" minOccurs="1" maxOccurs="1" />
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="AddEntryResponse">
+        <complexType>
+          <sequence>
+            <element ref="ns2:Entry" minOccurs="1" maxOccurs="1" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="AddDataToEntryRequest">
+        <complexType>
+          <sequence>
+            <element name="data">
+              <complexType>
+                <choice>
+                  <element ref="ns2:DataClassification" minOccurs="1" maxOccurs="1" />
+                  
+                  <element ref="ns2:Algorithm" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:SourceCode" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:ExperimentalData" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Image" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Parameters" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Movie" minOccurs="1" maxOccurs="1" />
+                </choice>
+              </complexType>
+            </element>
+            <element name="sourceEntry">
+              <complexType>
+                <sequence>
+                  <element ref="ns2:Entry" minOccurs="1" maxOccurs="1" />
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="AddDataToEntryResponse">
+        <complexType>
+          <choice>
+                  <element ref="ns2:DataClassification" minOccurs="1" maxOccurs="1" />
+                  
+                  <element ref="ns2:Algorithm" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:SourceCode" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:ExperimentalData" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Image" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Parameters" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Movie" minOccurs="1" maxOccurs="1" />
+                </choice>
+        </complexType>
+      </element>
+      <element name="AddReferenceToEntryRequest">
+        <complexType>
+          <sequence>
+            <element name="reference">
+              <complexType>
+                <choice>
+                  <element ref="ns2:Reference" minOccurs="1" maxOccurs="1" />
+                  
+                  <element ref="ns2:Paper" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Book" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Review" minOccurs="1" maxOccurs="1" />
+                </choice>
+              </complexType>
+            </element>
+            <element name="sourceEntry">
+              <complexType>
+                <sequence>
+                  <element ref="ns2:Entry" minOccurs="1" maxOccurs="1" />
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="AddReferenceToEntryResponse">
+        <complexType>
+          <choice>
+                  <element ref="ns2:Reference" minOccurs="1" maxOccurs="1" />
+                  
+                  <element ref="ns2:Paper" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Book" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Review" minOccurs="1" maxOccurs="1" />
+                </choice>
+        </complexType>
+      </element>
+      <element name="UpdateEntryRequest">
+        <complexType>
+          <sequence>
+            <element name="entry">
+              <complexType>
+                <sequence>
+                  <element ref="ns2:Entry" minOccurs="1" maxOccurs="1" />
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateEntryResponse">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="UpdateReferenceRequest">
+        <complexType>
+          <sequence>
+            <element name="reference">
+              <complexType>
+                <choice>
+                  <element ref="ns2:Reference" minOccurs="1" maxOccurs="1" />
+                  
+                  <element ref="ns2:Paper" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Book" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Review" minOccurs="1" maxOccurs="1" />
+                </choice>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateReferenceResponse">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="UpdateDataRequest">
+        <complexType>
+          <sequence>
+            <element name="data">
+              <complexType>
+                <choice>
+                  <element ref="ns2:DataClassification" minOccurs="1" maxOccurs="1" />
+                  
+                  <element ref="ns2:Algorithm" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:SourceCode" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:ExperimentalData" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Image" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Parameters" minOccurs="1" maxOccurs="1" />
+                  <element ref="ns2:Movie" minOccurs="1" maxOccurs="1" />
+                </choice>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateDataResponse">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="DmrResourceProperties">
+        <complexType>
+          <sequence>
+            <element ref="ns7:DomainModel" />
+            <element ref="ns3:ServiceMetadata" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <!--  place service messages here -->
+  <message name="AddEntryRequest">
+    <part name="parameters" element="tns:AddEntryRequest" />
+  </message>
+  <message name="AddEntryResponse">
+    <part name="parameters" element="tns:AddEntryResponse" />
+  </message>
+  <message name="AddDataToEntryRequest">
+    <part name="parameters" element="tns:AddDataToEntryRequest" />
+  </message>
+  <message name="AddDataToEntryResponse">
+    <part name="parameters" element="tns:AddDataToEntryResponse" />
+  </message>
+  <message name="AddReferenceToEntryRequest">
+    <part name="parameters" element="tns:AddReferenceToEntryRequest" />
+  </message>
+  <message name="AddReferenceToEntryResponse">
+    <part name="parameters" element="tns:AddReferenceToEntryResponse" />
+  </message>
+  <message name="UpdateEntryRequest">
+    <part name="parameters" element="tns:UpdateEntryRequest" />
+  </message>
+  <message name="UpdateEntryResponse">
+    <part name="parameters" element="tns:UpdateEntryResponse" />
+  </message>
+  <message name="UpdateReferenceRequest">
+    <part name="parameters" element="tns:UpdateReferenceRequest" />
+  </message>
+  <message name="UpdateReferenceResponse">
+    <part name="parameters" element="tns:UpdateReferenceResponse" />
+  </message>
+  <message name="UpdateDataRequest">
+    <part name="parameters" element="tns:UpdateDataRequest" />
+  </message>
+  <message name="UpdateDataResponse">
+    <part name="parameters" element="tns:UpdateDataResponse" />
+  </message>
+  <!--============================================================
+
+                       P O R T T Y P E
+                      
+  ============================================================-->
+  <portType name="DmrPortType" wsrp:ResourceProperties="tns:DmrResourceProperties">
+    <operation name="addEntry">
+      <input message="tns:AddEntryRequest" wsa:Action="http://dmr.cabig.cvit.org/Dmr/AddEntryRequest" />
+      <output message="tns:AddEntryResponse" wsa:Action="http://dmr.cabig.cvit.org/Dmr/AddEntryResponse" />
+    </operation>
+    <operation name="addDataToEntry">
+      <input message="tns:AddDataToEntryRequest" wsa:Action="http://dmr.cabig.cvit.org/Dmr/AddDataToEntryRequest" />
+      <output message="tns:AddDataToEntryResponse" wsa:Action="http://dmr.cabig.cvit.org/Dmr/AddDataToEntryResponse" />
+    </operation>
+    <operation name="addReferenceToEntry">
+      <input message="tns:AddReferenceToEntryRequest" wsa:Action="http://dmr.cabig.cvit.org/Dmr/AddReferenceToEntryRequest" />
+      <output message="tns:AddReferenceToEntryResponse" wsa:Action="http://dmr.cabig.cvit.org/Dmr/AddReferenceToEntryResponse" />
+    </operation>
+    <operation name="updateEntry">
+      <input message="tns:UpdateEntryRequest" wsa:Action="http://dmr.cabig.cvit.org/Dmr/UpdateEntryRequest" />
+      <output message="tns:UpdateEntryResponse" wsa:Action="http://dmr.cabig.cvit.org/Dmr/UpdateEntryResponse" />
+    </operation>
+    <operation name="updateReference">
+      <input message="tns:UpdateReferenceRequest" wsa:Action="http://dmr.cabig.cvit.org/Dmr/UpdateReferenceRequest" />
+      <output message="tns:UpdateReferenceResponse" wsa:Action="http://dmr.cabig.cvit.org/Dmr/UpdateReferenceResponse" />
+    </operation>
+    <operation name="updateData">
+      <input message="tns:UpdateDataRequest" wsa:Action="http://dmr.cabig.cvit.org/Dmr/UpdateDataRequest" />
+      <output message="tns:UpdateDataResponse" wsa:Action="http://dmr.cabig.cvit.org/Dmr/UpdateDataResponse" />
+    </operation>
+    <wsdl:operation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="GetMultipleResourceProperties">
+      <wsdl:input name="GetMultipleResourcePropertiesRequest" message="wsrpw:GetMultipleResourcePropertiesRequest" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/GetMultipleResourceProperties" />
+      <wsdl:output name="GetMultipleResourcePropertiesResponse" message="wsrpw:GetMultipleResourcePropertiesResponse" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/GetMultipleResourcePropertiesResponse" />
+      <wsdl:fault name="ResourceUnknownFault" message="wsrpw:ResourceUnknownFault" />
+      <wsdl:fault name="InvalidResourcePropertyQNameFault" message="wsrpw:InvalidResourcePropertyQNameFault" />
+    </wsdl:operation>
+    <wsdl:operation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="GetResourceProperty">
+      <wsdl:input name="GetResourcePropertyRequest" message="wsrpw:GetResourcePropertyRequest" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/GetResourceProperty" />
+      <wsdl:output name="GetResourcePropertyResponse" message="wsrpw:GetResourcePropertyResponse" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/GetResourcePropertyResponse" />
+      <wsdl:fault name="ResourceUnknownFault" message="wsrpw:ResourceUnknownFault" />
+      <wsdl:fault name="InvalidResourcePropertyQNameFault" message="wsrpw:InvalidResourcePropertyQNameFault" />
+    </wsdl:operation>
+    <wsdl:operation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="QueryResourceProperties">
+      <wsdl:input name="QueryResourcePropertiesRequest" message="wsrpw:QueryResourcePropertiesRequest" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/QueryResourceProperties" />
+      <wsdl:output name="QueryResourcePropertiesResponse" message="wsrpw:QueryResourcePropertiesResponse" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/QueryResourcePropertiesResponse" />
+      <wsdl:fault name="ResourceUnknownFault" message="wsrpw:ResourceUnknownFault" />
+      <wsdl:fault name="InvalidResourcePropertyQNameFault" message="wsrpw:InvalidResourcePropertyQNameFault" />
+      <wsdl:fault name="UnknownQueryExpressionDialectFault" message="wsrpw:UnknownQueryExpressionDialectFault" />
+      <wsdl:fault name="InvalidQueryExpressionFault" message="wsrpw:InvalidQueryExpressionFault" />
+      <wsdl:fault name="QueryEvaluationErrorFault" message="wsrpw:QueryEvaluationErrorFault" />
+    </wsdl:operation>
+    <operation name="getServiceSecurityMetadata">
+      <input message="wns1:GetServiceSecurityMetadataRequest" wsa:Action="http://security.introduce.cagrid.nci.nih.gov/ServiceSecurity/GetServiceSecurityMetadataRequest" />
+      <output message="wns1:GetServiceSecurityMetadataResponse" wsa:Action="http://security.introduce.cagrid.nci.nih.gov/ServiceSecurity/GetServiceSecurityMetadataResponse" />
+    </operation>
+    <operation name="query">
+      <input message="wns2:QueryRequest" wsa:Action="http://data.cagrid.nci.nih.gov/DataService/QueryRequest" />
+      <output message="wns2:QueryResponse" wsa:Action="http://data.cagrid.nci.nih.gov/DataService/QueryResponse" />
+      <fault name="QueryProcessingException" message="wns2:QueryProcessingExceptionFaultMessage" wsa:Action="http://gov.nih.nci.cagrid.data/DataService/QueryProcessingExceptionFaultMessage" />
+      <fault name="MalformedQueryException" message="wns2:MalformedQueryExceptionFaultMessage" wsa:Action="http://gov.nih.nci.cagrid.data/DataService/MalformedQueryExceptionFaultMessage" />
+    </operation>
+  </portType>
+</definitions>
+

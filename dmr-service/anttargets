@@ -1,0 +1,28 @@
+Buildfile: build.xml
+
+Main targets:
+
+ Developer Modified Build File.test     Runs the service's tests.
+ all                                    Builds the entire service.
+ build-deploy file.createDeploymentGar  creates a gar file that can be deployed or moved around
+ build-deploy file.deployGlobus         Deploys a gar to GLOBUS_LOCATION (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ build-deploy file.deployJBoss          Deploys to JBOSS_HOME (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ build-deploy file.deployTomcat         Deploys to CATALINA_HOME (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ build-deploy file.undeployGlobus       undeploy a service from a globus container (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ build-deploy file.undeployJBoss        undeploy a service from a jboss container (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ build-deploy file.undeployTomcat       undeploy a service from a tomcat container (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ clean                                  Removes all generated build artifacts.
+ compile                                Compiles the service.
+ createDeploymentGar                    creates a gar file that can be deployed or moved around
+ deployGlobus                           Deploys a gar to GLOBUS_LOCATION (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ deployJBoss                            Deploys to JBOSS_HOME (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ deployTomcat                           Deploys to CATALINA_HOME (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ help                                   Prints usage information.
+ javadoc                                Creates the API documentation.
+ run-tools file.runClient               Run the sample Client
+ runClient                              Run the sample Client
+ test                                   Runs the service's tests.
+ undeployGlobus                         undeploy a service from a globus container (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ undeployJBoss                          undeploy a service from a jboss container (to set the services properties file set the ant command line variable -Dservice.properties.file)
+ undeployTomcat                         undeploy a service from a tomcat container (to set the services properties file set the ant command line variable -Dservice.properties.file)
+Default target: help

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Object Mapping DTD Version 1.0//EN" "http://www.castor.org/mapping.dtd">
+<mapping>
+  <class name="org.cvit.cabig.dmr.domain.EntryCategory" identity="id" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="EntryCategory" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+    <field name="id" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="id" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="name" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="name" node="attribute" reference="false" transient="false"/>
+    </field> 
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.DataClassification" identity="id" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="DataClassification" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+    <field name="id" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="id" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="title" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="title" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="description" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="description" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="source" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="source" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="comment" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="comment" node="attribute" reference="false" transient="false"/>
+    </field> 
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Organization" identity="id" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Organization" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+    <field name="id" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="id" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="name" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="name" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="description" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="description" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="website" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="website" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="geoCode" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="geoCode" node="attribute" reference="false" transient="false"/>
+    </field> 
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.EntryType" identity="id" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="EntryType" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+    <field name="id" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="id" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="name" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="name" node="attribute" reference="false" transient="false"/>
+    </field> 
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Reference" identity="id" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Reference" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+    <field name="id" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="id" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="title" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="title" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="description" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="description" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="source" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="source" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="comment" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="comment" node="attribute" reference="false" transient="false"/>
+    </field> 
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Person" identity="id" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Person" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+    <field name="id" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="id" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="userId" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="userId" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="firstName" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="firstName" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="lastName" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="lastName" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="phone" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="phone" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="emailAddress" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="emailAddress" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="website" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="website" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="depiction" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="depiction" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="research" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="research" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="geoCode" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="geoCode" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="position" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="position" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="fax" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="fax" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="address" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="address" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="researchInterest" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="researchInterest" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="title" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="title" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="seniority" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="seniority" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="group" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="group" node="attribute" reference="false" transient="false"/>
+    </field> 
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Entry" identity="id" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Entry" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+    <field name="id" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="id" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="title" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="title" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="description" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="description" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="abstractText" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="abstractText" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="concept" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="concept" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="hypothesis" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="hypothesis" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="conclusion" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="conclusion" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="note" type="string" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="note" node="attribute" reference="false" transient="false"/>
+    </field>
+    <field name="keywords" type="string" collection="collection" required="false" direct="false" lazy="false" transient="false" identity="false">
+      <bind-xml name="string" type="string" location="keywords" node="element" reference="false" transient="false"/>
+    </field> 
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Book" identity="id" extends="org.cvit.cabig.dmr.domain.Reference" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Book" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.ExperimentalData" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="ExperimentalData" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Paper" identity="id" extends="org.cvit.cabig.dmr.domain.Reference" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Paper" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Review" identity="id" extends="org.cvit.cabig.dmr.domain.Reference" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Review" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Movie" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Movie" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.SourceCode" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="SourceCode" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Image" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Image" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Algorithm" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Algorithm" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Parameters" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification" access="shared" auto-complete="false" verify-constructable="true">
+    <map-to xml="Parameters" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" element-definition="false"/>
+  </class>
+</mapping>

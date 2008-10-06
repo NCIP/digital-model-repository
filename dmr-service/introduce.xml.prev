@@ -1,0 +1,790 @@
+<ns1:ServiceDescription introduceVersion="1.2" xmlns:ns1="gme://gov.nih.nci.cagrid/1/Introduce">
+ <ns2:Namespaces xsi:type="ns2:NamespacesType" xmlns:ns2="gme://gov.nih.nci.cagrid.introduce/1/Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns2:Namespace namespace="http://www.w3.org/2001/XMLSchema" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="anySimpleType" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="anyType" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="anyURI" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="base64Binary" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="boolean" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="byte" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="date" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="dateTime" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="decimal" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="double" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="duration" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="ENTITIES" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="ENTITY" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="float" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="gDay" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="gMonth" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="gMonthDay" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="gYear" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="gYearMonth" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="hexBinary" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="ID" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="IDREF" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="IDREFS" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="int" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="integer" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="language" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="long" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="Name" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="NCName" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="negativeInteger" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="NMTOKEN" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="NMTOKENS" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="nonNegativeInteger" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="nonPositiveInteger" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="normalizedString" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="NOTATION" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="positiveInteger" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="QName" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="short" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="string" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="time" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="token" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="unsignedByte" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="unsignedInt" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="unsignedLong" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="unsignedShort" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace location="./DmrTypes.xsd" namespace="http://dmr.cabig.cvit.org/Dmr/types" packageName="org.cvit.cabig.dmr.stubs.types" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="DmrReference" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace generateStubs="false" location="./xsd/cagrid/types/security/security.xsd" namespace="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.security" packageName="gov.nih.nci.cagrid.metadata.security" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="CommunicationMechanism" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="CommunicationStyle" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="GSISecureConversation" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="GSISecureMessage" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="GSITransport" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="None" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="Operation" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="ServiceSecurityMetadata" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace generateStubs="false" location="org.cvit.cabig.dmr.domain.xsd" namespace="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" packageName="org.cvit.cabig.dmr.domain" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement className="Algorithm" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Algorithm" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Book" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Book" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="DataClassification" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="DataClassification" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Entry" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Entry" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="EntryCategory" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="EntryCategory" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="EntryType" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="EntryType" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="ExperimentalData" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="ExperimentalData" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Image" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Image" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Movie" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Movie" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Organization" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Organization" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Paper" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Paper" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Parameters" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Parameters" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Person" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Person" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Reference" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Reference" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="Review" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="Review" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement className="SourceCode" deserializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40DeserializerFactory" serializer="gov.nih.nci.cagrid.sdkquery4.encoding.SDK40SerializerFactory" type="SourceCode" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace generateStubs="false" location="./xsd/cagrid/types/caGridMetadata.xsd" namespace="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata" packageName="gov.nih.nci.cagrid.metadata" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="ServiceMetadata" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace location="./1_gov.nih.nci.cagrid.CQLQuery.xsd" namespace="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLQuery" packageName="gov.nih.nci.cagrid.cqlquery" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="CQLQuery" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace location="./1_gov.nih.nci.cagrid.CQLResultSet.xsd" namespace="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet" packageName="gov.nih.nci.cagrid.cqlresultset" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="CQLQueryResultCollection" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace location="./Dmr_CQLResultTypes.xsd" namespace="http://dmr.cabig.cvit.org/Dmr/CQLResultTypes" packageName="org.cvit.cabig.dmr.cqlresulttypes" xsi:type="ns2:NamespaceType"/>
+  <ns2:Namespace location="./xsd/cagrid/types/data/data.xsd" namespace="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.dataservice" packageName="gov.nih.nci.cagrid.metadata.dataservice" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="DomainModel" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="UMLAssociation" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="UMLAssociationEdge" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="UMLClass" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="UMLClassReference" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="UMLGeneralization" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace generateStubs="false" location="./DataServiceExceptions.xsd" namespace="http://gov.nih.nci.cagrid.data/DataServiceExceptions" packageName="gov.nih.nci.cagrid.data.faults" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="MalformedQueryException" xsi:type="ns2:SchemaElementType"/>
+   <ns2:SchemaElement type="QueryProcessingException" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+  <ns2:Namespace generateStubs="false" location="./xsd/cagrid/types/caGridMetadata.xsd" namespace="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata" packageName="gov.nih.nci.cagrid.metadata" xsi:type="ns2:NamespaceType">
+   <ns2:SchemaElement type="ServiceMetadata" xsi:type="ns2:SchemaElementType"/>
+  </ns2:Namespace>
+ </ns2:Namespaces>
+ <ns3:Services xsi:type="ns3:ServicesType" xmlns:ns3="gme://gov.nih.nci.cagrid.introduce/1/Services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns3:Service name="Dmr" namespace="http://dmr.cabig.cvit.org/Dmr" packageName="org.cvit.cabig.dmr" xsi:type="ns3:ServiceType">
+   <ns4:Methods xsi:type="ns4:MethodsType" xmlns:ns4="gme://gov.nih.nci.cagrid.introduce/1/Methods">
+    <ns4:Method isImported="true" isProvided="true" name="GetMultipleResourceProperties" xsi:type="ns4:MethodType">
+     <ns4:Output qName="void" isArray="false"/>
+     <ns4:ImportInformation fromIntroduce="false" inputMessage="ns5:GetMultipleResourcePropertiesRequest" namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" outputMessage="ns5:GetMultipleResourcePropertiesResponse" packageName="org.oasis.wsrf.properties" portTypeName="GetMultipleResourceProperties" wsdlFile="../wsrf/properties/WS-ResourceProperties.wsdl" xmlns:ns5="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl"/>
+     <ns4:ProviderInformation providerClass="GetMRPProvider"/>
+    </ns4:Method>
+    <ns4:Method isImported="true" isProvided="true" name="GetResourceProperty" xsi:type="ns4:MethodType">
+     <ns4:Output qName="void" isArray="false"/>
+     <ns4:ImportInformation fromIntroduce="false" inputMessage="ns6:GetResourcePropertyRequest" namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" outputMessage="ns6:GetResourcePropertyResponse" packageName="org.oasis.wsrf.properties" portTypeName="GetResourceProperty" wsdlFile="../wsrf/properties/WS-ResourceProperties.wsdl" xmlns:ns6="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl"/>
+     <ns4:ProviderInformation providerClass="GetRPProvider"/>
+    </ns4:Method>
+    <ns4:Method isImported="true" isProvided="true" name="QueryResourceProperties" xsi:type="ns4:MethodType">
+     <ns4:Output qName="void" isArray="false"/>
+     <ns4:ImportInformation fromIntroduce="false" inputMessage="ns7:QueryResourcePropertiesRequest" namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" outputMessage="ns7:QueryResourcePropertiesResponse" packageName="org.oasis.wsrf.properties" portTypeName="QueryResourceProperties" wsdlFile="../wsrf/properties/WS-ResourceProperties.wsdl" xmlns:ns7="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl"/>
+     <ns4:ProviderInformation providerClass="QueryRPProvider"/>
+    </ns4:Method>
+    <ns4:Method isImported="true" isProvided="true" name="getServiceSecurityMetadata" xsi:type="ns4:MethodType">
+     <ns4:Output qName="ns8:ServiceSecurityMetadata" isArray="false" isClientHandle="false" xmlns:ns8="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.security"/>
+     <ns9:MethodSecurity xsi:type="ns9:MethodSecurity" xmlns:ns9="gme://gov.nih.nci.cagrid.introduce/1/Security">
+      <ns9:SecuritySetting xsi:type="ns9:SecuritySetting">None</ns9:SecuritySetting>
+      <ns9:MethodAuthorization xsi:type="ns9:MethodAuthorization">
+       <ns9:NoAuthorization xsi:type="ns9:NoAuthorization"/>
+      </ns9:MethodAuthorization>
+     </ns9:MethodSecurity>
+     <ns4:ImportInformation namespace="http://security.introduce.cagrid.nci.nih.gov/ServiceSecurity" packageName="gov.nih.nci.cagrid.introduce.security.stubs" portTypeName="ServiceSecurityPortType" wsdlFile="ServiceSecurity.wsdl"/>
+     <ns4:ProviderInformation providerClass="gov.nih.nci.cagrid.introduce.security.service.globus.ServiceSecurityProviderImpl"/>
+    </ns4:Method>
+    <ns4:Method description="The standard caGrid Data Service query method." isImported="true" isProvided="true" name="query" xsi:type="ns4:MethodType">
+     <ns4:Inputs>
+      <ns4:Input qName="ns10:CQLQuery" description="The CQL query to be executed against the data source." isArray="false" name="cqlQuery" xmlns:ns10="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLQuery"/>
+     </ns4:Inputs>
+     <ns4:Output qName="ns11:CQLQueryResultCollection" description="The result of executing the CQL query against the data source." isArray="false" xmlns:ns11="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet"/>
+     <ns4:Exceptions>
+      <ns4:Exception description="Thrown when an error occurs in processing a CQL query" name="QueryProcessingException" qname="ns12:QueryProcessingException" xmlns:ns12="http://gov.nih.nci.cagrid.data/DataServiceExceptions"/>
+      <ns4:Exception description="Thrown when a query is found to be improperly formed" name="MalformedQueryException" qname="ns13:MalformedQueryException" xmlns:ns13="http://gov.nih.nci.cagrid.data/DataServiceExceptions"/>
+     </ns4:Exceptions>
+     <ns4:ImportInformation inputMessage="ns14:QueryRequest" namespace="http://gov.nih.nci.cagrid.data/DataService" outputMessage="ns14:QueryResponse" packageName="gov.nih.nci.cagrid.data" portTypeName="DataServicePortType" wsdlFile="DataService.wsdl" xmlns:ns14="http://gov.nih.nci.cagrid.data/DataService"/>
+     <ns4:ProviderInformation providerClass="gov.nih.nci.cagrid.data.service.globus.DataServiceProviderImpl"/>
+    </ns4:Method>
+    <ns4:Method description="Stores a new Entry in DMR. Returns the Entry with DMR-assigned Entry.id." isImported="false" isProvided="false" name="addEntry" xsi:type="ns4:MethodType">
+     <ns4:Inputs>
+      <ns4:Input qName="ns15:Entry" description="" isArray="false" name="newEntry" xmlns:ns15="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+      <ns4:Input qName="ns16:Organization" description="" isArray="false" name="fundingOrganization" xmlns:ns16="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     </ns4:Inputs>
+     <ns4:Output qName="ns17:Entry" description="" isArray="false" xmlns:ns17="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     <ns4:Exceptions/>
+    </ns4:Method>
+    <ns4:Method description="Adds the provided Data to the DMR and sets association to Entry identified by sourceEntry. If Data already exists in DMR, method will only set association. If Data does not exist in DMR, Data will be added. Returns the DataClassification with DMR-assigned DataClassification.id." isImported="false" isProvided="false" name="addDataToEntry" xsi:type="ns4:MethodType">
+     <ns4:Inputs>
+      <ns4:Input qName="ns18:DataClassification" description="" isArray="false" name="data" xmlns:ns18="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+      <ns4:Input qName="ns19:Entry" description="" isArray="false" name="sourceEntry" xmlns:ns19="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     </ns4:Inputs>
+     <ns4:Output qName="ns20:DataClassification" description="" isArray="false" xmlns:ns20="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     <ns4:Exceptions/>
+    </ns4:Method>
+    <ns4:Method description="Adds the given Reference to the Entry identified by entryId" isImported="false" isProvided="false" name="addReferenceToEntry" xsi:type="ns4:MethodType">
+     <ns4:Inputs>
+      <ns4:Input qName="ns21:Reference" description="" isArray="false" name="reference" xmlns:ns21="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+      <ns4:Input qName="ns22:Entry" description="" isArray="false" name="sourceEntry" xmlns:ns22="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     </ns4:Inputs>
+     <ns4:Output qName="ns23:Reference" description="" isArray="false" xmlns:ns23="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     <ns4:Exceptions/>
+    </ns4:Method>
+    <ns4:Method description="Modify the content of the Entry (update fields) with the given Entry. Entry.id must match an existing Entry in the DMR" isImported="false" isProvided="false" name="updateEntry" xsi:type="ns4:MethodType">
+     <ns4:Inputs>
+      <ns4:Input qName="ns24:Entry" description="" isArray="false" name="entry" xmlns:ns24="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     </ns4:Inputs>
+     <ns4:Output qName="void" description="" isArray="false"/>
+     <ns4:Exceptions/>
+    </ns4:Method>
+    <ns4:Method description="Modifies the content of an existing Reference within the DMR" isImported="false" isProvided="false" name="updateReference" xsi:type="ns4:MethodType">
+     <ns4:Inputs>
+      <ns4:Input qName="ns25:Reference" description="" isArray="false" name="reference" xmlns:ns25="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     </ns4:Inputs>
+     <ns4:Output qName="void" description="" isArray="false"/>
+     <ns4:Exceptions/>
+    </ns4:Method>
+    <ns4:Method description="Modifies the content of an existing Data value in the DMR." isImported="false" isProvided="false" name="updateData" xsi:type="ns4:MethodType">
+     <ns4:Inputs>
+      <ns4:Input qName="ns26:DataClassification" description="" isArray="false" name="data" xmlns:ns26="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain"/>
+     </ns4:Inputs>
+     <ns4:Output qName="void" description="" isArray="false"/>
+     <ns4:Exceptions/>
+    </ns4:Method>
+   </ns4:Methods>
+   <ns27:ResourcePropertiesList xsi:type="ns27:ResourcePropertiesListType" xmlns:ns27="gme://gov.nih.nci.cagrid.introduce/1/Resources">
+    <ns27:ResourceProperty qName="ns28:DomainModel" fileLocation="domainModel.xml" populateFromFile="true" register="true" xsi:type="ns27:ResourcePropertyType" xmlns:ns28="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.dataservice"/>
+    <ns27:ResourceProperty qName="ns29:ServiceMetadata" fileLocation="serviceMetadata.xml" populateFromFile="true" register="true" xsi:type="ns27:ResourcePropertyType" xmlns:ns29="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata"/>
+   </ns27:ResourcePropertiesList>
+   <ns30:ServiceSecurity xsi:type="ns30:ServiceSecurity" xmlns:ns30="gme://gov.nih.nci.cagrid.introduce/1/Security">
+    <ns30:SecuritySetting xsi:type="ns30:SecuritySetting">Custom</ns30:SecuritySetting>
+    <ns30:TransportLevelSecurity xsi:type="ns30:TransportLevelSecurity">
+     <ns30:CommunicationMethod xsi:type="ns30:CommunicationMethod">Privacy</ns30:CommunicationMethod>
+    </ns30:TransportLevelSecurity>
+    <ns30:RunAsMode xsi:type="ns30:RunAsMode">System</ns30:RunAsMode>
+    <ns30:AnonymousClients xsi:type="ns30:AnonymousCommunication">No</ns30:AnonymousClients>
+    <ns30:ServiceAuthorization xsi:type="ns30:ServiceAuthorization">
+     <ns30:NoAuthorization xsi:type="ns30:NoAuthorization"/>
+    </ns30:ServiceAuthorization>
+   </ns30:ServiceSecurity>
+   <ns3:description xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"></ns3:description>
+   <ns3:ResourceFrameworkOptions xsi:type="ns3:ResourceFrameworkOptions">
+    <ns3:Main xsi:type="ns3:Main"/>
+    <ns3:Singleton xsi:type="ns3:Singleton"/>
+    <ns3:Identifiable xsi:type="ns3:Identifiable"/>
+    <ns3:Secure xsi:type="ns3:Secure"/>
+    <ns3:ResourcePropertyManagement xsi:type="ns3:ResourcePropertyManagement"/>
+   </ns3:ResourceFrameworkOptions>
+  </ns3:Service>
+ </ns3:Services>
+ <ns31:Extensions xsi:type="ns31:ExtensionsType" xmlns:ns31="gme://gov.nih.nci.cagrid.introduce/1/Extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns31:Extension name="cagrid_metadata" version="1.2" xsi:type="ns31:ExtensionType"/>
+  <ns31:Extension name="data" version="1.2" xsi:type="ns31:ExtensionType">
+   <ns31:ExtensionData>
+    <ns19:Data xsi:type="ns19:Data" xmlns:ns19="http://CQL.caBIG/1/gov.nih.nci.cagrid.data.extension">
+                 <ns19:AdditionalLibraries xsi:type="ns19:AdditionalLibraries">
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">geronimo-j2ee-management_1.0_spec-1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">junit.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-jastor-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">lucene-core-2.0.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">mysql-connector-java-5.1.5-bin.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">slf4j-log4j12-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-iteration-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">json-1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">activeio-core-3.0.0-incubator.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-lang-2.3.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-jdbcutil-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">antlr-2.7.5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">geronimo-jms_1.1_spec-1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">slf4j-api-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">cvit_cql.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">derby-10.2.2.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-queryalgebra-evaluation-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-queryalgebra-model-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">jaxmexs-0.5.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-pool-1.3.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">stax-1.1.2-dev.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">iri.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">arq.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-queryresultio-api-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">stax-api-1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-rio-ntriples-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-text-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">jetty-6.1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-collections-3.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">jaxme2-0.5.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-core-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">miglayout-3.5.5-swing.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">abdera-core-0.2.0-incubating.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">xml-apis.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-indexer-api-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-sail-inferencer-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-concurrent-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">cvit_dmr.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-rio-rdfxml-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">ant-1.6.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">xom-1.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">backport-util-concurrent-2.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-sail-memory-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-repository-api-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-rio-n3-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-collections-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-io-1.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-fileupload-1.1.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">jenatest.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">caGrid-sdkQuery4-processor-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-lang-1.3.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">jena.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">axiom-api-1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-runner-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">jaxmeapi-0.5.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-test-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">axiom-impl-1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">caGrid-sdkQuery4-style-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">concurrent.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-net-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-queryparser-api-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-queryresultio-sparqlxml-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-cli-1.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">caGrid-sparqlQuery-style-0.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">json.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-sail-api-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-repository-sail-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-discovery-0.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-queryparser-serql-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-rio-turtle-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-common-2.5.1-ssl.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">lucene-core-2.3.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">wstx-asl-3.0.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-endpoint-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">mx4j-tools-3.0.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">activemq-jaas-4.1.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">collections-generic-4.01.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-logging-1.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">log4j-1.2.12.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">abdera-extensions-0.2.0-incubating.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-rio-trig-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-queryresultio-sparqljson-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-client-jena-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">abdera-parser-0.2.0-incubating.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-notification-servlet-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-server-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-owl-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">concurrent-1.3.4.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">icu4j_3_4.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-httpclient-3.0.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">mx4j-3.0.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-xml-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-dbcp-1.2.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-codec-1.3.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">beansbinding-1.2.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">jaxmejs-0.5.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-repository-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-indexer-lucene-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-rio-api-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-client-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-atom-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-glitter-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-rio-trix-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">arq-extra.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-javautils-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">activemq-core-4.1.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-indexer-model-lucene-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">aduna-io-1.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-model-2.0-beta5.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">commons-logging-1.1.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">icu4j-3.4.4.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">castor-1.0.2.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">xercesImpl.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">anzo-repository-servlet-2.5.1.jar</ns19:JarName>
+
+
+
+                  <ns19:JarName xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">openrdf-query-2.0-beta5.jar</ns19:JarName>
+
+
+
+     </ns19:AdditionalLibraries>
+
+
+
+                 <ns19:CadsrInformation noDomainModel="false" projectLongName="DigitalModelRepository(DMR)" projectVersion="1" serviceUrl="http://cadsr.training.cagrid.org:8080/wsrf/services/cagrid/CaDSRService" useSuppliedModel="false" xsi:type="ns19:CadsrInformation">
+                  <ns19:Packages mappedNamespace="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" name="org.cvit.cabig.dmr.domain" xsi:type="ns19:CadsrPackage">
+                   <ns19:CadsrClass className="Organization" elementName="Organization" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="EntryCategory" elementName="EntryCategory" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="DataClassification" elementName="DataClassification" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Person" elementName="Person" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="EntryType" elementName="EntryType" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Entry" elementName="Entry" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Reference" elementName="Reference" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Image" elementName="Image" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="SourceCode" elementName="SourceCode" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Book" elementName="Book" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Paper" elementName="Paper" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="ExperimentalData" elementName="ExperimentalData" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Algorithm" elementName="Algorithm" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Movie" elementName="Movie" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Review" elementName="Review" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+                   <ns19:CadsrClass className="Parameters" elementName="Parameters" selected="true" targetable="true" xsi:type="ns19:ClassMapping"/>
+
+
+
+      </ns19:Packages>
+
+
+
+     </ns19:CadsrInformation>
+
+
+
+                 <ns19:ServiceFeatures serviceStyle="SPARQL Data Service" useBdt="false" useGridIdeitifiers="false" useWsEnumeration="false" xsi:type="ns19:ServiceFeatures"/>
+
+
+
+    </ns19:Data>
+   </ns31:ExtensionData>
+  </ns31:Extension>
+ </ns31:Extensions>
+ <ns32:ServiceProperties xmlns:ns32="gme://gov.nih.nci.cagrid.introduce/1/Property">
+  <ns32:Property description="" isFromETC="false" key="queryProcessorClass" value="org.cvit.cabig.dmr.DmrQueryProcessor"/>
+  <ns32:Property description="" isFromETC="false" key="sdk4Style_beansJarFileName" value="Dmr-beans.jar"/>
+  <ns32:Property description="" isFromETC="false" key="cqlQueryProcessorConfig_applicationName" value="Dmr"/>
+  <ns32:Property description="The location of the server-config.wsdd file" isFromETC="true" key="serverConfigLocation" value="server-config.wsdd"/>
+  <ns32:Property description="The name of the class to use for CQL query structure validation" isFromETC="false" key="dataService_cqlValidatorClass" value="gov.nih.nci.cagrid.data.cql.validation.ObjectWalkingCQLValidator"/>
+  <ns32:Property description="The name of the class to use for CQL validation against a domain model" isFromETC="false" key="dataService_domainModelValidatorClass" value="gov.nih.nci.cagrid.data.cql.validation.DomainModelValidator"/>
+  <ns32:Property description="A flag to indicate that CQL should be validated for structural correctness" isFromETC="false" key="dataService_validateCqlFlag" value="false"/>
+  <ns32:Property description="A flag to indicate that CQL should be validated for correctness against the domain model" isFromETC="false" key="dataService_validateDomainModelFlag" value="false"/>
+  <ns32:Property description="The name of the file containing the class name to QName mapping" isFromETC="true" key="dataService_classMappingsFilename" value="classToQname.xml"/>
+  <ns32:Property description="Properties file for configuring Anzo RDF store" isFromETC="true" key="anzo_properties" value="anzo.properties"/>
+  <ns32:Property description="" isFromETC="false" key="cqlQueryProcessorConfig_database_password" value="cvit"/>
+  <ns32:Property description="" isFromETC="false" key="cqlQueryProcessorConfig_database_url" value="jdbc:mysql://10.0.0.8/cvit"/>
+  <ns32:Property description="" isFromETC="false" key="cqlQueryProcessorConfig_database_type" value="ServerMySQL"/>
+  <ns32:Property description="" isFromETC="false" key="cqlQueryProcessorConfig_user" value="username"/>
+  <ns32:Property description="" isFromETC="false" key="cqlQueryProcessorConfig_password" value="password"/>
+  <ns32:Property description="" isFromETC="false" key="cqlQueryProcessorConfig_database_user" value="dbusername"/>
+ </ns32:ServiceProperties>
+</ns1:ServiceDescription>

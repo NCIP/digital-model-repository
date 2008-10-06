@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" targetNamespace="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" elementFormDefault="qualified">
+  <xs:element name="Reference" type="Reference" />
+  <xs:complexType name="Reference">
+    <xs:sequence>
+      <xs:element name="entries" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Entry" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="title" type="xs:string" />
+    <xs:attribute name="description" type="xs:string" />
+    <xs:attribute name="source" type="xs:string" />
+    <xs:attribute name="comment" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="Review" type="Review" />
+  <xs:complexType name="Review">
+    <xs:complexContent>
+      <xs:extension base="Reference">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Book" type="Book" />
+  <xs:complexType name="Book">
+    <xs:complexContent>
+      <xs:extension base="Reference">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataClassification" type="DataClassification" />
+  <xs:complexType name="DataClassification">
+    <xs:sequence>
+      <xs:element name="entry" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Entry" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="title" type="xs:string" />
+    <xs:attribute name="description" type="xs:string" />
+    <xs:attribute name="source" type="xs:string" />
+    <xs:attribute name="comment" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="Algorithm" type="Algorithm" />
+  <xs:complexType name="Algorithm">
+    <xs:complexContent>
+      <xs:extension base="DataClassification">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SourceCode" type="SourceCode" />
+  <xs:complexType name="SourceCode">
+    <xs:complexContent>
+      <xs:extension base="DataClassification">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ExperimentalData" type="ExperimentalData" />
+  <xs:complexType name="ExperimentalData">
+    <xs:complexContent>
+      <xs:extension base="DataClassification">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Image" type="Image" />
+  <xs:complexType name="Image">
+    <xs:complexContent>
+      <xs:extension base="DataClassification">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Parameters" type="Parameters" />
+  <xs:complexType name="Parameters">
+    <xs:complexContent>
+      <xs:extension base="DataClassification">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Movie" type="Movie" />
+  <xs:complexType name="Movie">
+    <xs:complexContent>
+      <xs:extension base="DataClassification">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Organization" type="Organization" />
+  <xs:complexType name="Organization">
+    <xs:sequence>
+      <xs:element name="fundedEntries" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Entry" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="members" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Person" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="name" type="xs:string" />
+    <xs:attribute name="description" type="xs:string" />
+    <xs:attribute name="website" type="xs:string" />
+    <xs:attribute name="geoCode" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="Entry" type="Entry" />
+  <xs:complexType name="Entry">
+    <xs:sequence>
+      <xs:element name="keywords" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="string" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="fundingOrganization" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Organization" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="categories" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="EntryCategory" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="types" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="EntryType" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="references" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Reference" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="contributors" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Person" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="data" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="DataClassification" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="title" type="xs:string" />
+    <xs:attribute name="description" type="xs:string" />
+    <xs:attribute name="abstractText" type="xs:string" />
+    <xs:attribute name="concept" type="xs:string" />
+    <xs:attribute name="hypothesis" type="xs:string" />
+    <xs:attribute name="conclusion" type="xs:string" />
+    <xs:attribute name="note" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="Paper" type="Paper" />
+  <xs:complexType name="Paper">
+    <xs:complexContent>
+      <xs:extension base="Reference">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Person" type="Person" />
+  <xs:complexType name="Person">
+    <xs:sequence>
+      <xs:element name="organization" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Organization" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="entries" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Entry" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="userId" type="xs:string" />
+    <xs:attribute name="firstName" type="xs:string" />
+    <xs:attribute name="lastName" type="xs:string" />
+    <xs:attribute name="phone" type="xs:string" />
+    <xs:attribute name="emailAddress" type="xs:string" />
+    <xs:attribute name="website" type="xs:string" />
+    <xs:attribute name="depiction" type="xs:string" />
+    <xs:attribute name="research" type="xs:string" />
+    <xs:attribute name="geoCode" type="xs:string" />
+    <xs:attribute name="position" type="xs:string" />
+    <xs:attribute name="fax" type="xs:string" />
+    <xs:attribute name="address" type="xs:string" />
+    <xs:attribute name="researchInterest" type="xs:string" />
+    <xs:attribute name="title" type="xs:string" />
+    <xs:attribute name="seniority" type="xs:string" />
+    <xs:attribute name="group" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="EntryCategory" type="EntryCategory" />
+  <xs:complexType name="EntryCategory">
+    <xs:sequence>
+      <xs:element name="entries" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Entry" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="name" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="EntryType" type="EntryType" />
+  <xs:complexType name="EntryType">
+    <xs:sequence>
+      <xs:element name="entries" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Entry" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="name" type="xs:string" />
+  </xs:complexType>
+</xs:schema>
+

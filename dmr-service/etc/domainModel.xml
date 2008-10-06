@@ -1,0 +1,786 @@
+<ns1:DomainModel projectDescription="Digital Model Repository (DMR) to facilitate the collection and sharing of in silico models for the NCI ICBP program. This includes submission and retrieval of digital models, simulation-related workflow designs, visualization, parallelization, and multi-resolution modeling." projectLongName="DigitalModelRepository(DMR)" projectShortName="DMR" projectVersion="1" xmlns:ns1="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.dataservice">
+ <ns1:exposedUMLAssociationCollection>
+  <ns1:UMLAssociation bidirectional="true">
+   <ns1:targetUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="categories">
+     <ns1:UMLClassReference refid="58358065-A60E-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:targetUMLAssociationEdge>
+   <ns1:sourceUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="entries">
+     <ns1:UMLClassReference refid="58358065-A60B-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:sourceUMLAssociationEdge>
+  </ns1:UMLAssociation>
+  <ns1:UMLAssociation bidirectional="true">
+   <ns1:targetUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="entries">
+     <ns1:UMLClassReference refid="58358065-A60B-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:targetUMLAssociationEdge>
+   <ns1:sourceUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="contributors">
+     <ns1:UMLClassReference refid="58358065-A60D-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:sourceUMLAssociationEdge>
+  </ns1:UMLAssociation>
+  <ns1:UMLAssociation bidirectional="true">
+   <ns1:targetUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="fundedEntries">
+     <ns1:UMLClassReference refid="58358065-A60B-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:targetUMLAssociationEdge>
+   <ns1:sourceUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="1" minCardinality="0" roleName="fundingOrganization">
+     <ns1:UMLClassReference refid="58358065-A60A-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:sourceUMLAssociationEdge>
+  </ns1:UMLAssociation>
+  <ns1:UMLAssociation bidirectional="true">
+   <ns1:targetUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="members">
+     <ns1:UMLClassReference refid="58358065-A60D-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:targetUMLAssociationEdge>
+   <ns1:sourceUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="1" minCardinality="1" roleName="organization">
+     <ns1:UMLClassReference refid="58358065-A60A-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:sourceUMLAssociationEdge>
+  </ns1:UMLAssociation>
+  <ns1:UMLAssociation bidirectional="true">
+   <ns1:targetUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="entries">
+     <ns1:UMLClassReference refid="58358065-A60B-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:targetUMLAssociationEdge>
+   <ns1:sourceUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="references">
+     <ns1:UMLClassReference refid="58358065-A612-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:sourceUMLAssociationEdge>
+  </ns1:UMLAssociation>
+  <ns1:UMLAssociation bidirectional="true">
+   <ns1:targetUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="entries">
+     <ns1:UMLClassReference refid="58358065-A60B-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:targetUMLAssociationEdge>
+   <ns1:sourceUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="1" roleName="types">
+     <ns1:UMLClassReference refid="58358065-A60F-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:sourceUMLAssociationEdge>
+  </ns1:UMLAssociation>
+  <ns1:UMLAssociation bidirectional="true">
+   <ns1:targetUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="1" roleName="entry">
+     <ns1:UMLClassReference refid="58358065-A60B-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:targetUMLAssociationEdge>
+   <ns1:sourceUMLAssociationEdge>
+    <ns1:UMLAssociationEdge maxCardinality="-1" minCardinality="0" roleName="data">
+     <ns1:UMLClassReference refid="58358065-A615-4DD1-E044-0003BA3F9857"/>
+    </ns1:UMLAssociationEdge>
+   </ns1:sourceUMLAssociationEdge>
+  </ns1:UMLAssociation>
+ </ns1:exposedUMLAssociationCollection>
+ <ns1:exposedUMLClassCollection>
+  <ns1:UMLClass allowableAsTarget="true" className="Organization" description="An institution.  Most of these will be colleges, universities, and research institutes.  Each user in the repository is affiliated with one and only one organization.  Each organization has one or more licensing officers to approve of user's licensing requests." id="58358065-A60A-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns2:umlAttributeCollection xmlns:ns2="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns2:UMLAttribute dataTypeName="java.lang.String" description="Name of the organization" name="name" publicID="2475652" version="1.0">
+     <ns2:SemanticMetadata conceptCode="C42614" conceptDefinition="The words or language units by which a thing is known." conceptName="Name" order="0"/>
+     <ns2:ValueDomain longName="java.lang.String">
+      <ns2:enumerationCollection/>
+     </ns2:ValueDomain>
+    </ns2:UMLAttribute>
+    <ns2:UMLAttribute dataTypeName="java.lang.String" description="The identifier of the Organization." name="id" publicID="2787106" version="1.0">
+     <ns2:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns2:ValueDomain longName="java.lang.String">
+      <ns2:enumerationCollection/>
+     </ns2:ValueDomain>
+    </ns2:UMLAttribute>
+    <ns2:UMLAttribute dataTypeName="java.lang.String" description="Organization's homepage" name="website" publicID="2787107" version="1.0">
+     <ns2:SemanticMetadata conceptCode="C19467" conceptDefinition="The introductory page of a website; its navigational starting point." conceptName="Home Page" order="0"/>
+     <ns2:ValueDomain longName="java.lang.String">
+      <ns2:enumerationCollection/>
+     </ns2:ValueDomain>
+    </ns2:UMLAttribute>
+    <ns2:UMLAttribute dataTypeName="java.lang.String" description="Geographical location of organization used in cvit.org/mashup" name="geoCode" publicID="2787108" version="1.0">
+     <ns2:SemanticMetadata conceptCode="C68642" conceptDefinition="The angular distance north or south between an imaginary line around a heavenly body parallel to its equator and the equator itself." conceptName="Latitude" order="2"/>
+     <ns2:SemanticMetadata conceptCode="C68643" conceptDefinition="The angular distance of a point on the earth's surface east or west of an arbitrarily defined meridian, usually the Greenwich meridian." conceptName="Longitude" order="1"/>
+     <ns2:SemanticMetadata conceptCode="C25341" conceptDefinition="A position, site, or point in space where something can be found." conceptName="Location" order="0"/>
+     <ns2:ValueDomain longName="java.lang.String">
+      <ns2:enumerationCollection/>
+     </ns2:ValueDomain>
+    </ns2:UMLAttribute>
+    <ns2:UMLAttribute dataTypeName="java.lang.String" description="Brief description of the organization" name="description" publicID="2715685" version="1.0">
+     <ns2:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns2:ValueDomain longName="java.lang.String">
+      <ns2:enumerationCollection/>
+     </ns2:ValueDomain>
+    </ns2:UMLAttribute>
+   </ns2:umlAttributeCollection>
+   <ns3:SemanticMetadata conceptCode="C19711" conceptDefinition="A formal group of people with one or more shared goals." conceptName="Professional Organization or Group" order="0" xmlns:ns3="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Entry" description="An entry in the repository contains relevant, uploaded information regarding a project. Entries can only be created by Principal Investigators (PIs). With a Licensing Officer's (LO's) approval a PI can have his entry published to other users of the repository. Designated contributors can annotate entries with metadata." id="58358065-A60B-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns4:umlAttributeCollection xmlns:ns4="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="The identifier of the Entry." name="id" publicID="2787109" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="The outcome and significance of the project" name="conclusion" publicID="2787114" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C54033" conceptDefinition="A position or opinion or judgment reached after consideration." conceptName="Conclusion" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="A brief summary of the project's description." name="abstractText" publicID="2787111" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C60765" conceptDefinition="A written summary of the important points of a scientific article." conceptName="Abstract" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="List of 3-5 searchable terms characterizing the entry." name="keywords" publicID="2787462" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C43513" conceptDefinition="A small set of words designed to convey the subject of a technical article." conceptName="Keyword" order="0"/>
+     <ns4:ValueDomain longName="string Collection">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="A name to identify the entry." name="title" publicID="2787110" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="Space for adding notes" name="note" publicID="2787115" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C42619" conceptDefinition="A brief written record." conceptName="Note" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="What assumption(s) will be proved by this experiment?" name="hypothesis" publicID="2787113" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C28362" conceptDefinition="A tentative proposal made to explain certain observations or facts that requires further investigation to be verified." conceptName="Hypothesis" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="Background and basic idea of this project" name="concept" publicID="2787112" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C48910" conceptDefinition="Some matter, situation, or event that is thought about, written about, or discussed." conceptName="Subject" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+    <ns4:UMLAttribute dataTypeName="java.lang.String" description="A paragraph explaining why the entry exists and what project it contains.  This defines the scope for further data uploaded to the entry." name="description" publicID="2539914" version="1.0">
+     <ns4:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns4:ValueDomain longName="java.lang.String">
+      <ns4:enumerationCollection/>
+     </ns4:ValueDomain>
+    </ns4:UMLAttribute>
+   </ns4:umlAttributeCollection>
+   <ns5:SemanticMetadata conceptCode="C47885" conceptDefinition="Any piece of work that is undertaken or attempted." conceptName="Project" order="0" xmlns:ns5="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Paper" description="Tag indicates uploaded reference is a paper" id="58358065-A60C-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns6:umlAttributeCollection xmlns:ns6="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns6:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a paper Additional comments from user." name="comment" publicID="2787137" version="1.0">
+     <ns6:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns6:ValueDomain longName="java.lang.String">
+      <ns6:enumerationCollection/>
+     </ns6:ValueDomain>
+    </ns6:UMLAttribute>
+    <ns6:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a paper Name of reference." name="title" publicID="2787134" version="1.0">
+     <ns6:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns6:ValueDomain longName="java.lang.String">
+      <ns6:enumerationCollection/>
+     </ns6:ValueDomain>
+    </ns6:UMLAttribute>
+    <ns6:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a paper Link to the reference file." name="source" publicID="2787136" version="1.0">
+     <ns6:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns6:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns6:ValueDomain longName="java.lang.String">
+      <ns6:enumerationCollection/>
+     </ns6:ValueDomain>
+    </ns6:UMLAttribute>
+    <ns6:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a paper The identifier of the Reference." name="id" publicID="2787133" version="1.0">
+     <ns6:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns6:ValueDomain longName="java.lang.String">
+      <ns6:enumerationCollection/>
+     </ns6:ValueDomain>
+    </ns6:UMLAttribute>
+    <ns6:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a paper Details about/in the reference" name="description" publicID="2787135" version="1.0">
+     <ns6:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns6:ValueDomain longName="java.lang.String">
+      <ns6:enumerationCollection/>
+     </ns6:ValueDomain>
+    </ns6:UMLAttribute>
+   </ns6:umlAttributeCollection>
+   <ns7:SemanticMetadata conceptCode="C47902" conceptDefinition="A formal language in which computer programs are written. The definition of a particular language consists of both syntax (how the various symbols of the language may be combined) and semantics (the meaning of the language constructs). (Free On-LIne Dictionary of Computing)" conceptName="Article" order="0" xmlns:ns7="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Person" description="User profile" id="58358065-A60D-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns8:umlAttributeCollection xmlns:ns8="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Job title" name="position" publicID="2787120" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C25193" conceptDefinition="Crafts, trades, professions, or other means of earning a living.C0028811: Occupation " conceptName="Occupation" order="1"/>
+     <ns8:SemanticMetadata conceptCode="C19067" conceptDefinition="CL000986: Title " conceptName="Title" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="The persons DMR user id." name="userId" publicID="2438182" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C42694" conceptDefinition="A login name is the account name used to access a computer system. Also called user ID or user name, it is a way people identify themselves to their online service or Internet access provider. (learntheweb.com)" conceptName="Login Name" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="User's first name" name="firstName" publicID="2238014" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C40974" conceptDefinition="A word or group of words indicating a person's first (personal) name. (NCI)" conceptName="First Name" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Tracks groups of cvit users for cvit.org/teampages. One of Main | AdvisoryBoard | NCI | ICBP | Unlisted" name="group" publicID="2787123" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C41167" conceptDefinition="Organizational unit like a laboratory, institute or consortium." conceptName="Organizational Unit" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Current mailing address" name="address" publicID="2715594" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C70946" conceptDefinition="A physical location used by a person or organization for the purpose of receiving postal mail deliveries." conceptName="Postal Address" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="User's icon/picture" name="depiction" publicID="2787117" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C54273" conceptDefinition="A visual representation of an object, scene, person or abstraction." conceptName="Picture" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Fax number" name="fax" publicID="2238094" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C42879" conceptDefinition="A telephone number that is used for identifying a destination fax machine in a telephone network." conceptName="Fax Number" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Type of research being done by user. (used in cvit.org/mashup)" name="research" publicID="2787118" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C25284" conceptDefinition="Type; a subdivision of a particular kind of thing." conceptName="Type" order="0"/>
+     <ns8:SemanticMetadata conceptCode="C15429" conceptDefinition="Systematic investigation into a subject in order to discover facts, establish or revise a theory, or develop a plan of action based on the facts discovered." conceptName="Research Activity" order="1"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Tracks a user's expertise level. One of Faculty | Postdoc | GradStudent | Other" name="seniority" publicID="2787122" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C25193" conceptDefinition="Crafts, trades, professions, or other means of earning a living.C0028811: Occupation " conceptName="Occupation" order="1"/>
+     <ns8:SemanticMetadata conceptCode="C25554" conceptDefinition="A position on a scale measuring intensity, quality, or amount.  (NCI)" conceptName="Level" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Email address" name="emailAddress" publicID="2238093" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C42775" conceptDefinition="An e-mail address identifies a location to which e-mail can be delivered. A modern Internet e-mail address (using SMTP) is a string of the form jsmith@domain.example. (from Wikipedia)" conceptName="E-mail Address" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Geographical location of person on cvit.org/mashup" name="geoCode" publicID="2787119" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C25341" conceptDefinition="A position, site, or point in space where something can be found." conceptName="Location" order="0"/>
+     <ns8:SemanticMetadata conceptCode="C68643" conceptDefinition="The angular distance of a point on the earth's surface east or west of an arbitrarily defined meridian, usually the Greenwich meridian." conceptName="Longitude" order="1"/>
+     <ns8:SemanticMetadata conceptCode="C68642" conceptDefinition="The angular distance north or south between an imaginary line around a heavenly body parallel to its equator and the equator itself." conceptName="Latitude" order="2"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Suffix titles.  Usually Ph.D. or M.D.." name="title" publicID="2772997" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C25354" conceptDefinition="An academic degree is an award conferred by a college, university, or other postsecondary education institution as official recognition for the successful completion of a program of studies." conceptName="Academic Degree" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="The identifier of the Person." name="id" publicID="2535396" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="User's last name" name="lastName" publicID="2238015" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C40975" conceptDefinition="A word or group of words indicating a person's last (family) name. (NCI)" conceptName="Last Name" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Several paragraphs describing current research interests" name="researchInterest" publicID="2787121" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C48910" conceptDefinition="Some matter, situation, or event that is thought about, written about, or discussed." conceptName="Subject" order="0"/>
+     <ns8:SemanticMetadata conceptCode="C15429" conceptDefinition="Systematic investigation into a subject in order to discover facts, establish or revise a theory, or develop a plan of action based on the facts discovered." conceptName="Research Activity" order="1"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="User's homepage" name="website" publicID="2787116" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C19467" conceptDefinition="The introductory page of a website; its navigational starting point." conceptName="Home Page" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+    <ns8:UMLAttribute dataTypeName="java.lang.String" description="Phone number" name="phone" publicID="2238095" version="1.0">
+     <ns8:SemanticMetadata conceptCode="C40978" conceptDefinition="A telephone number is a sequence of decimal digits (0-9) that is used for identifying a destination telephone line or other device in a telephone network.  In the US this is a ten digit number resembling &quot;123-456-7890&quot;." conceptName="Telephone Number" order="0"/>
+     <ns8:ValueDomain longName="java.lang.String">
+      <ns8:enumerationCollection/>
+     </ns8:ValueDomain>
+    </ns8:UMLAttribute>
+   </ns8:umlAttributeCollection>
+   <ns9:SemanticMetadata conceptCode="C25190" conceptDefinition="Person; a human being." conceptName="Person" order="0" xmlns:ns9="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="EntryCategory" description="Enumerates a set of classifications to facilitate discovery and retrieval of entries.  Each entry may be tagged with an Entry Category so that it can be found in the classification tree." id="58358065-A60E-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns10:umlAttributeCollection xmlns:ns10="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns10:UMLAttribute dataTypeName="java.lang.String" description="The identifier of the EntryCategory." name="id" publicID="2787124" version="1.0">
+     <ns10:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns10:ValueDomain longName="java.lang.String">
+      <ns10:enumerationCollection/>
+     </ns10:ValueDomain>
+    </ns10:UMLAttribute>
+    <ns10:UMLAttribute dataTypeName="java.lang.String" description="The name for the category." name="name" publicID="2787125" version="1.0">
+     <ns10:SemanticMetadata conceptCode="C42614" conceptDefinition="The words or language units by which a thing is known." conceptName="Name" order="0"/>
+     <ns10:ValueDomain longName="java.lang.String">
+      <ns10:enumerationCollection/>
+     </ns10:ValueDomain>
+    </ns10:UMLAttribute>
+   </ns10:umlAttributeCollection>
+   <ns11:SemanticMetadata conceptCode="C47885" conceptDefinition="Any piece of work that is undertaken or attempted." conceptName="Project" order="1" xmlns:ns11="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+   <ns12:SemanticMetadata conceptCode="C25372" conceptDefinition="Category; used informally to mean a class of things." conceptName="Category" order="0" xmlns:ns12="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="EntryType" description="Model entry classification denotes the origin of the data. (Computation | Invitro | Invivo | Clinical)" id="58358065-A60F-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns13:umlAttributeCollection xmlns:ns13="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns13:UMLAttribute dataTypeName="java.lang.String" description="The identifier of the EntryType." name="id" publicID="2787126" version="1.0">
+     <ns13:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns13:ValueDomain longName="java.lang.String">
+      <ns13:enumerationCollection/>
+     </ns13:ValueDomain>
+    </ns13:UMLAttribute>
+    <ns13:UMLAttribute dataTypeName="java.lang.String" description="The name of the Entry Type. One of In silico, In vitro, In vivo, Clinical." name="name" publicID="2787127" version="1.0">
+     <ns13:SemanticMetadata conceptCode="C42614" conceptDefinition="The words or language units by which a thing is known." conceptName="Name" order="0"/>
+     <ns13:ValueDomain longName="Entry Type">
+      <ns13:enumerationCollection>
+       <ns13:Enumeration permissibleValue="In silico" valueMeaning="Computation">
+        <ns13:SemanticMetadata conceptCode="C61298" conceptDefinition="The act of calculating; determining something by mathematical or logical methods." conceptName="Computation" order="0"/>
+       </ns13:Enumeration>
+       <ns13:Enumeration permissibleValue="In vitro" valueMeaning="In vitro">
+        <ns13:SemanticMetadata conceptCode="C15263" conceptDefinition="In the laboratory; literally, &quot;in glass&quot;." conceptName="in vitro" order="0"/>
+       </ns13:Enumeration>
+       <ns13:Enumeration permissibleValue="In vivo" valueMeaning="In vivo">
+        <ns13:SemanticMetadata conceptCode="C15744" conceptDefinition="Located or occurring in the body; the opposite of in vitro (located or occurring outside the body)." conceptName="in vivo" order="0"/>
+       </ns13:Enumeration>
+       <ns13:Enumeration permissibleValue="Clinical" valueMeaning="Clinical">
+        <ns13:SemanticMetadata conceptCode="C25398" conceptDefinition="Having to do with the examination and treatment of patients." conceptName="Clinical" order="0"/>
+       </ns13:Enumeration>
+      </ns13:enumerationCollection>
+     </ns13:ValueDomain>
+    </ns13:UMLAttribute>
+   </ns13:umlAttributeCollection>
+   <ns14:SemanticMetadata conceptCode="C47885" conceptDefinition="Any piece of work that is undertaken or attempted." conceptName="Project" order="2" xmlns:ns14="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+   <ns15:SemanticMetadata conceptCode="C25474" conceptDefinition="A collection of facts from which conclusions may be drawn." conceptName="Data" order="1" xmlns:ns15="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+   <ns16:SemanticMetadata conceptCode="C25284" conceptDefinition="Type; a subdivision of a particular kind of thing." conceptName="Type" order="0" xmlns:ns16="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Reference" description="Link to a bibliographical reference.  This can point to a pdf for upload, a pubmed id, or a reference already in the repository." id="58358065-A612-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns17:umlAttributeCollection xmlns:ns17="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns17:UMLAttribute dataTypeName="java.lang.String" description="Link to the reference file." name="source" publicID="2787099" version="1.0">
+     <ns17:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns17:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns17:ValueDomain longName="java.lang.String">
+      <ns17:enumerationCollection/>
+     </ns17:ValueDomain>
+    </ns17:UMLAttribute>
+    <ns17:UMLAttribute dataTypeName="java.lang.String" description="Additional comments from user." name="comment" publicID="2787100" version="1.0">
+     <ns17:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns17:ValueDomain longName="java.lang.String">
+      <ns17:enumerationCollection/>
+     </ns17:ValueDomain>
+    </ns17:UMLAttribute>
+    <ns17:UMLAttribute dataTypeName="java.lang.String" description="Name of reference." name="title" publicID="2238066" version="1.0">
+     <ns17:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns17:ValueDomain longName="java.lang.String">
+      <ns17:enumerationCollection/>
+     </ns17:ValueDomain>
+    </ns17:UMLAttribute>
+    <ns17:UMLAttribute dataTypeName="java.lang.String" description="The identifier of the Reference." name="id" publicID="2787097" version="1.0">
+     <ns17:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns17:ValueDomain longName="java.lang.String">
+      <ns17:enumerationCollection/>
+     </ns17:ValueDomain>
+    </ns17:UMLAttribute>
+    <ns17:UMLAttribute dataTypeName="java.lang.String" description="Details about/in the reference" name="description" publicID="2787098" version="1.0">
+     <ns17:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns17:ValueDomain longName="java.lang.String">
+      <ns17:enumerationCollection/>
+     </ns17:ValueDomain>
+    </ns17:UMLAttribute>
+   </ns17:umlAttributeCollection>
+   <ns18:SemanticMetadata conceptCode="C25641" conceptDefinition="A short note acknowledging a source of information or quoting a passage." conceptName="Reference" order="0" xmlns:ns18="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Review" description="Tag indicates uploaded reference is a review" id="58358065-A613-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns19:umlAttributeCollection xmlns:ns19="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns19:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a review Name of reference." name="title" publicID="2787154" version="1.0">
+     <ns19:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns19:ValueDomain longName="java.lang.String">
+      <ns19:enumerationCollection/>
+     </ns19:ValueDomain>
+    </ns19:UMLAttribute>
+    <ns19:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a review Additional comments from user." name="comment" publicID="2787157" version="1.0">
+     <ns19:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns19:ValueDomain longName="java.lang.String">
+      <ns19:enumerationCollection/>
+     </ns19:ValueDomain>
+    </ns19:UMLAttribute>
+    <ns19:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a review The identifier of the Reference." name="id" publicID="2787153" version="1.0">
+     <ns19:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns19:ValueDomain longName="java.lang.String">
+      <ns19:enumerationCollection/>
+     </ns19:ValueDomain>
+    </ns19:UMLAttribute>
+    <ns19:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a review Link to the reference file." name="source" publicID="2787156" version="1.0">
+     <ns19:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns19:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns19:ValueDomain longName="java.lang.String">
+      <ns19:enumerationCollection/>
+     </ns19:ValueDomain>
+    </ns19:UMLAttribute>
+    <ns19:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a review Details about/in the reference" name="description" publicID="2787155" version="1.0">
+     <ns19:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns19:ValueDomain longName="java.lang.String">
+      <ns19:enumerationCollection/>
+     </ns19:ValueDomain>
+    </ns19:UMLAttribute>
+   </ns19:umlAttributeCollection>
+   <ns20:SemanticMetadata conceptCode="C42729" conceptDefinition="The act of appraisal, evaluation, or analysis." conceptName="Review" order="1" xmlns:ns20="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+   <ns21:SemanticMetadata conceptCode="C47902" conceptDefinition="A formal language in which computer programs are written. The definition of a particular language consists of both syntax (how the various symbols of the language may be combined) and semantics (the meaning of the language constructs). (Free On-LIne Dictionary of Computing)" conceptName="Article" order="0" xmlns:ns21="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Book" description="Tag indicates uploaded reference is a book" id="58358065-A614-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns22:umlAttributeCollection xmlns:ns22="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns22:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a book Link to the reference file." name="source" publicID="2787131" version="1.0">
+     <ns22:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns22:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns22:ValueDomain longName="java.lang.String">
+      <ns22:enumerationCollection/>
+     </ns22:ValueDomain>
+    </ns22:UMLAttribute>
+    <ns22:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a book Additional comments from user." name="comment" publicID="2787132" version="1.0">
+     <ns22:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns22:ValueDomain longName="java.lang.String">
+      <ns22:enumerationCollection/>
+     </ns22:ValueDomain>
+    </ns22:UMLAttribute>
+    <ns22:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a book The identifier of the Reference." name="id" publicID="2787128" version="1.0">
+     <ns22:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns22:ValueDomain longName="java.lang.String">
+      <ns22:enumerationCollection/>
+     </ns22:ValueDomain>
+    </ns22:UMLAttribute>
+    <ns22:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a book Name of reference." name="title" publicID="2787129" version="1.0">
+     <ns22:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns22:ValueDomain longName="java.lang.String">
+      <ns22:enumerationCollection/>
+     </ns22:ValueDomain>
+    </ns22:UMLAttribute>
+    <ns22:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded reference is a book Details about/in the reference" name="description" publicID="2787130" version="1.0">
+     <ns22:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns22:ValueDomain longName="java.lang.String">
+      <ns22:enumerationCollection/>
+     </ns22:ValueDomain>
+    </ns22:UMLAttribute>
+   </ns22:umlAttributeCollection>
+   <ns23:SemanticMetadata conceptCode="C16360" conceptDefinition="A volume made up of pages fastened along one edge and enclosed between protective covers. (from American Heritage Dictionary)" conceptName="Book" order="0" xmlns:ns23="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="DataClassification" description="Data files can be included in an entry by way of upload, http reference, or internal repository reference." id="58358065-A615-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns24:umlAttributeCollection xmlns:ns24="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns24:UMLAttribute dataTypeName="java.lang.String" description="Any additional user input" name="comment" publicID="2787105" version="1.0">
+     <ns24:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns24:ValueDomain longName="java.lang.String">
+      <ns24:enumerationCollection/>
+     </ns24:ValueDomain>
+    </ns24:UMLAttribute>
+    <ns24:UMLAttribute dataTypeName="java.lang.String" description="Name of the upload" name="title" publicID="2787102" version="1.0">
+     <ns24:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns24:ValueDomain longName="java.lang.String">
+      <ns24:enumerationCollection/>
+     </ns24:ValueDomain>
+    </ns24:UMLAttribute>
+    <ns24:UMLAttribute dataTypeName="java.lang.String" description="Link to the file itself" name="source" publicID="2787104" version="1.0">
+     <ns24:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns24:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns24:ValueDomain longName="java.lang.String">
+      <ns24:enumerationCollection/>
+     </ns24:ValueDomain>
+    </ns24:UMLAttribute>
+    <ns24:UMLAttribute dataTypeName="java.lang.String" description="The identifier of the DataClassification." name="id" publicID="2787101" version="1.0">
+     <ns24:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns24:ValueDomain longName="java.lang.String">
+      <ns24:enumerationCollection/>
+     </ns24:ValueDomain>
+    </ns24:UMLAttribute>
+    <ns24:UMLAttribute dataTypeName="java.lang.String" description="A brief description of the file's contents" name="description" publicID="2787103" version="1.0">
+     <ns24:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns24:ValueDomain longName="java.lang.String">
+      <ns24:enumerationCollection/>
+     </ns24:ValueDomain>
+    </ns24:UMLAttribute>
+   </ns24:umlAttributeCollection>
+   <ns25:SemanticMetadata conceptCode="C25474" conceptDefinition="A collection of facts from which conclusions may be drawn." conceptName="Data" order="1" xmlns:ns25="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+   <ns26:SemanticMetadata conceptCode="C25161" conceptDefinition="A method of generalization, the systematic arrangement of entities into classes or groups based on mutual similarity and certain differing characteristics." conceptName="Classification" order="0" xmlns:ns26="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Algorithm" description="Tag indicates uploaded data is an algorithm" id="58358065-A616-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns27:umlAttributeCollection xmlns:ns27="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns27:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an algorithm Any additional user input" name="comment" publicID="2787147" version="1.0">
+     <ns27:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns27:ValueDomain longName="java.lang.String">
+      <ns27:enumerationCollection/>
+     </ns27:ValueDomain>
+    </ns27:UMLAttribute>
+    <ns27:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an algorithm A brief description of the file's contents" name="description" publicID="2787145" version="1.0">
+     <ns27:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns27:ValueDomain longName="java.lang.String">
+      <ns27:enumerationCollection/>
+     </ns27:ValueDomain>
+    </ns27:UMLAttribute>
+    <ns27:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an algorithm Name of the upload" name="title" publicID="2787144" version="1.0">
+     <ns27:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns27:ValueDomain longName="java.lang.String">
+      <ns27:enumerationCollection/>
+     </ns27:ValueDomain>
+    </ns27:UMLAttribute>
+    <ns27:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an algorithm Link to the file itself" name="source" publicID="2787146" version="1.0">
+     <ns27:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns27:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns27:ValueDomain longName="java.lang.String">
+      <ns27:enumerationCollection/>
+     </ns27:ValueDomain>
+    </ns27:UMLAttribute>
+    <ns27:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an algorithm The identifier of the DataClassification." name="id" publicID="2787143" version="1.0">
+     <ns27:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns27:ValueDomain longName="java.lang.String">
+      <ns27:enumerationCollection/>
+     </ns27:ValueDomain>
+    </ns27:UMLAttribute>
+   </ns27:umlAttributeCollection>
+   <ns28:SemanticMetadata conceptCode="C16275" conceptDefinition="A defined procedure for solving a problem.  Applied to a problem-solving procedure implemented in software to be executed by a computer." conceptName="Algorithm" order="0" xmlns:ns28="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="SourceCode" description="Tag indicates uploaded data is source code" id="58358065-A617-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns29:umlAttributeCollection xmlns:ns29="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns29:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is source code A brief description of the file's contents" name="description" publicID="2787167" version="1.0">
+     <ns29:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns29:ValueDomain longName="java.lang.String">
+      <ns29:enumerationCollection/>
+     </ns29:ValueDomain>
+    </ns29:UMLAttribute>
+    <ns29:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is source code The identifier of the DataClassification." name="id" publicID="2787165" version="1.0">
+     <ns29:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns29:ValueDomain longName="java.lang.String">
+      <ns29:enumerationCollection/>
+     </ns29:ValueDomain>
+    </ns29:UMLAttribute>
+    <ns29:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is source code Link to the file itself" name="source" publicID="2787168" version="1.0">
+     <ns29:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns29:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns29:ValueDomain longName="java.lang.String">
+      <ns29:enumerationCollection/>
+     </ns29:ValueDomain>
+    </ns29:UMLAttribute>
+    <ns29:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is source code Name of the upload" name="title" publicID="2787166" version="1.0">
+     <ns29:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns29:ValueDomain longName="java.lang.String">
+      <ns29:enumerationCollection/>
+     </ns29:ValueDomain>
+    </ns29:UMLAttribute>
+    <ns29:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is source code Any additional user input" name="comment" publicID="2787169" version="1.0">
+     <ns29:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns29:ValueDomain longName="java.lang.String">
+      <ns29:enumerationCollection/>
+     </ns29:ValueDomain>
+    </ns29:UMLAttribute>
+   </ns29:umlAttributeCollection>
+   <ns30:SemanticMetadata conceptCode="C47901" conceptDefinition="Program instructions written as an ASCII text file; must be translated by a compiler or interpreter or assembler into the object code for a particular computer before execution." conceptName="Source Code" order="0" xmlns:ns30="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="ExperimentalData" description="Tag indicates uploaded data is experimental data" id="58358065-A618-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns31:umlAttributeCollection xmlns:ns31="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns31:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is experimental data A brief description of the file's contents" name="description" publicID="2787140" version="1.0">
+     <ns31:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns31:ValueDomain longName="java.lang.String">
+      <ns31:enumerationCollection/>
+     </ns31:ValueDomain>
+    </ns31:UMLAttribute>
+    <ns31:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is experimental data The identifier of the DataClassification." name="id" publicID="2787138" version="1.0">
+     <ns31:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns31:ValueDomain longName="java.lang.String">
+      <ns31:enumerationCollection/>
+     </ns31:ValueDomain>
+    </ns31:UMLAttribute>
+    <ns31:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is experimental data Any additional user input" name="comment" publicID="2787142" version="1.0">
+     <ns31:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns31:ValueDomain longName="java.lang.String">
+      <ns31:enumerationCollection/>
+     </ns31:ValueDomain>
+    </ns31:UMLAttribute>
+    <ns31:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is experimental data Link to the file itself" name="source" publicID="2787141" version="1.0">
+     <ns31:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns31:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns31:ValueDomain longName="java.lang.String">
+      <ns31:enumerationCollection/>
+     </ns31:ValueDomain>
+    </ns31:UMLAttribute>
+    <ns31:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is experimental data Name of the upload" name="title" publicID="2787139" version="1.0">
+     <ns31:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns31:ValueDomain longName="java.lang.String">
+      <ns31:enumerationCollection/>
+     </ns31:ValueDomain>
+    </ns31:UMLAttribute>
+   </ns31:umlAttributeCollection>
+   <ns32:SemanticMetadata conceptCode="C42790" conceptDefinition="In the scientific method, an experiment is a set of actions and observations, performed to verify or falsify a hypothesis or research a causal relationship between phenomena. The experiment is a cornerstone of the empirical approach to knowledge. (from Wikipedia)" conceptName="Experiment" order="1" xmlns:ns32="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+   <ns33:SemanticMetadata conceptCode="C25474" conceptDefinition="A collection of facts from which conclusions may be drawn." conceptName="Data" order="0" xmlns:ns33="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Image" description="Tag indicates uploaded data is an image" id="58358065-A619-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns34:umlAttributeCollection xmlns:ns34="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns34:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an image Name of the upload" name="title" publicID="2438073" version="1.0">
+     <ns34:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns34:ValueDomain longName="java.lang.String">
+      <ns34:enumerationCollection/>
+     </ns34:ValueDomain>
+    </ns34:UMLAttribute>
+    <ns34:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an image Any additional user input" name="comment" publicID="2778472" version="1.0">
+     <ns34:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns34:ValueDomain longName="java.lang.String">
+      <ns34:enumerationCollection/>
+     </ns34:ValueDomain>
+    </ns34:UMLAttribute>
+    <ns34:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an image Link to the file itself" name="source" publicID="2787164" version="1.0">
+     <ns34:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns34:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns34:ValueDomain longName="java.lang.String">
+      <ns34:enumerationCollection/>
+     </ns34:ValueDomain>
+    </ns34:UMLAttribute>
+    <ns34:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an image The identifier of the DataClassification." name="id" publicID="2787163" version="1.0">
+     <ns34:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns34:ValueDomain longName="java.lang.String">
+      <ns34:enumerationCollection/>
+     </ns34:ValueDomain>
+    </ns34:UMLAttribute>
+    <ns34:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is an image A brief description of the file's contents" name="description" publicID="2438074" version="1.0">
+     <ns34:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns34:ValueDomain longName="java.lang.String">
+      <ns34:enumerationCollection/>
+     </ns34:ValueDomain>
+    </ns34:UMLAttribute>
+   </ns34:umlAttributeCollection>
+   <ns35:SemanticMetadata conceptCode="C48179" conceptDefinition="Any record of an imaging event whether physical or electronic." conceptName="Image" order="0" xmlns:ns35="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Parameters" description="Tag indicates uploaded data is a set of parameters" id="58358065-A61A-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns36:umlAttributeCollection xmlns:ns36="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns36:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a set of parameters Name of the upload" name="title" publicID="2787159" version="1.0">
+     <ns36:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns36:ValueDomain longName="java.lang.String">
+      <ns36:enumerationCollection/>
+     </ns36:ValueDomain>
+    </ns36:UMLAttribute>
+    <ns36:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a set of parameters Any additional user input" name="comment" publicID="2787162" version="1.0">
+     <ns36:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns36:ValueDomain longName="java.lang.String">
+      <ns36:enumerationCollection/>
+     </ns36:ValueDomain>
+    </ns36:UMLAttribute>
+    <ns36:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a set of parameters Link to the file itself" name="source" publicID="2787161" version="1.0">
+     <ns36:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns36:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns36:ValueDomain longName="java.lang.String">
+      <ns36:enumerationCollection/>
+     </ns36:ValueDomain>
+    </ns36:UMLAttribute>
+    <ns36:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a set of parameters A brief description of the file's contents" name="description" publicID="2787160" version="1.0">
+     <ns36:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns36:ValueDomain longName="java.lang.String">
+      <ns36:enumerationCollection/>
+     </ns36:ValueDomain>
+    </ns36:UMLAttribute>
+    <ns36:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a set of parameters The identifier of the DataClassification." name="id" publicID="2787158" version="1.0">
+     <ns36:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns36:ValueDomain longName="java.lang.String">
+      <ns36:enumerationCollection/>
+     </ns36:ValueDomain>
+    </ns36:UMLAttribute>
+   </ns36:umlAttributeCollection>
+   <ns37:SemanticMetadata conceptCode="C48913" conceptDefinition="A value that is passed to a routine." conceptName="Programming Parameter" order="0" xmlns:ns37="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+  <ns1:UMLClass allowableAsTarget="true" className="Movie" description="Tag indicates uploaded data is a movie (e.g., simulation, microscopy)" id="58358065-A61B-4DD1-E044-0003BA3F9857" packageName="org.cvit.cabig.dmr.domain" projectName="DMR" projectVersion="1">
+   <ns38:umlAttributeCollection xmlns:ns38="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common">
+    <ns38:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a movie (e.g., simulation, microscopy) Any additional user input" name="comment" publicID="2787152" version="1.0">
+     <ns38:SemanticMetadata conceptCode="C25393" conceptDefinition="A written explanation, observation or criticism added to textual material." conceptName="Comment" order="0"/>
+     <ns38:ValueDomain longName="java.lang.String">
+      <ns38:enumerationCollection/>
+     </ns38:ValueDomain>
+    </ns38:UMLAttribute>
+    <ns38:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a movie (e.g., simulation, microscopy) A brief description of the file's contents" name="description" publicID="2787150" version="1.0">
+     <ns38:SemanticMetadata conceptCode="C25365" conceptDefinition="Description; a statement that represents something in words." conceptName="Description" order="0"/>
+     <ns38:ValueDomain longName="java.lang.String">
+      <ns38:enumerationCollection/>
+     </ns38:ValueDomain>
+    </ns38:UMLAttribute>
+    <ns38:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a movie (e.g., simulation, microscopy) The identifier of the DataClassification." name="id" publicID="2787148" version="1.0">
+     <ns38:SemanticMetadata conceptCode="C25364" conceptDefinition="One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing." conceptName="Identifier" order="0"/>
+     <ns38:ValueDomain longName="java.lang.String">
+      <ns38:enumerationCollection/>
+     </ns38:ValueDomain>
+    </ns38:UMLAttribute>
+    <ns38:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a movie (e.g., simulation, microscopy) Name of the upload" name="title" publicID="2787149" version="1.0">
+     <ns38:SemanticMetadata conceptCode="C42774" conceptDefinition="The name of a work of art or literary composition etc." conceptName="Title" order="0"/>
+     <ns38:ValueDomain longName="java.lang.String">
+      <ns38:enumerationCollection/>
+     </ns38:ValueDomain>
+    </ns38:UMLAttribute>
+    <ns38:UMLAttribute dataTypeName="java.lang.String" description="Tag indicates uploaded data is a movie (e.g., simulation, microscopy) Link to the file itself" name="source" publicID="2787151" version="1.0">
+     <ns38:SemanticMetadata conceptCode="C42743" conceptDefinition="A Uniform Resource Locator is an Internet address which tells a browser where to find an Internet resource. (from http://www.computeruser.com)" conceptName="Uniform Resource Locator" order="0"/>
+     <ns38:SemanticMetadata conceptCode="C16048" conceptDefinition="Sources of information such as libraries, databases, and websites." conceptName="Information Resource" order="1"/>
+     <ns38:ValueDomain longName="java.lang.String">
+      <ns38:enumerationCollection/>
+     </ns38:ValueDomain>
+    </ns38:UMLAttribute>
+   </ns38:umlAttributeCollection>
+   <ns39:SemanticMetadata conceptCode="C75001" conceptDefinition="A sequence of images displayed in succession giving the illusion of continuous movement." conceptName="Movie" order="0" xmlns:ns39="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.common"/>
+  </ns1:UMLClass>
+ </ns1:exposedUMLClassCollection>
+ <ns1:umlGeneralizationCollection>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A614-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A612-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A60C-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A612-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A618-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A615-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A616-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A615-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A61B-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A615-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A613-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A612-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A61A-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A615-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A619-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A615-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+  <ns1:UMLGeneralization>
+   <ns1:subClassReference refid="58358065-A617-4DD1-E044-0003BA3F9857"/>
+   <ns1:superClassReference refid="58358065-A615-4DD1-E044-0003BA3F9857"/>
+  </ns1:UMLGeneralization>
+ </ns1:umlGeneralizationCollection>
+</ns1:DomainModel>

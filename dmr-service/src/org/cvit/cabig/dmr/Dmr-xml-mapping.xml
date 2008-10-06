@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Object Mapping DTD Version 1.0//EN" "http://www.castor.org/mapping.dtd">
+
+<mapping>
+  <class name="org.cvit.cabig.dmr.domain.EntryCategory" identity="id">
+    <map-to xml="EntryCategory" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+    <field name="id" type="string">
+      <bind-xml name="id" node="attribute" />
+    </field>
+    <field name="name" type="string">
+      <bind-xml name="name" node="attribute" />
+    </field>
+    <field name="entries" type="org.cvit.cabig.dmr.domain.Entry" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Entry" type="org.cvit.cabig.dmr.domain.Entry" location="entries" node="element" />
+    </field>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.DataClassification" identity="id">
+    <map-to xml="DataClassification" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+    <field name="id" type="string">
+      <bind-xml name="id" node="attribute" />
+    </field>
+    <field name="title" type="string">
+      <bind-xml name="title" node="attribute" />
+    </field>
+    <field name="description" type="string">
+      <bind-xml name="description" node="attribute" />
+    </field>
+    <field name="source" type="string">
+      <bind-xml name="source" node="attribute" />
+    </field>
+    <field name="comment" type="string">
+      <bind-xml name="comment" node="attribute" />
+    </field>
+    <field name="entry" type="org.cvit.cabig.dmr.domain.Entry" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Entry" type="org.cvit.cabig.dmr.domain.Entry" location="entry" node="element" />
+    </field>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Organization" identity="id">
+    <map-to xml="Organization" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+    <field name="id" type="string">
+      <bind-xml name="id" node="attribute" />
+    </field>
+    <field name="name" type="string">
+      <bind-xml name="name" node="attribute" />
+    </field>
+    <field name="description" type="string">
+      <bind-xml name="description" node="attribute" />
+    </field>
+    <field name="website" type="string">
+      <bind-xml name="website" node="attribute" />
+    </field>
+    <field name="geoCode" type="string">
+      <bind-xml name="geoCode" node="attribute" />
+    </field>
+    <field name="fundedEntries" type="org.cvit.cabig.dmr.domain.Entry" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Entry" type="org.cvit.cabig.dmr.domain.Entry" location="fundedEntries" node="element" />
+    </field>
+    <field name="members" type="org.cvit.cabig.dmr.domain.Person" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Person" type="org.cvit.cabig.dmr.domain.Person" location="members" node="element" />
+    </field>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.EntryType" identity="id">
+    <map-to xml="EntryType" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+    <field name="id" type="string">
+      <bind-xml name="id" node="attribute" />
+    </field>
+    <field name="name" type="string">
+      <bind-xml name="name" node="attribute" />
+    </field>
+    <field name="entries" type="org.cvit.cabig.dmr.domain.Entry" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Entry" type="org.cvit.cabig.dmr.domain.Entry" location="entries" node="element" />
+    </field>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Reference" identity="id">
+    <map-to xml="Reference" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+    <field name="id" type="string">
+      <bind-xml name="id" node="attribute" />
+    </field>
+    <field name="title" type="string">
+      <bind-xml name="title" node="attribute" />
+    </field>
+    <field name="description" type="string">
+      <bind-xml name="description" node="attribute" />
+    </field>
+    <field name="source" type="string">
+      <bind-xml name="source" node="attribute" />
+    </field>
+    <field name="comment" type="string">
+      <bind-xml name="comment" node="attribute" />
+    </field>
+    <field name="entries" type="org.cvit.cabig.dmr.domain.Entry" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Entry" type="org.cvit.cabig.dmr.domain.Entry" location="entries" node="element" />
+    </field>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Person" identity="id">
+    <map-to xml="Person" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+    <field name="id" type="string">
+      <bind-xml name="id" node="attribute" />
+    </field>
+    <field name="userId" type="string">
+      <bind-xml name="userId" node="attribute" />
+    </field>
+    <field name="firstName" type="string">
+      <bind-xml name="firstName" node="attribute" />
+    </field>
+    <field name="lastName" type="string">
+      <bind-xml name="lastName" node="attribute" />
+    </field>
+    <field name="phone" type="string">
+      <bind-xml name="phone" node="attribute" />
+    </field>
+    <field name="emailAddress" type="string">
+      <bind-xml name="emailAddress" node="attribute" />
+    </field>
+    <field name="website" type="string">
+      <bind-xml name="website" node="attribute" />
+    </field>
+    <field name="depiction" type="string">
+      <bind-xml name="depiction" node="attribute" />
+    </field>
+    <field name="research" type="string">
+      <bind-xml name="research" node="attribute" />
+    </field>
+    <field name="geoCode" type="string">
+      <bind-xml name="geoCode" node="attribute" />
+    </field>
+    <field name="position" type="string">
+      <bind-xml name="position" node="attribute" />
+    </field>
+    <field name="fax" type="string">
+      <bind-xml name="fax" node="attribute" />
+    </field>
+    <field name="address" type="string">
+      <bind-xml name="address" node="attribute" />
+    </field>
+    <field name="researchInterest" type="string">
+      <bind-xml name="researchInterest" node="attribute" />
+    </field>
+    <field name="title" type="string">
+      <bind-xml name="title" node="attribute" />
+    </field>
+    <field name="seniority" type="string">
+      <bind-xml name="seniority" node="attribute" />
+    </field>
+    <field name="group" type="string">
+      <bind-xml name="group" node="attribute" />
+    </field>
+    <field name="organization" type="org.cvit.cabig.dmr.domain.Organization" handler="gov.nih.nci.system.client.util.xml.CastorDomainObjectFieldHandler">
+      <bind-xml name="Organization" type="org.cvit.cabig.dmr.domain.Organization" location="organization" node="element" />
+    </field>
+    <field name="entries" type="org.cvit.cabig.dmr.domain.Entry" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Entry" type="org.cvit.cabig.dmr.domain.Entry" location="entries" node="element" />
+    </field>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Entry" identity="id">
+    <map-to xml="Entry" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+    <field name="id" type="string">
+      <bind-xml name="id" node="attribute" />
+    </field>
+    <field name="title" type="string">
+      <bind-xml name="title" node="attribute" />
+    </field>
+    <field name="description" type="string">
+      <bind-xml name="description" node="attribute" />
+    </field>
+    <field name="abstractText" type="string">
+      <bind-xml name="abstractText" node="attribute" />
+    </field>
+    <field name="concept" type="string">
+      <bind-xml name="concept" node="attribute" />
+    </field>
+    <field name="hypothesis" type="string">
+      <bind-xml name="hypothesis" node="attribute" />
+    </field>
+    <field name="conclusion" type="string">
+      <bind-xml name="conclusion" node="attribute" />
+    </field>
+    <field name="note" type="string">
+      <bind-xml name="note" node="attribute" />
+    </field>
+    <field name="keywords" type="string" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="string" type="string" location="keywords" node="element" />
+    </field>
+    <field name="fundingOrganization" type="org.cvit.cabig.dmr.domain.Organization" handler="gov.nih.nci.system.client.util.xml.CastorDomainObjectFieldHandler">
+      <bind-xml name="Organization" type="org.cvit.cabig.dmr.domain.Organization" location="fundingOrganization" node="element" />
+    </field>
+    <field name="categories" type="org.cvit.cabig.dmr.domain.EntryCategory" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="EntryCategory" type="org.cvit.cabig.dmr.domain.EntryCategory" location="categories" node="element" />
+    </field>
+    <field name="types" type="org.cvit.cabig.dmr.domain.EntryType" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="EntryType" type="org.cvit.cabig.dmr.domain.EntryType" location="types" node="element" />
+    </field>
+    <field name="references" type="org.cvit.cabig.dmr.domain.Reference" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Reference" type="org.cvit.cabig.dmr.domain.Reference" location="references" node="element" />
+    </field>
+    <field name="contributors" type="org.cvit.cabig.dmr.domain.Person" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="Person" type="org.cvit.cabig.dmr.domain.Person" location="contributors" node="element" />
+    </field>
+    <field name="data" type="org.cvit.cabig.dmr.domain.DataClassification" collection="collection" handler="gov.nih.nci.system.client.util.xml.CastorCollectionFieldHandler">
+      <bind-xml name="DataClassification" type="org.cvit.cabig.dmr.domain.DataClassification" location="data" node="element" />
+    </field>
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Book" identity="id" extends="org.cvit.cabig.dmr.domain.Reference">
+    <map-to xml="Book" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.ExperimentalData" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification">
+    <map-to xml="ExperimentalData" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Paper" identity="id" extends="org.cvit.cabig.dmr.domain.Reference">
+    <map-to xml="Paper" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Review" identity="id" extends="org.cvit.cabig.dmr.domain.Reference">
+    <map-to xml="Review" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Movie" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification">
+    <map-to xml="Movie" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.SourceCode" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification">
+    <map-to xml="SourceCode" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Image" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification">
+    <map-to xml="Image" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Algorithm" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification">
+    <map-to xml="Algorithm" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+  <class name="org.cvit.cabig.dmr.domain.Parameters" identity="id" extends="org.cvit.cabig.dmr.domain.DataClassification">
+    <map-to xml="Parameters" ns-uri="gme://caCORE.caCORE/3.2/org.cvit.cabig.dmr.domain" />
+  </class>
+</mapping>
+
