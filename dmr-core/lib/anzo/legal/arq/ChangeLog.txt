@@ -1,0 +1,58 @@
+ChangeLog for ARQ
+=================
+
+ARQ 2.0
+-------
+
+This version uses the SPARQL algebra directly,
+then produces an execution scheme that uses streaming
+execution where possible.
+
++ SPARQL changes
+  + Prefixed names can now start with a digit.  ex:123 is now a legal prefix name.
+  + The working group has removed attributes "ordered" and "distinct" from the
+    XML Results format. These have been removed in this release.  ARQ will read
+    old style XML files (and ignore the attributes).
+
++ Multiple query engines:
+  + Main query engine for optimization and efficient execution
+  + Reference engine for checking functionality
+    (implements the SPARQL evaluation semantics very simply for clarity and validation)
+  + Remote access engine for querying SPARQL endpoints over HTTP.
+  + Engine1, for exact ARQ1 semantics and enhancements
+    (deprecated for new applications (and will be removed sometime))
+  + RDQL engine
+  + See also SDB - an ARQ query engine that for RDF stored in SQL databases 
+
++ Access and extension points:
+   + Filter functions
+   + Property functions
+   + The parsed syntax
+   + Generation of the SPARQL algebra expression
+     + Modification of SPARQL algebra expression before executin plan generation
+     + Custom algebra operations 
+   + Basic graph pattern replacement or modification
+     for access to other data sources
+   + Modular query engine class hierarchy for reuse of machinary,
+     resulting in less extra coding for extensions.
+ 
+ + Internal changes
+   + Package reorganisation
+     Implemnentation in com.hp.hpl.jena.sparql
+   + Filter functions now take a Context, not an ExecutionContext.
+   + Deprecate "EXT" form from ARQ.
+     (Property functions are better)
+     
+ + Experimental SPARQL/Update API
+   See http://jena.hpl.hp.com/~afs/SPARQL-Update.html
+
+Post ARQ-2.0-beta: 
++ Added REDUCED as per DAWG decision 2007-03-20
++ OpDistinct and OpReduce no longer take a variable list
++ Removed ElementExtension/PlanExtension and extension package
+  The ARQ(beyond SPARQL feature) of "EXT" has been removed.
+  Element visitors may be affected.
++ Added an update API
++ LARQ
+	+ added access to the match score
+	+ added limits on score or number of results as part of Lucene search

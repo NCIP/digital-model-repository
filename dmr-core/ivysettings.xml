@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings>
+  <settings defaultResolver="default"/>
+
+  <resolvers>
+    <chain name="default">
+      <url name="remote-caGrid-ivy-resolver">
+        <ivy pattern="http://software.cagrid.org/repository-1.2/[organisation]/[module]/ivy-[revision].xml"/>
+        <artifact pattern="http://software.cagrid.org/repository-1.2/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+        <artifact pattern="http://software.cagrid.org/repository-1.2/[organisation]/[module]/[revision]/[artifact].[ext]"/>
+      </url>
+      <ibiblio name="maven2" m2compatible="true" />
+    </chain>
+  </resolvers>
+
+</ivysettings>

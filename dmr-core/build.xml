@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<project name="dmr-core">
+	<property name="project.name" value="${ant.project.name}" />
+	<property name="project.version" value="1.0.11" />
+
+	<property environment="env" />
+	<property name="globus.dir" value="${env.GLOBUS_LOCATION}" />
+
+	<property name="lib.dir" value="lib" />
+	<property name="anzo.lib.dir" value="${lib.dir}/anzo" />
+	<property name="common.lib.dir" value="${lib.dir}/common" />
+	<property name="tests.lib.dir" value="${lib.dir}/tests" />
+	<property name="globus.lib.dir" value="${globus.dir}/lib" />
+
+	<property name="build.dir" value="build"/>
+	<property name="common.build.dir" value="${build.dir}/classes" />
+	<property name="tests.build.dir" value="${build.dir}/tests-classes" />
+	
+	<property name="common.src.dir" value="src" />
+	<property name="tests.src.dir" value="tests-src" />
+
+	<property name="jar.dir" value="${build.dir}/jars" />
+	<property name="common.jar.name" value="${project.name}-${project.version}.jar"/>
+	<property name="tests.jar.name" value="${project.name}-${project.version}-tests.jar" />
+	<property name="common.jar.path" value="${jar.dir}/${common.jar.name}" />
+	<property name="tests.jar.path" value="${jar.dir}/${tests.jar.name}" />
+
+	<path id="common.lib.path">
+		<fileset dir="${lib.dir}">
+			<include name="Dmr-beans.jar" />
+			<include name="its-cql-0.1.jar" />
+		</fileset>
+		<fileset dir="${anzo.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${common.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${globus.lib.dir}">
+			<include name="*.jar" />
+			<exclude name="caGrid-*.jar" />
+		</fileset>
+	</path>
+
+	<path id="tests.lib.path">
+		<path refid="common.lib.path" />
+		<pathelement location="${common.build.dir}" />
+		<fileset dir="${tests.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<path id="run.tests.path">
+		<path refid="tests.lib.path" />
+		<pathelement location="${tests.build.dir}" />
+	</path>
+
+	<target name="build">
+		<mkdir dir="${common.build.dir}" />
+		<javac srcdir="${common.src.dir}" destdir="${common.build.dir}" classpathref="common.lib.path" />	
+	</target>
+
+	<target name="build-tests" depends="build">
+		<mkdir dir="${tests.build.dir}" />
+		<javac srcdir="${tests.src.dir}" destdir="${tests.build.dir}" classpathref="tests.lib.path" />
+	</target>
+
+	<target name="clean">
+		<delete dir="${build.dir}" failonerror="false" />
+	</target>
+
+	<target name="run-tests" depends="build-tests">
+		<junit printsummary="true" haltonfailure="false">
+			<classpath refid="run.tests.path" />
+			<formatter type="brief" usefile="false" />
+			<batchtest>
+				<fileset dir="${tests.build.dir}" includes="**/*Tests.class" />
+			</batchtest>
+		</junit>
+	</target>
+
+	<target name="jar" depends="build-tests">
+		<mkdir dir="${jar.dir}" />
+		<jar destfile="${common.jar.path}" index="true">
+			<fileset dir="${common.build.dir}" />
+		</jar>
+		<jar destfile="${tests.jar.path}" index="true">
+			<fileset dir="${tests.build.dir}" />
+		</jar>
+	</target>
+</project>

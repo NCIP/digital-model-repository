@@ -1,0 +1,34 @@
+<ivy-module version="2.0">
+    <info organisation="org.cvit.cabig.dmr" module="dmr-core">
+    	<license name="caGrid" url="http://www.cagrid.org/wiki/CaGrid:LICENSE-1.2"/>
+    	<description>Digital Model Repository</description>
+    </info>
+    
+    <configurations>
+    	<conf name="common" />
+    	<conf name="tests" />
+    </configurations>
+    
+    <dependencies>
+    	<dependency org="com.hp.hpl.jena" name="arq" rev="2.3" conf="common->*" />
+    	<dependency org="org.slf4j" name="slf4j-api" rev="1.5.3" conf="common->*" />
+    
+    	<!-- These should be able to be split between confs for auth-service, dmr-service instead of all under default conf -->
+        <dependency org="caGrid" name="cql" rev="1.2" conf="common->*" />
+        <dependency org="caGrid" name="data" rev="1.2" conf="common->*" />
+	<dependency org="caGrid" name="sdkQuery4" rev="1.2" conf="common->*" />
+        <dependency org="caGrid" name="authentication-service" rev="1.2" conf="common->common" />
+        <dependency org="caGrid" name="introduce" rev="1.2" conf="common->serviceTools" />
+        <dependency org="cacore" name="csm" rev="3.2" conf="common->auth" />
+        
+        <!-- Test dependencies -->
+        <dependency org="junit"  name="junit-dep" rev="4.5" conf="tests->*" >
+        	<exclude org="org.hamcrest" />
+        </dependency> 
+        <dependency org="org.jmock" name="jmock-junit4" rev="2.5.1" conf="tests->*">
+        	<exclude org="junit" />
+        	<exclude org="org.easymock" />
+        	<exclude org="jmock" />
+        </dependency>
+    </dependencies>
+</ivy-module>
