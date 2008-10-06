@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    
+    <bean id="anzoProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="location">
+            <value>file:C:\caGrid\anzo.properties</value>
+        </property>
+    </bean>
+
+    <bean id="serviceBase" class="org.openanzo.model.embedded.EmbeddedServiceBase">
+        <constructor-arg ref="anzoProperties" />
+    </bean>
+
+    <bean id="authenticationService" class="org.openanzo.model.embedded.EmbeddedAuthenticationService" destroy-method="close">
+	<constructor-arg ref="serviceBase" />
+    </bean>
+
+    <bean id="modelService" class="org.openanzo.model.embedded.EmbeddedModelService" destroy-method="close">
+        <constructor-arg ref="serviceBase" />
+    </bean>
+
+    <bean id="subjectProvider" class="org.cvit.cabig.dmr.anzo.CvitSubjectProvider">
+        <constructor-arg ref="authenticationService" />
+	<constructor-arg ref="modelService" />
+    </bean>
+    
+    <bean id="samlProvider" class="gov.nih.nci.cagrid.authentication.service.DefaultSAMLProvider" 
+        init-method="loadCertificates">
+        <property name="certificateFileName" value="C:\caGrid\host-cert\10.0.0.243-cert.pem"/>
+	<property name="privateKeyFileName" value="C:\caGrid\host-cert\10.0.0.243-key.pem" />
+    </bean>
+
+    <bean id="authenticationProvider" class="gov.nih.nci.cagrid.authentication.service.DefaultAuthenticationProvider">
+        <property name="subjectProvider" ref="subjectProvider"/>
+        <property name="samlProvider" ref="samlProvider"/>
+    </bean>    
+    
+    
+</beans>
