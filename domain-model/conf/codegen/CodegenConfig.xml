@@ -32,7 +32,7 @@
 	<!-- 									 -->
 	<bean name="UMLModel" factory-bean="UMLModelLoader" factory-method="getUMLModel" singleton="true"/>
 	<bean name="UMLModelLoader" class="gov.nih.nci.codegen.UMLModelLoader" singleton="true">
-		<constructor-arg value="models/MGH_DMR-1.0.10.uml"></constructor-arg>
+		<constructor-arg value="models/MGH_DMR-1.0.11.uml"></constructor-arg>
 		<constructor-arg value="ARGO"></constructor-arg>
 	</bean>
 

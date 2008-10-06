@@ -333,6 +333,28 @@ public class Entry  implements Serializable
 	}
 		
 	/**
+	* An associated org.cvit.cabig.dmr.domain.EntryType object's collection 
+	**/
+			
+	private Collection<EntryType> types;
+	/**
+	* Retreives the value of types attribue
+	* @return types
+	**/
+
+	public Collection<EntryType> getTypes(){
+		return types;
+	}
+
+	/**
+	* Sets the value of types attribue
+	**/
+
+	public void setTypes(Collection<EntryType> types){
+		this.types = types;
+	}
+		
+	/**
 	* An associated org.cvit.cabig.dmr.domain.Reference object's collection 
 	**/
 			
@@ -352,28 +374,6 @@ public class Entry  implements Serializable
 
 	public void setReferences(Collection<Reference> references){
 		this.references = references;
-	}
-		
-	/**
-	* An associated org.cvit.cabig.dmr.domain.DataClassification object's collection 
-	**/
-			
-	private Collection<DataClassification> data;
-	/**
-	* Retreives the value of data attribue
-	* @return data
-	**/
-
-	public Collection<DataClassification> getData(){
-		return data;
-	}
-
-	/**
-	* Sets the value of data attribue
-	**/
-
-	public void setData(Collection<DataClassification> data){
-		this.data = data;
 	}
 		
 	/**
@@ -399,25 +399,25 @@ public class Entry  implements Serializable
 	}
 		
 	/**
-	* An associated org.cvit.cabig.dmr.domain.EntryType object's collection 
+	* An associated org.cvit.cabig.dmr.domain.DataClassification object's collection 
 	**/
 			
-	private Collection<EntryType> types;
+	private Collection<DataClassification> data;
 	/**
-	* Retreives the value of types attribue
-	* @return types
+	* Retreives the value of data attribue
+	* @return data
 	**/
 
-	public Collection<EntryType> getTypes(){
-		return types;
+	public Collection<DataClassification> getData(){
+		return data;
 	}
 
 	/**
-	* Sets the value of types attribue
+	* Sets the value of data attribue
 	**/
 
-	public void setTypes(Collection<EntryType> types){
-		this.types = types;
+	public void setData(Collection<DataClassification> data){
+		this.data = data;
 	}
 		
 	/**

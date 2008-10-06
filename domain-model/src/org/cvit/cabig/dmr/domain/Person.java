@@ -290,7 +290,7 @@ public class Person  implements Serializable
 	}
 	
 		/**
-	* Coordinates for placing organizations on cvit.org/mashup	**/
+	* Geographical location of person on cvit.org/mashup	**/
 	public String geoCode;
 	/**
 	* Retreives the value of geoCode attribute
@@ -450,6 +450,27 @@ public class Person  implements Serializable
 	}
 	
 	/**
+	* An associated org.cvit.cabig.dmr.domain.Organization object
+	**/
+			
+	private Organization organization;
+	/**
+	* Retreives the value of organization attribue
+	* @return organization
+	**/
+	
+	public Organization getOrganization(){
+		return organization;
+	}
+	/**
+	* Sets the value of organization attribue
+	**/
+
+	public void setOrganization(Organization organization){
+		this.organization = organization;
+	}
+			
+	/**
 	* An associated org.cvit.cabig.dmr.domain.Entry object's collection 
 	**/
 			
@@ -471,27 +492,6 @@ public class Person  implements Serializable
 		this.entries = entries;
 	}
 		
-	/**
-	* An associated org.cvit.cabig.dmr.domain.Organization object
-	**/
-			
-	private Organization organization;
-	/**
-	* Retreives the value of organization attribue
-	* @return organization
-	**/
-	
-	public Organization getOrganization(){
-		return organization;
-	}
-	/**
-	* Sets the value of organization attribue
-	**/
-
-	public void setOrganization(Organization organization){
-		this.organization = organization;
-	}
-			
 	/**
 	* Compares <code>obj</code> to it self and returns true if they both are same
 	*

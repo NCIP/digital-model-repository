@@ -190,7 +190,7 @@ public class Organization  implements Serializable
 	}
 	
 		/**
-	* Geographical location of organization in “lat, long” format.  Used in cvit.org/mashup	**/
+	* Geographical location of organization used in cvit.org/mashup	**/
 	public String geoCode;
 	/**
 	* Retreives the value of geoCode attribute
