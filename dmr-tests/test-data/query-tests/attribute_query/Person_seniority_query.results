@@ -1,0 +1,32 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Person" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority" value="Faculty"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority" value="Other"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority" value="Other"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority" value="Faculty"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="seniority"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

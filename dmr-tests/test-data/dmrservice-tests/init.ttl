@@ -1,0 +1,201 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#principal_investigator_role> a rbac:Role .
+
+role:default a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#role> a rbac:Role .
+
+role:sysAdmin a rbac:Role .
+
+role:everyone a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#licensing_officer_role> a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> a rbac:Role .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> a rbac:Role .
+
+<http://openanzo.org/ACL/eb1acb44-8fae-4de7-a7f7-2e0bd8a282d3> a rbac:ACL ;
+	rbac:add role:sysAdmin ;
+	rbac:read role:everyone ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:remove role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:read role:sysAdmin .
+
+<http://openanzo.org/ACL/b882a173-7a19-4f2c-a40b-51063ebc810b> a rbac:ACL ;
+	rbac:read role:everyone ;
+	rbac:remove role:sysAdmin ;
+	rbac:add role:everyone ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:add role:sysAdmin ;
+	rbac:read role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin .
+
+<http://openanzo.org/ACL/SystemAcl> a rbac:ACL ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> ;
+	rbac:read role:sysAdmin ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> , role:sysAdmin ;
+	rbac:remove role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> , <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> ;
+	rbac:add role:sysAdmin ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> ;
+	rbac:removeNamedGraph role:sysAdmin .
+
+<http://openanzo.org/ACL/be60b9e5-0785-4ae4-9213-422f0da3b5cb> a rbac:ACL ;
+	rbac:read <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> , role:sysAdmin ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:remove role:sysAdmin ;
+	rbac:removeNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:add role:sysAdmin ;
+	rbac:remove <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:add <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> .
+
+<http://openanzo.org/ACL/b02475a0-dbf5-44a6-a2b9-b199cc9ecd1d> a rbac:ACL ;
+	rbac:removeNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> , role:sysAdmin ;
+	rbac:read <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:add role:sysAdmin ;
+	rbac:remove <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	rbac:add <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	rbac:read role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	rbac:remove role:sysAdmin .
+
+<http://openanzo.org/ACL/4729f020-034d-42ed-b2a1-0d814bdbdbce> a rbac:ACL ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:add role:sysAdmin ;
+	rbac:read role:sysAdmin ;
+	rbac:remove role:sysAdmin ;
+	rbac:insertNamedGraph role:sysAdmin .
+
+<http://openanzo.org/ACL/b6ba04ff-21d8-4c43-845b-eba5721ab27c> a rbac:ACL ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> ;
+	rbac:remove <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> , role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:read <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> , role:sysAdmin ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:add <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> ;
+	rbac:removeNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> ;
+	rbac:add role:sysAdmin .
+
+<http://openanzo.org/ACL/73bcd674-86e3-40d6-8ed0-e439825d7e9f> a rbac:ACL ;
+	rbac:remove role:sysAdmin ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:add <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> , role:sysAdmin ;
+	rbac:read role:sysAdmin ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:read <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> ;
+	rbac:removeNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> ;
+	rbac:remove <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> .
+
+<http://openanzo.org/ACL/19f3e837-4455-4c30-b9c9-df034f900260> a rbac:ACL ;
+	rbac:add <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:remove role:sysAdmin ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:add role:sysAdmin ;
+	rbac:remove <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	rbac:insertNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	rbac:removeNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	rbac:read role:sysAdmin , <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#readAndAddOnlyDataCreator> a rbac:User ;
+	pred:userId "readAndAddOnlyDataCreator"^^xsd:string ;
+	pred:password "welcome" ;
+	rbac:inRole role:everyone ;
+	pred:defaultRole role:sysAdmin ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/b882a173-7a19-4f2c-a40b-51063ebc810b> ;
+	rbac:inRole role:sysAdmin .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> a rbac:User ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/be60b9e5-0785-4ae4-9213-422f0da3b5cb> ;
+	rbac:inRole role:everyone , <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> , <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> ;
+	pred:defaultRole <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:cvit#role> ;
+	pred:password "welcome" ;
+	pred:userId "reader"^^xsd:string .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> a rbac:User ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> , role:everyone ;
+	pred:userId "noaccess"^^xsd:string ;
+	pred:defaultRole <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:cvit#role> ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/b6ba04ff-21d8-4c43-845b-eba5721ab27c> ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> ;
+	pred:password "welcome" .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> a rbac:User ;
+	rbac:inRole role:everyone ;
+	pred:defaultRole <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	pred:userId "lo"^^xsd:string ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> ;
+	pred:password "welcome" ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:cvit#role> , <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/19f3e837-4455-4c30-b9c9-df034f900260> ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:cvit#licensing_officer_role> .
+
+<http://openanzo.org/users/sysadmin> a rbac:User ;
+	pred:defaultRole role:sysAdmin ;
+	rbac:inRole role:sysAdmin ;
+	pred:userId "sysadmin"^^xsd:string ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/4729f020-034d-42ed-b2a1-0d814bdbdbce> ;
+	rbac:inRole role:everyone ;
+	pred:password "sysadminpw" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#readOnlyDataCreator> a rbac:User ;
+	rbac:inRole role:sysAdmin ;
+	pred:userId "readOnlyDataCreator"^^xsd:string ;
+	rbac:inRole role:everyone ;
+	pred:defaultRole role:sysAdmin ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/eb1acb44-8fae-4de7-a7f7-2e0bd8a282d3> ;
+	pred:password "welcome" .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> a rbac:User ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/73bcd674-86e3-40d6-8ed0-e439825d7e9f> ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:cvit#role> ;
+	pred:password "welcome" ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> , role:everyone ;
+	pred:defaultRole <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> ;
+	pred:userId "co"^^xsd:string ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> , <urn:lsid:telar.cambridgesemantics.com:cvit#principal_investigator_role> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> a rbac:User ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:cvit#principal_investigator_role> ;
+	pred:userId "pi"^^xsd:string ;
+	rbac:inRole role:everyone , <urn:lsid:telar.cambridgesemantics.com:cvit#role> ;
+	pred:defaultAclTemplate <http://openanzo.org/ACL/b02475a0-dbf5-44a6-a2b9-b199cc9ecd1d> ;
+	pred:defaultRole <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	pred:password "welcome" ;
+	rbac:inRole <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> .
+
+ngr:defaultSystemGraph a type:NamedGraph ;
+	pred:usesAcl <http://openanzo.org/ACL/SystemAcl> .

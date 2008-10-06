@@ -1,0 +1,83 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.EntryCategory" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Immunology"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Genetics"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Statistics"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Cell Cycle"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Metastasis"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Angiogenesis"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Proliferation"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Hybrid"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Continuum"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Signaling Pathways"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Other"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Treatment"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Microenvironment"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Control"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Motility"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Discrete"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Cellular Automaton"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Agent Based"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="2D"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="CISNET"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="1D"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="3D"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Chemotherapy"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Radiotherapy"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="PDE"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="ODE"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

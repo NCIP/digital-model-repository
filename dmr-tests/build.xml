@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<project name="dmr-tests">
+	<property name="project.name" value="${ant.project.name}" />
+	<property name="project.version" value="1.0.11" />
+
+	<property environment="env" />
+	<property name="globus.dir" value="${env.GLOBUS_LOCATION}" />
+
+	<property name="lib.dir" value="lib" />
+	<property name="globus.lib.dir" value="${globus.dir}/lib" />
+	<property name="anzo.lib.dir" value="${lib.dir}/anzo" />
+	<property name="default.lib.dir" value="${lib.dir}/default" />
+
+	<property name="build.dir" value="build" />
+	<property name="default.build.dir" value="${build.dir}/classes" />
+
+	<property name="src.dir" value="src" />
+
+	<property name="jar.dir" value="${build.dir}/jars" />
+	<property name="default.jar.name" value="${project.name}-${project.version}.jar"/>
+	<property name="default.jar.path" value="${jar.dir}/${default.jar.name}" />
+	
+	<path id="build.path">
+		<fileset dir="${lib.dir}">
+			<include name="Dmr-beans.jar" />
+			<include name="its-cql-0.1.jar" />
+			<include name="dmr-core-*.jar" />
+		</fileset>
+		<fileset dir="${anzo.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${default.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${globus.lib.dir}">
+			<include name="*.jar" />
+			<exclude name="caGrid-*.jar" />
+		</fileset>
+	</path>
+
+	<path id="run.tests.path">
+		<path refid="build.path"/>
+		<pathelement location="${default.build.dir}" />
+	</path>
+
+	<target name="build">
+		<mkdir dir="${default.build.dir}" />
+		<javac srcdir="${src.dir}" destdir="${default.build.dir}" classpathref="build.path" />
+		<copy todir="${default.build.dir}/org/cvit/cabig/dmr/integration">
+			<fileset dir="${src.dir}/org/cvit/cabig/dmr/integration">
+				<include name="bootstrap.ttl" />
+				<include name="classToQname.xml" />
+				<include name="server-config.wsdd" />
+			</fileset>
+		</copy>
+		<copy todir="${default.build.dir}/org/cvit/cabig/dmr/integration/queryprocessor">
+			<fileset dir="${src.dir}/org/cvit/cabig/dmr/integration/queryprocessor">
+				<include name="server-config.wsdd" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="clean">
+		<delete dir="${build.dir}" failonerror="false" />
+	</target>
+
+	<target name="jar" depends="build">
+		<mkdir dir="${jar.dir}" />
+		<jar destfile="${default.jar.path}" index="true">
+			<fileset dir="${default.build.dir}" />
+		</jar>
+	</target>
+
+	<target name="run-tests" depends="build">
+		<junit printsummary="true" haltonfailure="true">
+			<classpath refid="run.tests.path" />
+			<formatter type="brief" usefile="false" />
+			<batchtest>
+				<fileset dir="${default.build.dir}">
+					<include name="**/*Test*.class" />
+					<exclude name="**/Abstract*" />
+					<!-- Below is also an abstract class -->
+					<exclude name="**/CvitDataServiceTests*" />
+					<exclude name="**/*$*" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+</project>

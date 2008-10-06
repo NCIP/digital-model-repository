@@ -1,0 +1,21 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#CViT8> a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "CViT Ontology" ;
+	<http://www.w3.org/2002/07/owl#versionInfo> "0.1" ;
+	<http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#LoginRequestTask> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Login Request Task"^^xsd:string ;
+	<http://www.w3.org/2000/01/rdf-schema#subClassOf> <urn:lsid:telar.cambridgesemantics.com:cvit#Task> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#PublishRequestTask> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://www.w3.org/2000/01/rdf-schema#subClassOf> <urn:lsid:telar.cambridgesemantics.com:cvit#Task> ;
+	<http://purl.org/dc/elements/1.1/title> "Publish Request Task"^^xsd:string .

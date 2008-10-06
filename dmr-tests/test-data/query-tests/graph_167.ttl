@@ -1,0 +1,30 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Parameters> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Parameters" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Movie> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Movie" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Image> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Image" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#CViT2> a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> , <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/2002/07/owl#versionInfo> "0.1" ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "CViT Data Ontology" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Code> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Source Code" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#ExperimentalData> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Experimental Data" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Algorithm> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Algorithm" .

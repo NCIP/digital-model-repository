@@ -1,0 +1,13 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.07154382940757431> a <urn:lsid:telar.cambridgesemantics.com:cvit#Image> ;
+	<http://purl.org/dc/elements/1.1/title> "Running in the park"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.itstherecessionstupid.com/images/2008/05/29/tip76runbarefootv5.gif"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> ;
+	<http://purl.org/dc/elements/1.1/description> "Me, just jogging around, running in the park"^^xsd:string .

@@ -1,0 +1,60 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Image" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <image>
+   <description>Pic of Cancer</description>
+   <source>http://www.hopeforcancer.com/images/BreastCancerCell.jpg</source>
+   <title>Cancer Pic</title>
+   <comment>Breast Cancer</comment>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.2224178270121437</id>
+  </image>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <image>
+   <description>A group of contributors</description>
+   <source>http://www.flashquake.org/archive/vol1iss4/images/contributors.jpg</source>
+   <title>The contributors image</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.04021882952402217</id>
+  </image>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <image>
+   <description>Me, just jogging around, running in the park</description>
+   <source>http://www.itstherecessionstupid.com/images/2008/05/29/tip76runbarefootv5.gif</source>
+   <title>Running in the park</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.07154382940757431</id>
+  </image>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <image>
+   <description>This is how important reading is to me</description>
+   <source>http://img.printfection.com/1/237/4214319/qW9tb.jpg</source>
+   <title>Reader</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.8624270575441412</id>
+  </image>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <image>
+   <description>License Officer just saying Hi</description>
+   <source>http://www.clipartof.com/images/clipart/xsmall2/3536_clown_waving_hi.jpg</source>
+   <title>lo_image</title>
+   <comment>No comment needed</comment>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.9359911542845757</id>
+  </image>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <image>
+   <description>Me accepting the job</description>
+   <source>http://collegeotr.s3.amazonaws.com/images/blogs/ac0449f1754d5bef258d11b59677877c.jpg</source>
+   <title>Principal</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.41297156991636446</id>
+  </image>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <image>
+   <description>Even my picture doesnt allow access</description>
+   <source>http://www.craphound.com/images/Access_Denied_cover.jpg</source>
+   <title>No Access' Image</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.7161592718629257</id>
+  </image>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

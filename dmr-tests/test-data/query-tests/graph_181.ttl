@@ -1,0 +1,34 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#FundingSource> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Funding Source"^^xsd:string .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#ExternalLink> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "External Link"^^xsd:string .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Organization> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Organization"^^xsd:string .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Entry> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Entry"^^xsd:string .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#CViT> a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "CViT Ontology" ;
+	<http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> ;
+	<http://www.w3.org/2002/07/owl#versionInfo> "0.1" .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#File> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "File"^^xsd:string .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Person> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "Person"^^xsd:string .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#TaskList> a <http://www.w3.org/2002/07/owl#Class> ;
+	<http://purl.org/dc/elements/1.1/title> "To dos"^^xsd:string .

@@ -1,0 +1,14 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.9359911542845757> a <urn:lsid:telar.cambridgesemantics.com:cvit#Image> ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.clipartof.com/images/clipart/xsmall2/3536_clown_waving_hi.jpg"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#comment> "No comment needed"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/title> "lo_image"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/description> "License Officer just saying Hi"^^xsd:string .

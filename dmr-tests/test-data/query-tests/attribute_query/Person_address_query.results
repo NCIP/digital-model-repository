@@ -1,0 +1,34 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Person" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address" value="&lt;P&gt;6711 Main St. &lt;/P&gt;
+&lt;P&gt;Miami Lakes, Fl 33015&lt;/P&gt;"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address" value="N/A"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address" value="N/A"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address" value="&lt;P&gt;9250 N Dadeland Blvd.&lt;/P&gt;
+&lt;P&gt;Miami, Fl. 33019&lt;/P&gt;"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="address"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

@@ -1,0 +1,11 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Entry" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="hypothesis" value="With the amount of time I am putting in I doubt very much that I will solve cancer."/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="hypothesis"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="hypothesis" value="Hypothesis for Entry 1"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

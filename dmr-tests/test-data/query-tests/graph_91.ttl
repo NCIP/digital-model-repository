@@ -1,0 +1,14 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.2224178270121437> a <urn:lsid:telar.cambridgesemantics.com:cvit#Image> ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.hopeforcancer.com/images/BreastCancerCell.jpg"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/title> "Cancer Pic"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#comment> "Breast Cancer"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/description> "Pic of Cancer"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> .

@@ -1,0 +1,17 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Entry" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="keywords" value="Illness"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="keywords" value="Medical"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="keywords" value="Cancer"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="keywords"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="keywords"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

@@ -1,0 +1,42 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Person" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674"/>
+  <ns1:Attribute name="title"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674"/>
+  <ns1:Attribute name="title"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634"/>
+  <ns1:Attribute name="title" value="Contributor"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266"/>
+  <ns1:Attribute name="title"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538"/>
+  <ns1:Attribute name="title" value="Newbie"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538"/>
+  <ns1:Attribute name="title" value="Newbie"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132"/>
+  <ns1:Attribute name="title" value="License Commander"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="http://openanzo.org/users/sysadmin"/>
+  <ns1:Attribute name="title"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#readAndAddOnlyDataCreator"/>
+  <ns1:Attribute name="title"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#readOnlyDataCreator"/>
+  <ns1:Attribute name="title"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

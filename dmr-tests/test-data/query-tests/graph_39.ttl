@@ -1,0 +1,18 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.26137561426385874> a <urn:lsid:telar.cambridgesemantics.com:cvit#Entry> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#entryType> <urn:lsid:telar.cambridgesemantics.com:cvit#Invivo> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#data> <urn:lsid:telar.cambridgesemantics.com:telar0.07154382940757431> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#entryClassification> <urn:lsid:telar.cambridgesemantics.com:cvit#Discrete> , <urn:lsid:telar.cambridgesemantics.com:cvit#Treatment> , <urn:lsid:telar.cambridgesemantics.com:cvit#Continuum> ;
+	<http://purl.org/dc/elements/1.1/description> "This Entry describes a day at the park"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#principalInvestigator> <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	<http://purl.org/dc/elements/1.1/creator> <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#data> <urn:lsid:telar.cambridgesemantics.com:telar0.360587328846332> ;
+	<http://purl.org/dc/elements/1.1/title> "Day at the Park"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#entryClassification> <urn:lsid:telar.cambridgesemantics.com:cvit#Metastasis> .

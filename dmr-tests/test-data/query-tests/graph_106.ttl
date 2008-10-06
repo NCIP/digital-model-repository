@@ -1,0 +1,10 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<http://openanzo.org/users/sysadmin> <urn:lsid:telar.cambridgesemantics.com:cvit#recentlyViewed> <urn:lsid:telar.cambridgesemantics.com:telar0.8061372191782584> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#bookmarks> <urn:lsid:telar.cambridgesemantics.com:telar0.003890153049981193> .

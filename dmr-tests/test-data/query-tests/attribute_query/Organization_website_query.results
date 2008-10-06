@@ -1,0 +1,42 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Organization" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254"/>
+  <ns1:Attribute name="website" value="http://www.infotechsoft.com"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Translational_Genomics_Research_Institute"/>
+  <ns1:Attribute name="website" value="http://www.tgen.org/"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#AdvisoryBoard"/>
+  <ns1:Attribute name="website"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Harvard_Medical_School"/>
+  <ns1:Attribute name="website" value="http://hms.harvard.edu/hms/home.asp"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#other"/>
+  <ns1:Attribute name="website"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#nsf"/>
+  <ns1:Attribute name="website" value="http://www.nsf.gov/"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#nih"/>
+  <ns1:Attribute name="website" value="http://www.nih.gov/"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#dod"/>
+  <ns1:Attribute name="website" value="http://www.defenselink.mil/"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#industry"/>
+  <ns1:Attribute name="website"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#foundation"/>
+  <ns1:Attribute name="website"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

@@ -1,0 +1,32 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> a <urn:lsid:telar.cambridgesemantics.com:cvit#PrincipalInvestigator> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#recentlyViewed> <urn:lsid:telar.cambridgesemantics.com:telar0.6645768194583588> ;
+	<http://xmlns.com/foaf/0.1/firstName> "Contributor"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#lastLoginDate> "1221775223824" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#group> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT_Advisory_Board> ;
+	<http://xmlns.com/foaf/0.1/title> "Contributor"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.example.org/contributor"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/mbox> "co@example.com"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/depiction> <urn:lsid:telar.cambridgesemantics.com:telar0.04021882952402217> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#fax> "305-555-4456"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "Contributions" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#organization> <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#loginRequestTask> <http://0.6835288407697325/Todos> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "Donations" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#address> """<P>6711 Main St. </P>
+<P>Miami Lakes, Fl 33015</P>"""^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#position> "Third in Charge"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#userTasks> <http://0.4938643930856418/Tasks> ;
+	<http://xmlns.com/foaf/0.1/phone> "305-555-4455"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#seniority> "Faculty"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#research> "Research involving contributions and what they do to our aura."^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "Editing Peoples Work" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#bookmarks> <urn:lsid:telar.cambridgesemantics.com:telar0.306295832137596> .

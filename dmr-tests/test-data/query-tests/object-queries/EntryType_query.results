@@ -1,0 +1,32 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.EntryType" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <entry-type>
+   <name>In vitro</name>
+   <id>urn:lsid:telar.cambridgesemantics.com:cvit#Invitro</id>
+  </entry-type>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <entry-type>
+   <name>Clinical</name>
+   <id>urn:lsid:telar.cambridgesemantics.com:cvit#Clinical</id>
+  </entry-type>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <entry-type>
+   <name>In vivo</name>
+   <id>urn:lsid:telar.cambridgesemantics.com:cvit#Invivo</id>
+  </entry-type>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <entry-type>
+   <name>Experiment</name>
+   <id>urn:lsid:telar.cambridgesemantics.com:cvit#CVITExperiment</id>
+  </entry-type>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <entry-type>
+   <name>In silico</name>
+   <id>urn:lsid:telar.cambridgesemantics.com:cvit#Computation</id>
+  </entry-type>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

@@ -1,0 +1,14 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.7225677494677013> a <urn:lsid:telar.cambridgesemantics.com:cvit#Paper> ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> ;
+	<http://purl.org/dc/elements/1.1/title> "Paper about Nothing"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.example.org/paper"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/description> "This paper is about nothing"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#comment> "Added it as an admin"^^xsd:string .

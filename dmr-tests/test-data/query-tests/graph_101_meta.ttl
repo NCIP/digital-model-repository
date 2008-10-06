@@ -1,0 +1,19 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.9359911542845757> a type:NamedGraph ;
+	pred:usesAcl <http://openanzo.org/ACL/46deda52-0c64-4c8d-b2c0-24c5bf3aee55> .
+
+<http://openanzo.org/ACL/46deda52-0c64-4c8d-b2c0-24c5bf3aee55> rbac:add <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	rbac:remove role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin ;
+	rbac:add role:sysAdmin ;
+	rbac:read <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> , role:sysAdmin ;
+	rbac:removeNamedGraph <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> , role:sysAdmin ;
+	rbac:remove <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	rbac:insertNamedGraph role:sysAdmin , <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> .

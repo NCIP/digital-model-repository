@@ -1,0 +1,13 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.04021882952402217> a <urn:lsid:telar.cambridgesemantics.com:cvit#Image> ;
+	<http://purl.org/dc/elements/1.1/title> "The contributors image"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/description> "A group of contributors"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.flashquake.org/archive/vol1iss4/images/contributors.jpg"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> .

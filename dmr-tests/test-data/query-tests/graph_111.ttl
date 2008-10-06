@@ -1,0 +1,13 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.41297156991636446> a <urn:lsid:telar.cambridgesemantics.com:cvit#Image> ;
+	<http://purl.org/dc/elements/1.1/source> "http://collegeotr.s3.amazonaws.com/images/blogs/ac0449f1754d5bef258d11b59677877c.jpg"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	<http://purl.org/dc/elements/1.1/title> "Principal"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/description> "Me accepting the job"^^xsd:string .

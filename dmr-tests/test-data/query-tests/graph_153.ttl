@@ -1,0 +1,15 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.9806188718602319> a <urn:lsid:telar.cambridgesemantics.com:cvit#Review> ;
+	<http://purl.org/dc/elements/1.1/description> "By Roger Ebert"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/source> <https://localhost/repository_files/sysadmin/2008/8/19/review.doc> ;
+	<http://purl.org/dc/elements/1.1/type> "application/msword"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> ;
+	<http://purl.org/dc/elements/1.1/title> "The review"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/date> "9/19/08 2:42 PM"^^xsd:date .

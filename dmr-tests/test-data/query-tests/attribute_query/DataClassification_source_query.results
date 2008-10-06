@@ -1,0 +1,23 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Image" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="source" value="http://www.hopeforcancer.com/images/BreastCancerCell.jpg"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="source" value="http://www.flashquake.org/archive/vol1iss4/images/contributors.jpg"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="source" value="http://www.itstherecessionstupid.com/images/2008/05/29/tip76runbarefootv5.gif"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="source" value="http://img.printfection.com/1/237/4214319/qW9tb.jpg"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="source" value="http://www.clipartof.com/images/clipart/xsmall2/3536_clown_waving_hi.jpg"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="source" value="http://collegeotr.s3.amazonaws.com/images/blogs/ac0449f1754d5bef258d11b59677877c.jpg"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="source" value="http://www.craphound.com/images/Access_Denied_cover.jpg"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

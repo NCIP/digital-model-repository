@@ -1,0 +1,10 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Book" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <book>
+   <description>The book of lies</description>
+   <source>https://localhost/repository_files/sysadmin/2008/8/19/book.doc</source>
+   <title>My book</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.24492447633762038</id>
+  </book>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

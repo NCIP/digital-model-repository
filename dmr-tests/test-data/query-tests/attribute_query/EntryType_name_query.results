@@ -1,0 +1,17 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.EntryType" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="In vitro"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Clinical"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="In vivo"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="Experiment"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="name" value="In silico"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

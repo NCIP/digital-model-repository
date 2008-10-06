@@ -1,0 +1,27 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> a rbac:User ;
+	<http://xmlns.com/foaf/0.1/firstName> "No"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#loginRequestTask> <http://0.3007602722216377/Todos> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#group> <urn:lsid:telar.cambridgesemantics.com:cvit#Unlisted> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#recentlyViewed> <urn:lsid:telar.cambridgesemantics.com:telar0.3592899584084239> ;
+	<http://xmlns.com/foaf/0.1/surname> "Access"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#fax> "305-555-7914"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#seniority> "Other"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/depiction> <urn:lsid:telar.cambridgesemantics.com:telar0.7161592718629257> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#bookmarks> <urn:lsid:telar.cambridgesemantics.com:telar0.8444270202460282> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#lastLoginDate> "1221776374216" ;
+	<http://xmlns.com/foaf/0.1/phone> "305-555-7913"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#address> "N/A"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/title> "Newbie"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.example.org/access_denied"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#organization> <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#position> "Bottom of the Barrel"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#userTasks> <http://0.5742306244743117/Tasks> .

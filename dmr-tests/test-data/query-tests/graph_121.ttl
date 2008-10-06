@@ -1,0 +1,17 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> a rbac:User ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#loginRequestTask> <http://0.27533340147073526/Todos> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#organization> <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#lastLoginDate> "1221773746265" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#userTasks> <http://0.1567266639118725/Tasks> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#recentlyViewed> <urn:lsid:telar.cambridgesemantics.com:telar0.23983192636454975> ;
+	<http://xmlns.com/foaf/0.1/firstName> "Reader"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#bookmarks> <urn:lsid:telar.cambridgesemantics.com:telar0.5622669811822962> .

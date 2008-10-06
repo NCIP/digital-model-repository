@@ -1,0 +1,16 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<http://0.20438709631018748/Todo> a <urn:lsid:telar.cambridgesemantics.com:cvit#Task> ;
+	<http://purl.org/dc/elements/1.1/creator> <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#comment> ""^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/description> """This message is to inform you that you have been granted read access to 	<a href=\"javascript:dojo.event.topic.publish('open', 'urn:lsid:telar.cambridgesemantics.com:telar0.544376318697641' );\" >Cancer Treatment 3884A37641</a>."""^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#status> <urn:lsid:telar.cambridgesemantics.com:cvit#Initial> ;
+	<http://purl.org/dc/elements/1.1/date> "2008-09-19T01:51:52" ;
+	<http://purl.org/dc/elements/1.1/title> "Message"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#priority> <urn:lsid:telar.cambridgesemantics.com:cvit#normal> .

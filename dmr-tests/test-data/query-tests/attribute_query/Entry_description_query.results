@@ -1,0 +1,11 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Entry" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="A Study on cancer and cancer related symptoms"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="This Entry describes a day at the park"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="Description for Entry 1"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

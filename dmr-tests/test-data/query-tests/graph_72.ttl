@@ -1,0 +1,13 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.8061372191782584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <urn:lsid:telar.cambridgesemantics.com:cvit#CViTWorkbenchLicenseList> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <urn:lsid:telar.cambridgesemantics.com:telar0.544376318697641> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <urn:lsid:telar.cambridgesemantics.com:telar0.6345350254148658> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <urn:lsid:telar.cambridgesemantics.com:telar0.7225677494677013> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <urn:lsid:telar.cambridgesemantics.com:telar0.26137561426385874> .

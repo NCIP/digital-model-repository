@@ -1,0 +1,10 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#CellCycle> a <urn:lsid:telar.cambridgesemantics.com:cvit#EntryClassification> ;
+	<http://purl.org/dc/elements/1.1/title> "Cell Cycle"^^xsd:string .

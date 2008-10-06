@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Entry" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <entry>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.544376318697641</id>
+   <conclusion>Cancer is still at large, but I now know what to call it. Cancer!</conclusion>
+   <abstract-text>Cancer. Where does it come from and who does it affect? This study terribly answers those questions.</abstract-text>
+   <concept>This study is based on the concept that cancer is bad and we must beat it. Am I wrong?</concept>
+   <keywords xsi:type="java:java.lang.String" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Medical</keywords>
+   <keywords xsi:type="java:java.lang.String" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Cancer</keywords>
+   <keywords xsi:type="java:java.lang.String" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Illness</keywords>
+   <note>This is the last one I am going to do.</note>
+   <title>Cancer Treatment 3884A37641</title>
+   <description>A Study on cancer and cancer related symptoms</description>
+   <hypothesis>With the amount of time I am putting in I doubt very much that I will solve cancer.</hypothesis>
+  </entry>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <entry>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.26137561426385874</id>
+   <title>Day at the Park</title>
+   <description>This Entry describes a day at the park</description>
+  </entry>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <entry>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.6345350254148658</id>
+   <conclusion>Conclusion for Entry 1</conclusion>
+   <abstract-text>&lt;P dir=ltr style=&quot;MARGIN-RIGHT: 0px&quot;&gt;Abstract for Entry 1&lt;/P&gt;</abstract-text>
+   <concept>Concept for Entry 1</concept>
+   <title>Entry 1</title>
+   <description>Description for Entry 1</description>
+   <hypothesis>Hypothesis for Entry 1</hypothesis>
+  </entry>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

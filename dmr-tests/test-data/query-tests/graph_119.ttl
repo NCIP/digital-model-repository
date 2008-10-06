@@ -1,0 +1,31 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> a <urn:lsid:telar.cambridgesemantics.com:cvit#LicensingOfficer> ;
+	<http://xmlns.com/foaf/0.1/phone> "305-555-5495"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#fax> "305-555-5496"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/firstName> "Licensing"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "Animals" ;
+	<http://xmlns.com/foaf/0.1/depiction> <urn:lsid:telar.cambridgesemantics.com:telar0.9359911542845757> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#organization> <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#lastLoginDate> "1221772895760" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#group> <urn:lsid:telar.cambridgesemantics.com:cvit#Main> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "" ;
+	<http://purl.org/dc/elements/1.1/source> "http://www.example.com/License"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/surname> "Officer"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/mbox> "lo@example.com"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#address> """<P>9250 N Dadeland Blvd.</P>
+<P>Miami, Fl. 33019</P>"""^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#recentlyViewed> <urn:lsid:telar.cambridgesemantics.com:telar0.8700887611829701> ;
+	<http://purl.org/dc/elements/1.1/creator> <http://openanzo.org/users/sysadmin> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#bookmarks> <urn:lsid:telar.cambridgesemantics.com:telar0.8327742912514735> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#position> "The Boss"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#userTasks> <http://0.8136671424689942/Tasks> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#research> "License Officer is researching how to officiate the licenses"^^xsd:string ;
+	<http://xmlns.com/foaf/0.1/title> "License Commander"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#seniority> "Faculty"^^xsd:string .

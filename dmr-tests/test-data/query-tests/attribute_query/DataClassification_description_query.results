@@ -1,0 +1,23 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Image" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="Pic of Cancer"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="A group of contributors"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="Me, just jogging around, running in the park"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="This is how important reading is to me"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="License Officer just saying Hi"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="Me accepting the job"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="description" value="Even my picture doesnt allow access"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

@@ -1,0 +1,24 @@
+<ivy-module version="2.0">
+    <info organisation="org.cvit.cabig" module="dmr-tests">
+    	<license name="caGrid" url="http://www.cagrid.org/wiki/CaGrid:LICENSE-1.2"/>
+    	<description>Digital Model Repository integration tests.</description>
+    </info>
+    
+    <dependencies>
+    	<dependency org="junit"  name="junit-dep" rev="4.5">
+        	<exclude org="org.easymock" />
+        	<exclude org="jmock" />
+        </dependency>
+    	<dependency org="xmlunit" name="xmlunit" rev="1.2">
+    		<exclude org="junit" />
+    	</dependency>
+    	
+    	<dependency org="com.hp.hpl.jena" name="arq" rev="2.3" />
+        <dependency org="caGrid" name="cql" rev="1.2" />
+        <dependency org="caGrid" name="data" rev="1.2" />
+        <dependency org="caGrid" name="sdkQuery4" rev="1.2" />
+        <dependency org="caGrid" name="authentication-service" rev="1.2" conf="default->common" />
+        <dependency org="caGrid" name="introduce" rev="1.2" conf="default->serviceTools" />
+        <dependency org="cacore" name="csm" rev="3.2" conf="default->auth" />
+    </dependencies>
+</ivy-module>

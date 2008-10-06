@@ -1,0 +1,30 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Image" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.2224178270121437"/>
+  <ns1:Attribute name="title" value="Cancer Pic"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.04021882952402217"/>
+  <ns1:Attribute name="title" value="The contributors image"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.07154382940757431"/>
+  <ns1:Attribute name="title" value="Running in the park"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.8624270575441412"/>
+  <ns1:Attribute name="title" value="Reader"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.9359911542845757"/>
+  <ns1:Attribute name="title" value="lo_image"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.41297156991636446"/>
+  <ns1:Attribute name="title" value="Principal"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:telar0.7161592718629257"/>
+  <ns1:Attribute name="title" value="No Access' Image"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

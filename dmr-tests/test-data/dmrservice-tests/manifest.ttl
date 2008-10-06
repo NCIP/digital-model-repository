@@ -1,0 +1,19 @@
+<entry1.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.6345350254148658> ;
+	<http://infotechsoft.com/anzo#metaGraph> <entry1_meta.ttl> .
+
+<data1.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.2224178270121437> ;
+	<http://infotechsoft.com/anzo#metaGraph> <data1_meta.ttl> .
+
+<ref1.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.24492447633762038> ;
+	<http://infotechsoft.com/anzo#metaGraph> <ref1_meta.ttl> .
+
+<entry2.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.544376318697641> ;
+	<http://infotechsoft.com/anzo#metaGraph> <entry2_meta.ttl> .
+
+<dod.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#dod> ;
+	<http://infotechsoft.com/anzo#metaGraph> <dod_meta.ttl> .

@@ -1,0 +1,9 @@
+@prefix rbac: <http://openanzo.org/RBAC#>.
+@prefix role: <http://openanzo.org/Role/>.
+@prefix pred: <http://openanzo.org/predicates/>.
+@prefix users: <http://openanzo.org/users/>.
+
+users:admin a rbac:User;
+   rbac:inRole role:sysAdmin;
+   pred:password "sysadminpw";
+   pred:userId "sysadmin".

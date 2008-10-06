@@ -1,0 +1,400 @@
+
+<graph_2.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Immunology> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_2_meta.ttl> .
+
+<graph_5.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.6835288407697325/Todos> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_5_meta.ttl> .
+
+<graph_6.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Genetics> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_6_meta.ttl> .
+
+<graph_9.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT6> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_9_meta.ttl> .
+
+<graph_11.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.544376318697641> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_11_meta.ttl> .
+
+<graph_12.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.1567266639118725/Tasks> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_12_meta.ttl> .
+
+<graph_15.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT4> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_15_meta.ttl> .
+
+<graph_17.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Angiogenesis> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_17_meta.ttl> .
+
+<graph_20.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViTResearchInterests> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_20_meta.ttl> .
+
+<graph_21.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cisnet#BreastProfile> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_21_meta.ttl> .
+
+<graph_22.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Invivo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_22_meta.ttl> .
+
+<graph_25.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.20438709631018748/Todo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_25_meta.ttl> .
+
+<graph_28.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#EntryClassifications> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_28_meta.ttl> .
+
+<graph_30.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Translational_Genomics_Research_Institute> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_30_meta.ttl> .
+
+<graph_32.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT3> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_32_meta.ttl> .
+
+<graph_33.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.04021882952402217> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_33_meta.ttl> .
+
+<graph_35.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Other> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_35_meta.ttl> .
+
+<graph_36.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.7391725190965368/Tasks> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_36_meta.ttl> .
+
+<graph_37.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#AdvisoryBoard> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_37_meta.ttl> .
+
+<graph_38.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.07154382940757431> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_38_meta.ttl> .
+
+<graph_39.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.26137561426385874> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_39_meta.ttl> .
+
+<graph_40.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Discrete> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_40_meta.ttl> .
+
+<graph_42.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.8700887611829701> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_42_meta.ttl> .
+
+<graph_44.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.8136671424689942/Tasks> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_44_meta.ttl> .
+
+<graph_45.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Harvard_Medical_School> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_45_meta.ttl> .
+
+<graph_46.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.31382022033586254> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_46_meta.ttl> .
+
+<graph_47.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#TwoDimensional> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_47_meta.ttl> .
+
+<graph_48.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.360587328846332> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_48_meta.ttl> .
+
+<graph_49.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Microenvironment> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_49_meta.ttl> .
+
+<graph_50.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_50_meta.ttl> .
+
+<graph_57.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Metastasis> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_57_meta.ttl> .
+
+<graph_58.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.3878307156858196> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_58_meta.ttl> .
+
+<graph_65.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_65_meta.ttl> .
+
+<graph_66.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Control> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_66_meta.ttl> .
+
+<graph_69.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Statistics> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_69_meta.ttl> .
+
+<graph_70.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#OneDimensional> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_70_meta.ttl> .
+
+<graph_71.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Hybrid> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_71_meta.ttl> .
+
+<graph_72.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.8061372191782584> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_72_meta.ttl> .
+
+<graph_73.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#other> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_73_meta.ttl> .
+
+<graph_74.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.33034847044275006/Todo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_74_meta.ttl> .
+
+<graph_76.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.8624270575441412> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_76_meta.ttl> .
+
+<graph_77.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.1879070185131857/Todos> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_77_meta.ttl> .
+
+<graph_78.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#AgentBased> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_78_meta.ttl> .
+
+<graph_79.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.297496834272291> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_79_meta.ttl> .
+
+<graph_82.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#nsf> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_82_meta.ttl> .
+
+<graph_85.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CVITExperiment> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_85_meta.ttl> .
+
+<graph_87.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#SignalingPathways> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_87_meta.ttl> .
+
+<graph_88.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#nih> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_88_meta.ttl> .
+
+<graph_89.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CellularAutomaton> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_89_meta.ttl> .
+
+<graph_90.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.6645768194583588> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_90_meta.ttl> .
+
+<graph_91.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.2224178270121437> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_91_meta.ttl> .
+
+<graph_95.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.6345350254148658> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_95_meta.ttl> .
+
+<graph_97.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Computation> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_97_meta.ttl> .
+
+<graph_99.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Treatment> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_99_meta.ttl> .
+
+<graph_100.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.1613644928442765> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_100_meta.ttl> .
+
+<graph_101.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.9359911542845757> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_101_meta.ttl> .
+
+<graph_103.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.27533340147073526/Todos> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_103_meta.ttl> .
+
+<graph_104.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.7225677494677013> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_104_meta.ttl> .
+
+<graph_106.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://openanzo.org/users/sysadmin> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_106_meta.ttl> .
+
+<graph_109.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.29569367178552897/Todo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_109_meta.ttl> .
+
+<graph_111.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.41297156991636446> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_111_meta.ttl> .
+
+<graph_113.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Proliferation> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_113_meta.ttl> .
+
+<graph_115.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#dod> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_115_meta.ttl> .
+
+<graph_119.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_119_meta.ttl> .
+
+<graph_121.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_121_meta.ttl> .
+
+<graph_123.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.7712697842263424> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_123_meta.ttl> .
+
+<graph_125.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViTWorkbench> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_125_meta.ttl> .
+
+<graph_126.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.5766593335707827/Todo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_126_meta.ttl> .
+
+<graph_128.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_128_meta.ttl> .
+
+<graph_129.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.3883419397981335/Todo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_129_meta.ttl> .
+
+<graph_131.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.5680259678686681/Todo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_131_meta.ttl> .
+
+<graph_135.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Clinical> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_135_meta.ttl> .
+
+<graph_136.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.3007602722216377/Todos> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_136_meta.ttl> .
+
+<graph_138.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Motility> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_138_meta.ttl> .
+
+<graph_139.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.4938643930856418/Tasks> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_139_meta.ttl> .
+
+<graph_141.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#industry> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_141_meta.ttl> .
+
+<graph_145.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.3592899584084239> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_145_meta.ttl> .
+
+<graph_146.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Radiotherapy> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_146_meta.ttl> .
+
+<graph_150.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Invitro> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_150_meta.ttl> .
+
+<graph_151.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Chemotherapy> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_151_meta.ttl> .
+
+<graph_152.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViTWorkbenchLicenseList> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_152_meta.ttl> .
+
+<graph_153.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.9806188718602319> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_153_meta.ttl> .
+
+<graph_154.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT7> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_154_meta.ttl> .
+
+<graph_158.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#PDE> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_158_meta.ttl> .
+
+<graph_161.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#ThreeDimensional> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_161_meta.ttl> .
+
+<graph_162.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.7161592718629257> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_162_meta.ttl> .
+
+<graph_163.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT8> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_163_meta.ttl> .
+
+<graph_165.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#Continuum> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_165_meta.ttl> .
+
+<graph_167.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT2> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_167_meta.ttl> .
+
+<graph_168.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViTKeywords> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_168_meta.ttl> .
+
+<graph_169.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT5> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_169_meta.ttl> .
+
+<graph_173.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CISNET> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_173_meta.ttl> .
+
+<graph_174.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.5742306244743117/Tasks> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_174_meta.ttl> .
+
+<graph_177.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#ODE> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_177_meta.ttl> .
+
+<graph_178.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#foundation> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_178_meta.ttl> .
+
+<graph_181.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CViT> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_181_meta.ttl> .
+
+<graph_184.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.23983192636454975> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_184_meta.ttl> .
+
+<graph_185.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:cvit#CellCycle> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_185_meta.ttl> .
+
+<graph_186.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <urn:lsid:telar.cambridgesemantics.com:telar0.24492447633762038> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_186_meta.ttl> .
+
+<graph_187.ttl> a <http://infotechsoft.com/anzo#NamedGraph> ;
+	<http://infotechsoft.com/anzo#uri> <http://0.6797985287872751/Todo> ;
+	<http://infotechsoft.com/anzo#metaGraph> <graph_187_meta.ttl> .

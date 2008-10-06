@@ -1,0 +1,19 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Paper" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <paper>
+   <description>A Paper about the cancer</description>
+   <source>https://localhost/repository_files/sysadmin/2008/8/19/paper.doc</source>
+   <title>Cancer Paper</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.3878307156858196</id>
+  </paper>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <paper>
+   <description>This paper is about nothing</description>
+   <source>http://www.example.org/paper</source>
+   <title>Paper about Nothing</title>
+   <comment>Added it as an admin</comment>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.7225677494677013</id>
+  </paper>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

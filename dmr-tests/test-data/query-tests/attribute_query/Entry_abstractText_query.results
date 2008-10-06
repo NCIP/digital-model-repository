@@ -1,0 +1,11 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Entry" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="abstractText" value="Cancer. Where does it come from and who does it affect? This study terribly answers those questions."/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="abstractText"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="abstractText" value="&lt;P dir=ltr style=&quot;MARGIN-RIGHT: 0px&quot;&gt;Abstract for Entry 1&lt;/P&gt;"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

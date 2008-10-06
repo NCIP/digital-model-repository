@@ -1,0 +1,83 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.EntryCategory" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Immunology"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Genetics"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Statistics"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#CellCycle"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Metastasis"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Angiogenesis"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#EntryClassifications"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Proliferation"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Hybrid"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Continuum"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#SignalingPathways"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Other"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Treatment"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Microenvironment"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Control"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Motility"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Discrete"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#CellularAutomaton"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#AgentBased"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#TwoDimensional"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#CISNET"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#OneDimensional"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#ThreeDimensional"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Chemotherapy"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#Radiotherapy"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#PDE"/>
+ </ns1:AttributeResult>
+ <ns1:AttributeResult>
+  <ns1:Attribute name="id" value="urn:lsid:telar.cambridgesemantics.com:cvit#ODE"/>
+ </ns1:AttributeResult>
+</ns1:CQLQueryResults>

@@ -1,0 +1,17 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#PDE> a type:NamedGraph ;
+	pred:usesAcl <http://openanzo.org/ACL/bf42a062-26bb-494f-bde3-8a136e877824> .
+
+<http://openanzo.org/ACL/bf42a062-26bb-494f-bde3-8a136e877824> rbac:add role:sysAdmin ;
+	rbac:read role:sysAdmin ;
+	rbac:removeNamedGraph role:sysAdmin ;
+	rbac:remove role:sysAdmin ;
+	rbac:insertNamedGraph role:sysAdmin ;
+	rbac:changeNamedGraphACL role:sysAdmin .

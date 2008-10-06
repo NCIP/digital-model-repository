@@ -1,0 +1,10 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Parameters" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <parameters>
+   <description>My Parameters</description>
+   <source>https://localhost/repository_files/sysadmin/2008/8/19/parameters.doc</source>
+   <title>Parameters</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.360587328846332</id>
+  </parameters>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

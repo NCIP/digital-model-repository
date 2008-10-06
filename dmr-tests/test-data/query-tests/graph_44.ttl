@@ -1,0 +1,11 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<http://0.8136671424689942/Tasks> a <urn:lsid:telar.cambridgesemantics.com:cvit#TaskList> ;
+	<http://purl.org/dc/elements/1.1/title> "To dos"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#task> <http://0.3007602722216377/Todos> , <http://0.1879070185131857/Todos> , <http://0.27533340147073526/Todos> , <http://0.6835288407697325/Todos> , <http://0.5680259678686681/Todo> .

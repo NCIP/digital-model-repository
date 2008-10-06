@@ -1,0 +1,29 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:telar0.544376318697641> a <urn:lsid:telar.cambridgesemantics.com:cvit#Entry> ;
+	<http://purl.org/dc/elements/1.1/title> "Cancer Treatment 3884A37641"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#hypothesis> "With the amount of time I am putting in I doubt very much that I will solve cancer."^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#concept> "This study is based on the concept that cancer is bad and we must beat it. Am I wrong?"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#conclusion> "Cancer is still at large, but I now know what to call it. Cancer!"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "Illness" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#note> "This is the last one I am going to do."^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/creator> <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#abstract> "Cancer. Where does it come from and who does it affect? This study terribly answers those questions."^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#entryClassification> <urn:lsid:telar.cambridgesemantics.com:cvit#Statistics> , <urn:lsid:telar.cambridgesemantics.com:cvit#CellCycle> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "Medical" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#data> <urn:lsid:telar.cambridgesemantics.com:telar0.2224178270121437> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#keyword> "Cancer" ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#data> <urn:lsid:telar.cambridgesemantics.com:telar0.7712697842263424> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#entryClassification> <urn:lsid:telar.cambridgesemantics.com:cvit#Metastasis> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#reference> <urn:lsid:telar.cambridgesemantics.com:telar0.3878307156858196> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#entryType> <urn:lsid:telar.cambridgesemantics.com:cvit#Invitro> ;
+	<http://purl.org/dc/elements/1.1/description> "A Study on cancer and cancer related symptoms"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#data> <urn:lsid:telar.cambridgesemantics.com:telar0.1613644928442765> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#entryType> <urn:lsid:telar.cambridgesemantics.com:cvit#Clinical> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#principalInvestigator> <urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266> .

@@ -1,0 +1,17 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<http://0.6835288407697325/Todos> a <urn:lsid:telar.cambridgesemantics.com:cvit#LoginRequestTask> ;
+	<http://acceptingRejectingLO> <urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132> ;
+	<http://approvalDate> "Thu Sep 18 2008 17:31:49 GMT-0400 (Eastern Daylight Time)"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/title> "Login Request From co"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/description> "Dear Licensing Officer, <br /><br />You have received this system generated notification because an investigator from your institution has contacted the <a href=\"https://www.cvit.org/\" target=\"_new\">Center for the Development of a Virtual Tumor (CViT)</a> to access and download data from CViT's online platform.<br /><br />CViT is part of the <a target=\"_new\" href=\"http://www.cancer.gov/\">National Cancer Institute's</a> <a target=\"_new\" href=\"http://icbp.nci.nih.gov/\">Integrative Cancer Biology Program</a>.  CViT's <a href=\"https://www.cvit.org/license.pdf\" target=\"_new\">open source license</a> has been approved by the National Cancer Insitute (NCI) for this purpose and is in compliance with the guidelines of the <a href=\"https://cabig.nci.nih.gov/\" target=\"_new\">Cancer Biomedical Informatics Grid (caBIG)</a>.<br /><br />Institutional approval of the investigator's intent <b>must</b> by given by clicking approve or deny.<br /><br />For questions please contact <a href=\"mailto:dlagasse1@partners.org\">Denise A. LaGasse, Ph.D., J.D.</a>, Corporate Sponsored Research and Licensing at Massachusetts General Hospital."^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#requester> <urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#priority> <urn:lsid:telar.cambridgesemantics.com:cvit#normal> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#status> <urn:lsid:telar.cambridgesemantics.com:cvit#Approved> ;
+	<http://purl.org/dc/elements/1.1/date> "2008-09-18T05:30:20" .

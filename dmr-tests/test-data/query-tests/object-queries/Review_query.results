@@ -1,0 +1,10 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Review" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <review>
+   <description>By Roger Ebert</description>
+   <source>https://localhost/repository_files/sysadmin/2008/8/19/review.doc</source>
+   <title>The review</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.9806188718602319</id>
+  </review>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

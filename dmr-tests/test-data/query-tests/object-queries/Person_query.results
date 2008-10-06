@@ -1,0 +1,91 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.Person" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <person>
+   <first-name>Reader</first-name>
+   <user-id>reader</user-id>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.014397613513902674</id>
+  </person>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <person>
+   <first-name>Contributor</first-name>
+   <user-id>co</user-id>
+   <email-address>co@example.com</email-address>
+   <website>http://www.example.org/contributor</website>
+   <address>&lt;P&gt;6711 Main St. &lt;/P&gt;
+&lt;P&gt;Miami Lakes, Fl 33015&lt;/P&gt;</address>
+   <phone>305-555-4455</phone>
+   <group>urn:lsid:telar.cambridgesemantics.com:cvit#CViT_Advisory_Board</group>
+   <seniority>Faculty</seniority>
+   <depiction>urn:lsid:telar.cambridgesemantics.com:telar0.04021882952402217</depiction>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.31726949303744634</id>
+   <research>Research involving contributions and what they do to our aura.</research>
+   <fax>305-555-4456</fax>
+   <position>Third in Charge</position>
+   <title>Contributor</title>
+  </person>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <person>
+   <first-name>Principal</first-name>
+   <user-id>pi</user-id>
+   <last-name>Investigator</last-name>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.6316710314099266</id>
+  </person>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <person>
+   <first-name>No</first-name>
+   <user-id>noaccess</user-id>
+   <website>http://www.example.org/access_denied</website>
+   <address>N/A</address>
+   <phone>305-555-7913</phone>
+   <group>urn:lsid:telar.cambridgesemantics.com:cvit#Unlisted</group>
+   <seniority>Other</seniority>
+   <depiction>urn:lsid:telar.cambridgesemantics.com:telar0.7161592718629257</depiction>
+   <last-name>Access</last-name>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.7383033348174538</id>
+   <fax>305-555-7914</fax>
+   <position>Bottom of the Barrel</position>
+   <title>Newbie</title>
+  </person>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <person>
+   <first-name>Licensing</first-name>
+   <user-id>lo</user-id>
+   <email-address>lo@example.com</email-address>
+   <website>http://www.example.com/License</website>
+   <address>&lt;P&gt;9250 N Dadeland Blvd.&lt;/P&gt;
+&lt;P&gt;Miami, Fl. 33019&lt;/P&gt;</address>
+   <phone>305-555-5495</phone>
+   <group>urn:lsid:telar.cambridgesemantics.com:cvit#Main</group>
+   <seniority>Faculty</seniority>
+   <depiction>urn:lsid:telar.cambridgesemantics.com:telar0.9359911542845757</depiction>
+   <last-name>Officer</last-name>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.88050612246132</id>
+   <research>License Officer is researching how to officiate the licenses</research>
+   <fax>305-555-5496</fax>
+   <position>The Boss</position>
+   <title>License Commander</title>
+  </person>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <person>
+   <user-id>sysadmin</user-id>
+   <id>http://openanzo.org/users/sysadmin</id>
+  </person>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <person>
+   <user-id>readAndAddOnlyDataCreator</user-id>
+   <id>urn:lsid:telar.cambridgesemantics.com:cvit#readAndAddOnlyDataCreator</id>
+  </person>
+ </ns1:ObjectResult>
+ <ns1:ObjectResult>
+  <person>
+   <user-id>readOnlyDataCreator</user-id>
+   <id>urn:lsid:telar.cambridgesemantics.com:cvit#readOnlyDataCreator</id>
+  </person>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

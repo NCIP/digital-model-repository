@@ -1,0 +1,10 @@
+<ns1:CQLQueryResults targetClassname="org.cvit.cabig.dmr.domain.SourceCode" xmlns:ns1="http://CQL.caBIG/1/gov.nih.nci.cagrid.CQLResultSet">
+ <ns1:ObjectResult>
+  <source-code>
+   <description>Source code to show cancer</description>
+   <source>https://localhost/repository_files/sysadmin/2008/8/19/Source.txt</source>
+   <title>Cancer Code</title>
+   <id>urn:lsid:telar.cambridgesemantics.com:telar0.1613644928442765</id>
+  </source-code>
+ </ns1:ObjectResult>
+</ns1:CQLQueryResults>

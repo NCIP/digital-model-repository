@@ -1,0 +1,14 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pred: <http://openanzo.org/predicates/> .
+@prefix type: <http://openanzo.org/types/> .
+@prefix ngr: <http://openanzo.org/namedGraphs/> .
+@prefix mgr: <http://openanzo.org/metadataGraphs/> .
+@prefix rbac: <http://openanzo.org/RBAC#> .
+@prefix role: <http://openanzo.org/Role/> .
+
+<urn:lsid:telar.cambridgesemantics.com:cvit#Harvard_Medical_School> a <urn:lsid:telar.cambridgesemantics.com:cvit#Organization> ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#researchType> "both"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/title> "Harvard Medical School"^^xsd:string ;
+	<urn:lsid:telar.cambridgesemantics.com:cvit#geoCode> "42.335840, -71.100110"^^xsd:string ;
+	<http://purl.org/dc/elements/1.1/source> <http://hms.harvard.edu/hms/home.asp> ;
+	<http://purl.org/dc/elements/1.1/created> "08-03-2007"^^xsd:date .
