@@ -1,0 +1,28 @@
+<project name="cmef-core" default="build">
+	<property name="project.name" value="${ant.project.name}" />
+	<property name="project.version" value="0.5" />
+
+	<property name="lib.dir" value="lib" />
+
+	<property name="build.dir" value="build"/>
+	<property name="src.build.dir" value="${build.dir}/classes" />
+	<property name="tests.build.dir" value="${build.dir}/tests-classes" />
+
+	<property name="src.dir" value="src" />
+	<property name="tests.dir" value="tests" />
+
+	<path id="src.lib.path">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="build">
+		<mkdir dir="${src.build.dir}" />
+		<javac srcdir="${src.dir}" destdir="${src.build.dir}" classpathref="src.lib.path" />
+	</target>
+	
+	<target name="clean">
+		<delete dir="${build.dir}" failonerror="false" />
+	</target>
+</project>
