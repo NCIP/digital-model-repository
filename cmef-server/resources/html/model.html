@@ -1,0 +1,47 @@
+<div id="model">
+	<div>
+		<h2>General Information</h2>
+		<div>Title: ${model.title}</div>
+		<div>Version: ${model.version}</div>
+		<div>Description: ${model.description}</div>
+		<div>Comments: ${model.comment}</div>
+		<div>Documentation: <#if model.document??><a href="${model.document.source}">${model.document.name}</a></#if></div>
+	</div>
+	<div>
+		<h2>Executable</h2>
+		<div>Programming Language: ${model.program.languageType}</div>
+		<div>Version: ${model.program.languageVersion}</div>
+		<#list model.platforms as platform>
+			<div>Operating System: ${platform.operatingSystemType}</div>
+			<div>Processor: ${platform.processorArchitecture}</div>
+		</#list>
+		<div>
+			<h3>Files:</h3>
+			<#list model.files! as file>
+				<div><a href="${file.source}">${file.name}</a></div>
+			</#list>
+		</div>
+	</div>
+	<div>
+		<h2>Parameters</h2>
+		<#list model.parameters as param>
+			<div>Title: ${param.name}</div>
+			<div>Description: ${param.description}</div>
+			<div>Type: ${param.dataType}</div>
+			<div>Prefix: ${param.prefix}</div>
+			<#list model.choices! as choice>
+				<div>Choice: ${choice}</div>
+			</#list>
+			<div>Default: ${param.defaultValue}</div>
+			<div>Optional: ${param.isOptional?string}</div>
+		</#list>
+	</div>
+	<div>
+		<h2>Command Line</h2>
+		<div>Command Line: ${model.commandLine?html}</div>
+	</div>
+	<div>
+		<a href="${funcs.modelsUrl(entryName)}">Entry Models</a>
+		<a href="${funcs.jobsUrl(entryName, modelName)}">Model Jobs</a>
+	</div>
+</div>

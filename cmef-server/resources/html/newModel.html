@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>New Model</title>
+
+<link href="${funcs.fileUrl('css/base.css')}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<form id="add-model-form" name="addModel" method="post" action="${funcs.modelsUrl(entryName)}/new" enctype="multipart/form-data">
+		<fieldset class="border">
+			<legend class="title">General Information</legend>
+			<label class="model-title"><span>Title:</span> <input name="model[title]" type="text" /></label>
+			<label class="model-version"><span class="second_version">Version:</span> <input name="model[version]" type="text" /></label>
+			<label class="model-desc"><span>Description:</span> <input name="model[desc]" type="text" /></label>
+			<label class="model-comments"><span>Comments:</span> <textarea name="model[comments]" rows="4"></textarea></label>
+			<label class="model-upload"><span>Document:</span></label><div class="attach-file attach-doc">
+				<label id="fid" class="model-doc-file file-input">
+					File: <input class="file-input" name="model[doc-file]" type="file" />
+				</label><label id="urlid" class="model-doc-link url-input">
+					URL: <input class="url-input" name="model[doc-link]" type="text" />
+				</label><div class="upload-or-ref">
+					<input id="model-file-radio" class="file-radio" name="model[doc-radio]" type="radio" value="file">
+					</input><label for="model-file-radio">
+						Local File Upload
+					</label><input id="model-link-radio" class="url-radio" name="model[doc-radio]" type="radio" value="link">
+					</input><label for="model-link-radio">
+						Web Reference
+					</div>
+			</div>
+		</fieldset>
+		<fieldset class="border">
+			<legend class="title">Executable</legend>
+			<label class="exec-lang"><span>Programming Language:</span> 
+				<select name="exec[lang]">
+					<option>C</option>
+					<option>C++</option>
+					<option>Java</option>
+					<option>R</option>
+				</select>
+			</label>
+			<label class="exec-version"><span class="second">Version:</span> <input name="exec[version]" type="text" /></label>
+			<label class="exec-opsys"><span>Operating System:</span> 
+				<select class="input" name="exec[opsys]">
+					<option>any</option>
+					<option>Windows</option>
+					<option>Linux</option>
+				</select>
+			</label>
+			<label class="exec-proc"><span class="second">Processor:</span>
+				<select name="exec[proc]">
+					<option>any</option>
+					<option>x86</option>
+					<option>x64</option>
+				</select>
+			</label>
+			<label class="model-upload"><span></span><div class="attach-file attach-doc">
+				<label id="fid" class="model-doc-file file-input">File: <input class="file-input" name="exec[file]" type="file" /></label>
+				<label id="urlid" class="model-doc-link url-input">URL: <input class="url-input" name="exec[link]" type="text" /></label>
+				<div class="upload-or-ref">
+					<input id="exec-file-radio" class="file-radio" name="exec[file-radio]" type="radio" value="file" />
+					<label for="exec-file-radio">Local File Upload</label>
+					<input id="exec-link-radio" class="url-radio" name="exec[file-radio]" type="radio" value="link" />
+					<label for="exec-link-radio">Web Reference</label>
+				</div>
+			</div></label>
+		</fieldset>
+		<fieldset class="border">
+			<legend class="title">Parameters</legend>
+			<fieldset class="param-model">
+				<legend class="subset">Parameter</legend>
+				<label class="param-title"><span>Title:</span> <input name="param[${r'#{index}'}][title]" type="text" /></label>
+				<label class="param-desc"><span>Description:</span> <input name="param[${r'#{index}'}][desc]" type="text" /></label>
+				<label class="param-type"><span>Type:</span> 
+					<select name="param[${r'#{index}'}][type]">
+						<option>text</option>
+						<option>integer</option>
+						<option>float</option>
+						<option>file</option>
+					</select>
+				</label>
+				<label class="param-prefix"><span class="second">Prefix:</span> <input name="param[${r'#{index}'}][prefix]" type="text" /></label>
+				<fieldset class="choices">
+					<legend class="ch"><span>Choices:</span><a href="javascript:void(0)" class="add-choice">Add Choice</a></legend>
+					<div class="choice-model">
+						<input class="param-choice" type="text" name="param[${r'#{paramIdx}'}][choice][${r'#{index}'}]" />
+						<a href="javascript:void(0)" class="delete-choice">Delete</a>
+					</div>
+				</fieldset>
+				<label class="param-default"><span>Default:</span> <input name="param[${r'#{index}'}][default]" type="text" /></label>
+				<label class="param-opt" for="param[${r'#{index}'}][opt]"><span>Optional:</span></label>				
+				<input class="param-opt-check" id="param[${r'#{index}'}][opt]" name="param[${r'#{index}'}][opt]" type="checkbox" />
+				<span class="delete"><a href="javascript:void(0)" class="delete-param">Delete Parameter</a></span>
+			</fieldset>
+			<a href="javascript:void(0)" class="add-param">Add Additional Parameter</a>
+		</fieldset>
+		<fieldset class="border">
+			<legend class="title">Command</legend>
+			<label class="cmd-line"><span>Command Line:</span> <input name="cmd[line]" type="text" /></label>
+		</fieldset>
+		<input id="add-model-submit" type="submit" value="Add Model" />
+		
+		<input id="iframe-input" type="hidden" name="iframe" value="false" />
+	</form>
+	
+	<script type="text/javascript" src="${funcs.fileUrl('js/prototype.js')}"></script>
+	<script type="text/javascript" src="${funcs.fileUrl('js/ExpandingFormElement.js')}"></script>
+	<script type="text/javascript" src="${funcs.fileUrl('js/AttachFile.js')}"></script>
+	<script type="text/javascript">
+		var choiceTplData = function() {
+			var data = {} ;
+			data.paramIdx = this.up('.param-model').retrieve('index') ;
+			return data ;
+		}
+		
+		var installChoiceExpander = function(element) {
+			var choiceExpander = new ExpandingFormElement({
+				root: element,
+				entryModelClass: 'choice-model',
+				addEntryLinkClass: 'add-choice',
+				templateData: choiceTplData,
+				deleteEntryElementClass: 'delete-choice',
+				deletionConfirmText: "Are you sure you want to delete choice?"
+			}) ;
+		}
+		
+		var paramExpander = new ExpandingFormElement({
+			entryModelClass: 'param-model',
+			addEntryLinkClass: 'add-param',
+			afterAdd: installChoiceExpander,
+			deleteEntryElementClass: 'delete-param',
+			deletionConfirmText: "Are you sure you want to delete parameter?"
+		}) ;
+
+		$$('.attach-file').each(function(item) {
+			new AttachFile(item) ;
+		}) ;
+
+		var form = $('add-model-form') ;
+		$('add-model-submit').observe('click', function(event) {
+			var title = $(form.elements['model[title]']) ;
+			var cmdline = $(form.elements['cmd[line]']) ;
+			var exec = [$(form.elements['exec[file]']), $(form.elements['exec[link]'])] ;
+			var invalid = false ;
+			var msg = 'Missing required value(s):\n' ;
+			if (!title.present()) {
+				invalid = true ;
+				msg += 'Title\n' ;
+			}
+			if (!exec.all(function(e) { if (e) return e.present() ; else return true ; })) {
+				invalid = true ;
+				msg += 'Executable\n' ;
+			}
+			if (!cmdline.present()) {
+				invalid = true ;
+				msg += 'Command Line\n' ;
+			}
+			if (invalid) {
+				alert(msg) ;
+				event.stop() ;
+			}
+		}) ;
+		
+		form.observe('submit', function(event) {
+			$$('.upload-or-ref').invoke('remove') ;
+		}) ;
+
+		var isInIFrame = (window.location != window.parent.location) ? true : false ;
+		if (isInIFrame) {
+			$('iframe-input').value = 'true' ;
+			$('add-model-form').observe('submit', function(event) {
+				if (window.parent.cmef) {
+					window.parent.cmef.submittingModel() ;
+				}
+			}) ;
+		}
+	</script>
+</body>
+</html>

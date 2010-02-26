@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>${html.pageTitle!}</title>
+		<#if html.redirectUrl??>
+			<meta http-equiv="refresh" content="<#if html.redirectTimeout??>${html.redirectTimeout};</#if>URL=${html.redirectUrl}">
+		</#if>
+	</head>
+	<body>
+		<#include html.bodyTemplate>
+	</body>
+</html>

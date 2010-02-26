@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Submit Job</title>
+<link href="${funcs.fileUrl('css/base.css')}" rel="stylesheet" type="text/css" />
+<!-- <link href="css/base.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body>
+
+	<form id="submit-job-form" name="submitJob" method="post" action="${funcs.jobsUrl(entryName, modelName)}/submitJob" enctype="multipart/form-data">
+		<fieldset class="border">
+		<legend class="title">Model</legend>
+		<div class="label">
+			<span>Title:</span> ${model.title}</div>
+		<div class="label">
+			<span>Description:</span> ${model.description}</div>
+		<div class="label">
+			<span>Comments:</span> ${model.comment}</div>
+		<div class="label">
+			<span>Documentation:</span> <#if model.document??><a href="${model.document.source}">${model.document.name}</a></#if></div>
+		</fieldset> 
+		<fieldset class="border">
+			<legend class="title">Job</legend>
+			<label class="job-title"><span>Title:</span>
+			<input type="text" name="job[title]" /></label>
+			<label class="job-description"><span>Description:</span>
+			<input type="text" name="job[desc]" /></label> 
+			<label><span>Comments:</span>
+			<textarea rows="4" name="job[comments]"></textarea> </label>
+		</fieldset>
+		<fieldset class="border">
+		<legend class="title">Parameters</legend>
+		<table class="param-table">
+			<tr>
+				<th class="name">Name</th>
+				<th class="desc">Description</th>
+				<th class="type">Type</th>
+				<th class="value">Value</th>
+			</tr>
+			<#list model.parameters! as param>
+				<tr>
+					<td class="param-name">${param.name}</td>
+					<td class="param-desc">${param.description!}</td>
+					<td>${param.dataType}</td>
+					<td>
+						<#if param.isFile?? && param.isFile>
+							<div class="attach-file">
+								<label id="fid" class="model-doc-file file-input">File:
+								<input class="file-input required" name="${param.name}[value]" type="file" /></label>
+								<label id="urlid" class="model-doc-link url-input">URL:
+								<input class="url-input required" name="${param.name}[value]" type="text" /></label>
+								<div class="upload-or-ref">
+									<input id="model-file-radio" class="file-radio" name="doc-radio1" type="radio" value="file" />
+									<label for="model-file-radio">Local File Upload</label>
+									<input id="model-link-radio" class="url-radio" name="doc-radio1" type="radio" value="link" />
+									<label for="model-link-radio">Web Reference</label> 
+								</div>
+							</div>
+						<#elseif param.choices?? && (param.choices?size > 0)>
+							<select class="select-value required" name="${param.name}[value]">
+								<#list param.choices as choice>
+									<option>${choice}</option>
+								</#list>
+							</select>
+						<#else>
+							<input type="text" class="input-value required" name="${param.name}[value]" />
+						</#if>
+					</td>
+				</tr>
+			</#list> 
+		</table>
+		</fieldset>
+		<button id="submit-job-btn" type="submit">Submit Job</button>
+		
+		<input id="iframe-input" type="hidden" name="iframe" value="false" />
+	</form>
+	<script type="text/javascript" src="${funcs.fileUrl('js/prototype.js')}"></script>
+	<script type="text/javascript" src="${funcs.fileUrl('js/AttachFile.js')}"></script>
+	<script type="text/javascript">		
+		$$('.attach-file').each(function(item) {
+			new AttachFile(item) ;
+		}) ;
+
+		var paramName = function(formName) {
+			var end = formName.indexOf('[') ;
+			return formName.substring(0, end) ;
+		}
+		
+		var form = $('submit-job-form') ;
+		$('submit-job-btn').observe('click', function(event) {
+			var title = $(form.elements['job[title]']) ;
+			var invalid = false ;
+			var msg = "Missing required value(s):\n" ;
+			if (!title.present()) {
+				invalid = true ;
+				msg += 'Title\n' ;
+			}
+			var params = form.select('.required') ;
+			params.each(function(e) {
+				if (!e.present()) {
+					invalid = true ;
+					msg += paramName(e.name) + '\n' ;
+				}
+			}) ;
+			if (invalid) {
+				alert(msg) ;
+				event.stop() ;
+			}
+		}) ;
+		form.observe('submit', function(event) {
+			$$('.upload-or-ref').invoke('remove') ;
+		}) ;
+
+		var isInIFrame = (window.location != window.parent.location) ? true : false ;
+		if (isInIFrame) {
+			$('iframe-input').value = 'true' ;
+			$('submit-job-form').observe('submit', function(event) {
+				if (window.parent.cmef) {
+					window.parent.cmef.submittingJob() ;
+				}
+			}) ;
+		}
+	</script>
+
+</body>
+
+</html>

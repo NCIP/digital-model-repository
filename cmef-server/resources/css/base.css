@@ -1,0 +1,247 @@
+/* basic styles */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+form {
+	width: 700px;
+}
+body {
+	font: 12px/14px Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 20px auto;
+	text-align: left;
+}
+
+h1 {
+	font: bold 20px/21px Helvetica, Arial, sans-serif;
+	margin: 10px 0px;
+}
+
+p {
+	margin: 0px 0px 20px 0px;
+}
+
+ul {
+	margin: 5px 0px 15px 0px;
+	padding: 0px;
+}
+
+li {
+	margin-left: 20px;
+}
+
+
+
+/* form styles */
+
+fieldset {
+	position: relative;
+	margin: 5px;
+	border: none;
+	padding: 5px;
+}
+
+fieldset.border, .param-model {
+	border-top-color: #C8C8C8;
+    border-top-style: outset;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-width: thin;
+}
+
+legend.title {
+	font-weight: bold;
+	clear: both;
+	padding: 5px 0px 10px 0px;
+	font-size: 18px;
+}
+
+legend.subset {	
+	font-weight: bold;
+	clear: both;
+	padding: 5px 0px 10px 0px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+legend.ch {
+	width:100px;
+	display:block;
+}
+
+legend.ch a {
+	width:100px;
+	display:inline;
+}
+form label, div.label{
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0px 0px 12px 0px;
+}
+
+form label input, textarea {
+	margin-top: 3px;
+}
+
+label.model-version{
+	position: relative;
+	top: 0px;
+	display: inline-block;
+}
+
+label.model-title {
+	width:500px;
+	display: inline;
+}
+
+label.model-title input, div.attach-file{
+	width: 300px;
+}
+
+label.model-version input {
+	width: 53px;
+}
+
+label.model-desc input, label.job-description input, label.job-title input {
+	width: 448px;
+}
+
+textarea {
+	width: 450px;
+}
+
+span, a.add-param{
+	display: inline-block;
+	text-align: right;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+label span, div span, a.add-param {
+	width: 150px;	
+}
+
+legend span {
+	width: 140px;
+}
+
+label span.second {
+	width: 75px;
+}
+
+a.add-choice {
+	width: 115px;
+	display: block;
+}
+
+span.delete {
+	display: block;
+	margin: 10px;
+	text-align: left;
+	width: 250px;
+	left: 155px;
+	position: relative;
+}
+
+label.exec-lang, .exec-opsys, .param-type, label.exec-version, .exec-proc, .param-prefix {
+	display: inline-block;
+}
+
+label.exec-version input, .param-prefix input{
+	width: 153px;
+}
+
+label.exec-proc select {
+	width: 158px;
+}
+
+label.exec-lang select, .exec-opsys select, .param-type select{
+	width: 200px;
+}
+
+label.param-title input, .param-desc input, .cmd-line input {
+	width: 445px;
+}
+
+div.choice-model {
+	position: relative;
+	width: 600px;
+	display: block;
+	left: 140px;
+	margin: 10px;
+}
+
+#param-choice {
+	position:absolute;
+	left:500px;
+	display: block;
+}
+
+label.param-opt {
+	display: inline;
+}
+
+a.delete-param {
+	display: block;
+}
+
+table
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+td, th 
+{
+	font-size:1em;
+	border:1px solid #C8C8C8;
+	padding:3px 7px 2px 7px;
+	vertical-align: top;
+}
+
+table {
+	width: 700px;
+}
+
+th.name, th.type, td.param-name{
+	width: 100px;
+}
+
+th.desc, td.param-desc{
+	width: 180px;
+}
+
+th.value, td.param-value {
+	width: 260px;
+}
+
+div.attach-doc {
+	display: inline-block;
+	padding-right: 10px;
+	width: 400px;	
+}
+
+label.model-upload {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.upload-or-ref input, div.upload-or-ref label{
+	display: inline;
+}
+
+div.upload-or-ref label {	
+	margin-top: 5px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+input.url-input, input.file-input, input.input-value, select.select-value {
+	width: 200px;
+}

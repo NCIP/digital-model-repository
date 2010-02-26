@@ -1,0 +1,66 @@
+<html>
+	<head><title>Job: ${jobName}</title></head>
+	<body>
+		<div id="job">
+			<div class="job-info">
+				<h2>Job Information</h2>
+				<div class="job-title">Title: ${job.title}</div>
+				<div class="job-description">Description: ${job.description}</div>
+				<div class="job-comments">Comments: ${job.comment}</div>
+				<div class="job-submit-date">Date Submitted: ${(job.dateSubmitted?datetime)!}</div>
+				<div>
+					<span class="job-status">Status: ${job.jobStatus}</span>
+					<#if isRunning>
+						<form class="job-cancel" name="cancelJob" action="${funcs.jobUrl(entryName, modelName, jobName)}/cancel" method="post">
+							<input class="job-cancel-btn" type="submit" value="Cancel" />
+						</form>
+					</#if>
+				</div>
+				<div class="job-complete-date">Date Completed: ${(job.dateCompleted?datetime)!}</div>
+			</div>
+			<div class="model-info">
+				<h2>Model</h2>
+				<div class="model-title">Title: <a href="${funcs.modelUrl(entryName, modelName)}">${model.title}</a></div>
+				<div class="model-desc">Description: ${model.description}</div>
+			</div>
+			<div class="job-params">
+				<h2>Parameters</h2>
+				<table class="param-table">
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Type</th>
+						<th>Value</th>
+					</tr>
+					<#list job.parameterValues! as value>
+						<tr>
+							<td class="param-name">${value.parameter.name}</td>
+							<td class="param-desc">${(value.parameter.description)!}</td>
+							<td class="param-type">${(value.parameter.dataType)!}</td>
+							<td class="param-value">
+								<#if value.parameter.isFile>
+									<a href="${value.value}">${value.value}</a>
+								<#else>
+									${value.value}
+								</#if>
+							</td>
+						</tr>
+					</#list>
+				</table>
+			</div>
+			<div class="job-results">
+				<h2>Results</h2>
+				<div>
+					<ul class="result-list">
+						<#list job.resultFiles! as result>
+							<li class="result"><a href="${result.source}">${result.name}</a></li>
+						</#list>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<a href="${funcs.jobsUrl(entryName, modelName)}">Model Jobs</a>
+			</div>
+		</div>
+	</body>
+</html>
