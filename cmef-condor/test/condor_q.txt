@@ -1,0 +1,7 @@
+
+
+-- Submitter: cmef-srv-test.itsdev.infotechsoft.com : <127.0.1.1:49744> : cmef-srv-test.itsdev.infotechsoft.com
+ ID      OWNER            SUBMITTED     RUN_TIME ST PRI SIZE CMD               
+  13.0   condor          2/7  00:47   0+00:00:00 I  0   0.0  .condor_run.9224  
+
+1 jobs; 1 idle, 0 running, 0 held
