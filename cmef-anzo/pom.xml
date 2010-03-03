@@ -1,10 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.cvit.cabig.dmr</groupId>
-  <artifactId>cmef-core</artifactId>
-  <name>CMEF Core</name>
+  <artifactId>cmef-anzo</artifactId>
+  <name>CMEF Anzo</name>
   <version>1.0.0</version>
-  <description>Core components of the CMEF implementation</description>
   <build>
   	<sourceDirectory>src</sourceDirectory>
   	<testSourceDirectory>test</testSourceDirectory>
@@ -23,29 +22,19 @@
 		        <target>1.6</target>
 		    </configuration>
 		</plugin>
-  	</plugins>  	
+  	</plugins>
   </build>
   <dependencies>
   	<dependency>
-  		<groupId>org.json</groupId>
-  		<artifactId>json</artifactId>
-  		<version>20090211</version>
-  		<scope>system</scope>
-  		<systemPath>${basedir}/lib/org.json.jar</systemPath>
+  		<groupId>org.cvit.cabig.dmr</groupId>
+  		<artifactId>cmef-core</artifactId>
+  		<version>1.0.0</version> 		
   	</dependency>
   	<dependency>
-  		<groupId>org.cvit.cabig.dmr.cmef</groupId>
-  		<artifactId>cmef-domain</artifactId>
-  		<version>${project.version}</version>
-  		<scope>system</scope>
-  		<systemPath>${basedir}/lib/CMEF-beans.jar</systemPath>
-  	</dependency>
-  	<dependency>
-  		<groupId>com.infotechsoft</groupId>
-  		<artifactId>its-cql</artifactId>
-  		<version>0.1.2</version>
-  		<scope>system</scope>
-  		<systemPath>${basedir}/lib/its-cql-0.1.2.jar</systemPath>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.0</version>
+  		<scope>test</scope>
   	</dependency>  	
   </dependencies>
 </project>

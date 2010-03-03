@@ -3,7 +3,7 @@
   <groupId>org.cvit.cabig.dmr</groupId>
   <artifactId>cmef-condor</artifactId>
   <name>CmefService for Condor</name>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <description>CmefService implementaton for Condor</description>
   <build>
   	<sourceDirectory>src</sourceDirectory>
@@ -30,16 +30,20 @@
   		<groupId>org.xerial</groupId>
   		<artifactId>sqlite-jdbc</artifactId>
   		<version>3.6.20</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>commons-logging</groupId>
-  		<artifactId>commons-logging-api</artifactId>
-  		<version>1.1</version>
+  		<scope>system</scope>
+  		<systemPath>${basedir}/lib/sqlitejdbc-v054.jar</systemPath>
   	</dependency>
   	<dependency>
   		<groupId>org.cvit.cabig.dmr</groupId>
   		<artifactId>cmef-core</artifactId>
+  		<version>1.0.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.cvit.cabig.dmr</groupId>
+  		<artifactId>CMEF-beans.jar</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
+  		<scope>system</scope>
+  		<systemPath>${basedir}/lib/CMEF-beans.jar</systemPath>  		
   	</dependency>
   	<dependency>
   		<groupId>condor</groupId>
@@ -47,13 +51,19 @@
   		<version>2.4</version>
   		<scope>system</scope>
   		<systemPath>${basedir}/lib/classad-2.4.jar</systemPath>
-  	</dependency>  	
+  	</dependency>
   	<dependency>
   		<groupId>net.sourceforge.iharder</groupId>
   		<artifactId>base64</artifactId>
   		<version>2.3.7</version>
   		<scope>system</scope>
   		<systemPath>${basedir}/lib/iharder-base64-2.3.7.jar</systemPath>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>3.8.1</version>
+  		<scope>test</scope>
   	</dependency>  	
   </dependencies>
 </project>
