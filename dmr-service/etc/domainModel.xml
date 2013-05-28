@@ -1,3 +1,10 @@
+<!--L
+  Copyright The General Hospital Corporation d/b/a Massachusetts General Hospital
+
+  Distributed under the OSI-approved BSD 3-Clause License.
+  See http://ncip.github.com/digital-model-repository/LICENSE.txt for details.
+L-->
+
 <ns1:DomainModel projectDescription="Digital Model Repository (DMR) to facilitate the collection and sharing of in silico models for the NCI ICBP program. This includes submission and retrieval of digital models, simulation-related workflow designs, visualization, parallelization, and multi-resolution modeling." projectLongName="DigitalModelRepository(DMR)" projectShortName="DMR" projectVersion="1" xmlns:ns1="gme://caGrid.caBIG/1.0/gov.nih.nci.cagrid.metadata.dataservice">
  <ns1:exposedUMLAssociationCollection>
   <ns1:UMLAssociation bidirectional="true">

@@ -1,3 +1,10 @@
+/*L
+ * Copyright The General Hospital Corporation d/b/a Massachusetts General Hospital
+ *
+ * Distributed under the OSI-approved BSD 3-Clause License.
+ * See http://ncip.github.com/digital-model-repository/LICENSE.txt for details.
+ */
+
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.ArrayList;

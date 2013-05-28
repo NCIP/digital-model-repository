@@ -1,3 +1,10 @@
+<!--L
+  Copyright The General Hospital Corporation d/b/a Massachusetts General Hospital
+
+  Distributed under the OSI-approved BSD 3-Clause License.
+  See http://ncip.github.com/digital-model-repository/LICENSE.txt for details.
+L-->
+
 <project name="cmef-core" default="build">
 	<property name="project.name" value="${ant.project.name}" />
 	<property name="project.version" value="0.5" />

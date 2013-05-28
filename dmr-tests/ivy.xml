@@ -1,3 +1,10 @@
+<!--L
+  Copyright The General Hospital Corporation d/b/a Massachusetts General Hospital
+
+  Distributed under the OSI-approved BSD 3-Clause License.
+  See http://ncip.github.com/digital-model-repository/LICENSE.txt for details.
+L-->
+
 <ivy-module version="2.0">
     <info organisation="org.cvit.cabig" module="dmr-tests">
     	<license name="caGrid" url="http://www.cagrid.org/wiki/CaGrid:LICENSE-1.2"/>
