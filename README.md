@@ -1,7 +1,7 @@
 Welcome to the Digital Model Repository Project!
 ================================================
 
-Digital Model Repository <..>. It is developed in Java and requires MAVEN for building.
+Digital Model Repository is a web-based digital repository for the purpose of archiving, retrieving and exchanging cancer modeling modules and the data that link to it. It is developed in Java and requires MAVEN for building.
 
 Digital Model Repository is distributed under the BSD 3-Clause License. Please see the NOTICE and LICENSE files for details.
 
